@@ -45,10 +45,7 @@
 	<Nav />
 	<main>
 		{#if !$user}
-			<div class="intro">
-				<h2>Welcome to WebLearn</h2>
-				<p>Sign in or register to continue</p>
-			</div>
+			<h2>Welcome to WebLearn</h2>
 			<form on:submit|preventDefault={handleAuth}>
 				<input type="text" bind:value={credentials.username} placeholder="Username" required />
 				<input type="password" bind:value={credentials.password} placeholder="Password" required />
@@ -81,7 +78,7 @@
 		color: white;
 	}
 
-	:global(h1, h2, span) {
+	:global(h1, h2, h3, span) {
 		font-family: 'Montserrat', sans-serif;
 		font-weight: bold;
 		font-size: 25.92px;
@@ -91,6 +88,10 @@
 	:global(h2) {
 		font-size: 21.6px;
 		color: #add8e6; /* Light Blue */
+	}
+
+	:global(h3) {
+		font-size: 18px;
 	}
 
 	:global(button) {
@@ -118,21 +119,19 @@
 
 	form {
 		display: flex;
+		gap: 10.42px;
 		flex-direction: column;
 		border: 4px solid #add8e6;
 		margin-top: 21.6px;
 		border-radius: 5.96px;
 		padding: 21.6px;
 		max-width: 50%;
-	}
-
-	input {
-		margin-bottom: 1rem;
+		min-width: 300px;
 	}
 
 	button {
-		margin-bottom: 1rem;
-		width: fit-content;
+		width: 163px;
+		text-align: left;
 	}
 
 	.error {

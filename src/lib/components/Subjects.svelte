@@ -1,13 +1,37 @@
 <script>
 	import { selectedSubject, selectedMethod } from '../stores/index';
 	const subjects = ['Ancient Greek', 'CSS', 'HTML', 'JavaScript', 'Korean', 'Spanish'];
+	let englishHeader = null;
+	let header = null;
+	const english = [
+		'How would you like to learn Ancient Greek?',
+		'How would you like to learn CSS?',
+		'How would you like to learn HTML?',
+		'How would you like to learn JavaScript?',
+		'How would you like to learn Korean?',
+		'How would you like to learn Spanish?'
+	];
+	const headers = [
+		'Πώς θα θέλατε να μάθετε αρχαία ελληνικά;',
+		'color: #add8e6; /* Light Blue */',
+		'<div class="lightblue">Hello, World!</div>',
+		'console.log("Hello, World!")',
+		'한국어를 어떻게 배우고 싶나요?',
+		'¿Cómo te gustaría aprender español?'
+	];
 	const methods = ['Flashcards', 'List of Words'];
+
 	const handleClick = (subjectClicked) => {
+		const indexOf = subjects.indexOf(subjectClicked);
 		if ($selectedSubject === subjectClicked) {
 			$selectedSubject = '';
 			$selectedMethod = '';
+			header = null;
+			englishHeader = null;
 		} else {
 			$selectedSubject = subjectClicked;
+			header = headers[indexOf];
+			englishHeader = english[indexOf];
 		}
 	};
 	const handleClickMethod = (methodClicked) => {
@@ -26,7 +50,8 @@
 		{/each}
 	</div>
 	{#if $selectedSubject}
-		<h2>How would you like to learn {$selectedSubject}?</h2>
+		<h2>{header}</h2>
+		<h3>{englishHeader}</h3>
 		<div class="subjects">
 			{#each methods as method}
 				<button
