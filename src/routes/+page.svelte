@@ -21,10 +21,9 @@
 
 		const result = await response.json();
 		console.log(result);
-
 		if (result.success) {
-			$user = result.data;
 			localStorage.setItem('user', JSON.stringify(result.data));
+			$user = JSON.parse(localStorage.getItem('user'));
 		} else {
 			error = result.error || 'Authentication failed';
 		}
@@ -44,34 +43,32 @@
 </script>
 
 {#if ready}
-	
-		{#if !$user}
-			<h2>Welcome to WebLearn</h2>
-			<form on:submit|preventDefault={handleAuth}>
-				<input type="text" bind:value={credentials.username} placeholder="Username" required />
-				<input type="password" bind:value={credentials.password} placeholder="Password" required />
-				<button type="submit">{isLogin ? 'Login' : 'Register'}</button>
-				<button type="button" on:click={toggleAuthMode}>
-					{isLogin ? 'Need to register?' : 'Already have an account?'}
-				</button>
-				{#if error}
-					<p class="error">{error}</p>
-				{/if}
-			</form>
-		{/if}
-		{#if $user}
-			<Subjects />
-		{/if}
+	{#if !$user}
+		<h2>Welcome to webLearn.</h2>
+		<form on:submit|preventDefault={handleAuth}>
+			<input type="text" bind:value={credentials.username} placeholder="Username" required />
+			<input type="password" bind:value={credentials.password} placeholder="Password" required />
+			<button type="submit">{isLogin ? 'Login' : 'Register'}</button>
+			<button type="button" on:click={toggleAuthMode}>
+				{isLogin ? 'Need to register?' : 'Already have an account?'}
+			</button>
+			{#if error}
+				<p class="error">{error}</p>
+			{/if}
+		</form>
+	{/if}
+	{#if $user}
+		<Subjects />
 		{#if $selectedSubject === 'Spanish'}
 			{#each spanish[1] as word}
 				<ListWord {word} />
 			{/each}
 		{/if}
+	{/if}
 {/if}
 
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lora:wght@400;700&display=swap');
-	
 
 	form {
 		display: flex;

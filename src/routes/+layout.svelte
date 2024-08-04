@@ -51,7 +51,12 @@
 
 	:global(input) {
 		padding: 5.96px 7.18px;
-		border: 2px solid #add8e6;
+		border: 3px solid transparent;
+		font-family: 'Lora', serif;
+	}
+
+	:global(input:focus) {
+		border-color: yellow;
 	}
 
 	:global(.error) {
@@ -61,8 +66,6 @@
 	main {
 		padding: 15px;
 	}
-
-	
 
 	@media (max-width: 600px) {
 		:global(h1) {

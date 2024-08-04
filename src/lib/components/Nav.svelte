@@ -4,7 +4,7 @@
 
 	const handleClickProfile = () => {
 		//logout
-		user.set(null);
+		$user = null;
 		localStorage.removeItem('user');
 	};
 
@@ -15,13 +15,15 @@
 	const handleClickLogin = () => {
 		goto('/');
 	};
+
+	$: console.log($user);
 </script>
 
 <nav>
 	<h1 class="title"><span>w</span>eb<span>L</span>earn</h1>
 	<div class="options">
 		{#if $user}
-			<button on:click={handleClickProfile}>{$user.username}</button>
+			<button on:click={handleClickProfile}>{$user['username']}</button>
 		{:else}
 			<button on:click={handleClickLogin}>Login/Register</button>
 		{/if}

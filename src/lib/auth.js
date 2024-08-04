@@ -27,7 +27,7 @@ export const authService = {
 
     await user.save();
 
-    return { token: generateToken(userId) };
+    return { token: generateToken(userId), username: user.username };
   },
 
   async login(credentials) {
