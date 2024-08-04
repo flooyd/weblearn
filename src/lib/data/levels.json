@@ -1,0 +1,16 @@
+{
+  "languages": [
+    "Novice",
+    "Apprentice",
+    "Conversationalist",
+    "Fluent",
+    "Native"
+  ],
+  "programming": [
+    "Novice",
+    "Apprentice",
+    "Automagician",
+    "Guru",
+    "Software Engineer"
+  ]
+}

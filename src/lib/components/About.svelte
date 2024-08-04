@@ -1,6 +1,6 @@
-<h2>What is WebLearn?</h2>
+<h2>What is webLearn?</h2>
 <p>
-	WebLearn is a web application that allows you to learn a variety of subjects. You can choose from
+	webLearn is a web application that allows you to learn a variety of subjects. You can choose from
 	Ancient Greek, CSS, HTML, JavaScript, Korean, and Spanish. You can also track your progress and
 	see how you are doing.
 </p>
@@ -9,10 +9,19 @@
 	have an account, you can sign in. Once you are signed in, you can choose a subject to learn.
 </p>
 <p>
-	If you have any questions, you can contact us via emailing <a
-		href="mailto:webcraftprosite@gmail.com">WebCraft</a
-	>
+	If you have any questions, you can email <a href="mailto:emailwillgohere@gmail.com">us.</a>
 </p>
-<p>
-	WebLearn is a project by <a href="https://webcraft.pro">WebCraft</a>
-</p>
+<img src="images/logo.webp" alt="WebLearn Logo" />
+
+<style>
+	h2 {
+		margin-bottom: 21.6px;
+	}
+	p {
+		margin-bottom: 5.96px;
+	}
+	img {
+		max-width: 100%;
+		max-height: 474px;
+	}
+</style>

@@ -1,9 +1,11 @@
 <script>
-	import { goto } from '$app/navigation';
 	import { onMount } from 'svelte';
 	import Nav from '../lib/components/Nav.svelte';
 	import { selectedSubject, user } from '../lib/stores/index';
 	import Subjects from '../lib/components/Subjects.svelte';
+	import spanish from '../lib/data/spanish.json';
+	import ListWord from '../lib/components/ListWord.svelte';
+
 	let credentials = { username: '', password: '' };
 	let error = '';
 	let isLogin = true;
@@ -42,8 +44,7 @@
 </script>
 
 {#if ready}
-	<Nav />
-	<main>
+	
 		{#if !$user}
 			<h2>Welcome to WebLearn</h2>
 			<form on:submit|preventDefault={handleAuth}>
@@ -53,69 +54,24 @@
 				<button type="button" on:click={toggleAuthMode}>
 					{isLogin ? 'Need to register?' : 'Already have an account?'}
 				</button>
+				{#if error}
+					<p class="error">{error}</p>
+				{/if}
 			</form>
 		{/if}
 		{#if $user}
 			<Subjects />
 		{/if}
-		{#if error}
-			<p class="error">{error}</p>
+		{#if $selectedSubject === 'Spanish'}
+			{#each spanish[1] as word}
+				<ListWord {word} />
+			{/each}
 		{/if}
-	</main>
 {/if}
 
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lora:wght@400;700&display=swap');
-	:global(*) {
-		box-sizing: border-box;
-		font-family: 'Lora', serif;
-		padding: 0px;
-		outline: none;
-		border: none;
-		margin: 0px;
-		font-size: 15px;
-		background-color: #1a1a1a; /* Dark Black */
-		color: white;
-	}
-
-	:global(h1, h2, h3, span) {
-		font-family: 'Montserrat', sans-serif;
-		font-weight: bold;
-		font-size: 25.92px;
-		margin-bottom: 21.6px;
-	}
-
-	:global(h2) {
-		font-size: 21.6px;
-		color: #add8e6; /* Light Blue */
-	}
-
-	:global(h3) {
-		font-size: 18px;
-	}
-
-	:global(button) {
-		padding: 5.96px 7.18px;
-		font-size: 18px;
-		color: white;
-		border: 2px solid #add8e6;
-		border-radius: 5.96px;
-	}
-
-	:global(button:hover) {
-		background-color: #808080; /* Gray */
-		color: white;
-		cursor: pointer;
-	}
-
-	:global(input) {
-		padding: 5.96px 7.18px;
-		border: 2px solid #add8e6;
-	}
-
-	main {
-		padding: 21.6px;
-	}
+	
 
 	form {
 		display: flex;
@@ -130,11 +86,7 @@
 	}
 
 	button {
-		width: 163px;
+		width: 192px;
 		text-align: left;
-	}
-
-	.error {
-		color: red;
 	}
 </style>

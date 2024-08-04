@@ -1,102 +1,5832 @@
-[
-  { "spanish": "Hola", "english": "Hello" },
-  { "spanish": "Adiós", "english": "Goodbye" },
-  { "spanish": "Por favor", "english": "Please" },
-  { "spanish": "Gracias", "english": "Thank you" },
-  { "spanish": "Lo siento", "english": "I'm sorry" },
-  { "spanish": "Sí", "english": "Yes" },
-  { "spanish": "No", "english": "No" },
-  { "spanish": "¿Cómo estás?", "english": "How are you?" },
-  { "spanish": "Bien", "english": "Good" },
-  { "spanish": "Mal", "english": "Bad" },
-  { "spanish": "¿Qué tal?", "english": "What's up?" },
-  { "spanish": "Buenos días", "english": "Good morning" },
-  { "spanish": "Buenas tardes", "english": "Good afternoon" },
-  { "spanish": "Buenas noches", "english": "Good night" },
-  { "spanish": "Hasta luego", "english": "See you later" },
-  { "spanish": "Hasta mañana", "english": "See you tomorrow" },
-  { "spanish": "Perdón", "english": "Excuse me" },
-  { "spanish": "Salud", "english": "Bless you" },
-  { "spanish": "Amigo", "english": "Friend" },
-  { "spanish": "Familia", "english": "Family" },
-  { "spanish": "Casa", "english": "House" },
-  { "spanish": "Escuela", "english": "School" },
-  { "spanish": "Trabajo", "english": "Work" },
-  { "spanish": "Comida", "english": "Food" },
-  { "spanish": "Agua", "english": "Water" },
-  { "spanish": "Café", "english": "Coffee" },
-  { "spanish": "Té", "english": "Tea" },
-  { "spanish": "Leche", "english": "Milk" },
-  { "spanish": "Pan", "english": "Bread" },
-  { "spanish": "Queso", "english": "Cheese" },
-  { "spanish": "Carne", "english": "Meat" },
-  { "spanish": "Pescado", "english": "Fish" },
-  { "spanish": "Pollo", "english": "Chicken" },
-  { "spanish": "Fruta", "english": "Fruit" },
-  { "spanish": "Verdura", "english": "Vegetable" },
-  { "spanish": "Manzana", "english": "Apple" },
-  { "spanish": "Naranja", "english": "Orange" },
-  { "spanish": "Plátano", "english": "Banana" },
-  { "spanish": "Uva", "english": "Grape" },
-  { "spanish": "Coche", "english": "Car" },
-  { "spanish": "Bicicleta", "english": "Bicycle" },
-  { "spanish": "Autobús", "english": "Bus" },
-  { "spanish": "Tren", "english": "Train" },
-  { "spanish": "Avión", "english": "Airplane" },
-  { "spanish": "Barco", "english": "Boat" },
-  { "spanish": "Calle", "english": "Street" },
-  { "spanish": "Ciudad", "english": "City" },
-  { "spanish": "Pueblo", "english": "Town" },
-  { "spanish": "País", "english": "Country" },
-  { "spanish": "Mundo", "english": "World" },
-  { "spanish": "Día", "english": "Day" },
-  { "spanish": "Noche", "english": "Night" },
-  { "spanish": "Mañana", "english": "Morning" },
-  { "spanish": "Tarde", "english": "Afternoon" },
-  { "spanish": "Semana", "english": "Week" },
-  { "spanish": "Mes", "english": "Month" },
-  { "spanish": "Año", "english": "Year" },
-  { "spanish": "Hora", "english": "Hour" },
-  { "spanish": "Minuto", "english": "Minute" },
-  { "spanish": "Segundo", "english": "Second" },
-  { "spanish": "Reloj", "english": "Clock" },
-  { "spanish": "Calendario", "english": "Calendar" },
-  { "spanish": "Lunes", "english": "Monday" },
-  { "spanish": "Martes", "english": "Tuesday" },
-  { "spanish": "Miércoles", "english": "Wednesday" },
-  { "spanish": "Jueves", "english": "Thursday" },
-  { "spanish": "Viernes", "english": "Friday" },
-  { "spanish": "Sábado", "english": "Saturday" },
-  { "spanish": "Domingo", "english": "Sunday" },
-  { "spanish": "Rojo", "english": "Red" },
-  { "spanish": "Azul", "english": "Blue" },
-  { "spanish": "Verde", "english": "Green" },
-  { "spanish": "Amarillo", "english": "Yellow" },
-  { "spanish": "Negro", "english": "Black" },
-  { "spanish": "Blanco", "english": "White" },
-  { "spanish": "Gris", "english": "Gray" },
-  { "spanish": "Marrón", "english": "Brown" },
-  { "spanish": "Rosa", "english": "Pink" },
-  { "spanish": "Morado", "english": "Purple" },
-  { "spanish": "Naranja", "english": "Orange (color)" },
-  { "spanish": "Oro", "english": "Gold" },
-  { "spanish": "Plata", "english": "Silver" },
-  { "spanish": "Cielo", "english": "Sky" },
-  { "spanish": "Sol", "english": "Sun" },
-  { "spanish": "Luna", "english": "Moon" },
-  { "spanish": "Estrella", "english": "Star" },
-  { "spanish": "Mar", "english": "Sea" },
-  { "spanish": "Río", "english": "River" },
-  { "spanish": "Montaña", "english": "Mountain" },
-  { "spanish": "Bosque", "english": "Forest" },
-  { "spanish": "Playa", "english": "Beach" },
-  { "spanish": "Desierto", "english": "Desert" },
-  { "spanish": "Lago", "english": "Lake" },
-  { "spanish": "Isla", "english": "Island" },
-  { "spanish": "Animal", "english": "Animal" },
-  { "spanish": "Perro", "english": "Dog" },
-  { "spanish": "Gato", "english": "Cat" },
-  { "spanish": "Pájaro", "english": "Bird" },
-  { "spanish": "Pez", "english": "Fish" },
-  { "spanish": "Caballo", "english": "Horse" }
-]
+{
+  "1": [
+    {
+      "word": "hola",
+      "pos": "interjection",
+      "english": "hello"
+    },
+    {
+      "word": "adiós",
+      "pos": "interjection",
+      "english": "goodbye"
+    },
+    {
+      "word": "gracias",
+      "pos": "interjection",
+      "english": "thank you"
+    },
+    {
+      "word": "por favor",
+      "pos": "phrase",
+      "english": "please"
+    },
+    {
+      "word": "sí",
+      "pos": "adverb",
+      "english": "yes"
+    },
+    {
+      "word": "no",
+      "pos": "adverb",
+      "english": "no"
+    },
+    {
+      "word": "uno",
+      "pos": "number",
+      "english": "one"
+    },
+    {
+      "word": "dos",
+      "pos": "number",
+      "english": "two"
+    },
+    {
+      "word": "tres",
+      "pos": "number",
+      "english": "three"
+    },
+    {
+      "word": "cuatro",
+      "pos": "number",
+      "english": "four"
+    },
+    {
+      "word": "cinco",
+      "pos": "number",
+      "english": "five"
+    },
+    {
+      "word": "seis",
+      "pos": "number",
+      "english": "six"
+    },
+    {
+      "word": "siete",
+      "pos": "number",
+      "english": "seven"
+    },
+    {
+      "word": "ocho",
+      "pos": "number",
+      "english": "eight"
+    },
+    {
+      "word": "nueve",
+      "pos": "number",
+      "english": "nine"
+    },
+    {
+      "word": "diez",
+      "pos": "number",
+      "english": "ten"
+    },
+    {
+      "word": "once",
+      "pos": "number",
+      "english": "eleven"
+    },
+    {
+      "word": "doce",
+      "pos": "number",
+      "english": "twelve"
+    },
+    {
+      "word": "trece",
+      "pos": "number",
+      "english": "thirteen"
+    },
+    {
+      "word": "catorce",
+      "pos": "number",
+      "english": "fourteen"
+    },
+    {
+      "word": "quince",
+      "pos": "number",
+      "english": "fifteen"
+    },
+    {
+      "word": "dieciséis",
+      "pos": "number",
+      "english": "sixteen"
+    },
+    {
+      "word": "diecisiete",
+      "pos": "number",
+      "english": "seventeen"
+    },
+    {
+      "word": "dieciocho",
+      "pos": "number",
+      "english": "eighteen"
+    },
+    {
+      "word": "diecinueve",
+      "pos": "number",
+      "english": "nineteen"
+    },
+    {
+      "word": "veinte",
+      "pos": "number",
+      "english": "twenty"
+    },
+    {
+      "word": "treinta",
+      "pos": "number",
+      "english": "thirty"
+    },
+    {
+      "word": "cuarenta",
+      "pos": "number",
+      "english": "forty"
+    },
+    {
+      "word": "cincuenta",
+      "pos": "number",
+      "english": "fifty"
+    },
+    {
+      "word": "sesenta",
+      "pos": "number",
+      "english": "sixty"
+    },
+    {
+      "word": "setenta",
+      "pos": "number",
+      "english": "seventy"
+    },
+    {
+      "word": "ochenta",
+      "pos": "number",
+      "english": "eighty"
+    },
+    {
+      "word": "noventa",
+      "pos": "number",
+      "english": "ninety"
+    },
+    {
+      "word": "cien",
+      "pos": "number",
+      "english": "one hundred"
+    },
+    {
+      "word": "mil",
+      "pos": "number",
+      "english": "one thousand"
+    },
+    {
+      "word": "diez mil",
+      "pos": "number",
+      "english": "ten thousand"
+    },
+    {
+      "word": "cien mil",
+      "pos": "number",
+      "english": "one hundred thousand"
+    },
+    {
+      "word": "un millón",
+      "pos": "number",
+      "english": "one million"
+    },
+    {
+      "word": "mil millones",
+      "pos": "number",
+      "english": "one billion"
+    },
+    {
+      "word": "doscientos",
+      "pos": "number",
+      "english": "two hundred"
+    },
+    {
+      "word": "quinientos",
+      "pos": "number",
+      "english": "five hundred"
+    },
+    {
+      "word": "dos mil",
+      "pos": "number",
+      "english": "two thousand"
+    },
+    {
+      "word": "cinco mil",
+      "pos": "number",
+      "english": "five thousand"
+    },
+    {
+      "word": "cincuenta mil",
+      "pos": "number",
+      "english": "fifty thousand"
+    },
+    {
+      "word": "quinientos mil",
+      "pos": "number",
+      "english": "five hundred thousand"
+    },
+    {
+      "word": "cien millones",
+      "pos": "number",
+      "english": "one hundred million"
+    },
+    {
+      "word": "rojo",
+      "pos": "adjective",
+      "english": "red"
+    },
+    {
+      "word": "azul",
+      "pos": "adjective",
+      "english": "blue"
+    },
+    {
+      "word": "verde",
+      "pos": "adjective",
+      "english": "green"
+    },
+    {
+      "word": "amarillo",
+      "pos": "adjective",
+      "english": "yellow"
+    },
+    {
+      "word": "blanco",
+      "pos": "adjective",
+      "english": "white"
+    },
+    {
+      "word": "negro",
+      "pos": "adjective",
+      "english": "black"
+    },
+    {
+      "word": "gris",
+      "pos": "adjective",
+      "english": "gray"
+    },
+    {
+      "word": "naranja",
+      "pos": "adjective",
+      "english": "orange"
+    },
+    {
+      "word": "rosa",
+      "pos": "adjective",
+      "english": "pink"
+    },
+    {
+      "word": "marrón",
+      "pos": "adjective",
+      "english": "brown"
+    },
+    {
+      "word": "perro",
+      "pos": "noun",
+      "english": "dog"
+    },
+    {
+      "word": "gato",
+      "pos": "noun",
+      "english": "cat"
+    },
+    {
+      "word": "pájaro",
+      "pos": "noun",
+      "english": "bird"
+    },
+    {
+      "word": "pez",
+      "pos": "noun",
+      "english": "fish"
+    },
+    {
+      "word": "vaca",
+      "pos": "noun",
+      "english": "cow"
+    },
+    {
+      "word": "caballo",
+      "pos": "noun",
+      "english": "horse"
+    },
+    {
+      "word": "cerdo",
+      "pos": "noun",
+      "english": "pig"
+    },
+    {
+      "word": "oveja",
+      "pos": "noun",
+      "english": "sheep"
+    },
+    {
+      "word": "gallina",
+      "pos": "noun",
+      "english": "hen"
+    },
+    {
+      "word": "pato",
+      "pos": "noun",
+      "english": "duck"
+    },
+    {
+      "word": "ratón",
+      "pos": "noun",
+      "english": "mouse"
+    },
+    {
+      "word": "conejo",
+      "pos": "noun",
+      "english": "rabbit"
+    },
+    {
+      "word": "león",
+      "pos": "noun",
+      "english": "lion"
+    },
+    {
+      "word": "elefante",
+      "pos": "noun",
+      "english": "elephant"
+    },
+    {
+      "word": "jirafa",
+      "pos": "noun",
+      "english": "giraffe"
+    },
+    {
+      "word": "mono",
+      "pos": "noun",
+      "english": "monkey"
+    },
+    {
+      "word": "oso",
+      "pos": "noun",
+      "english": "bear"
+    },
+    {
+      "word": "tigre",
+      "pos": "noun",
+      "english": "tiger"
+    },
+    {
+      "word": "lobo",
+      "pos": "noun",
+      "english": "wolf"
+    },
+    {
+      "word": "zorro",
+      "pos": "noun",
+      "english": "fox"
+    },
+    {
+      "word": "serpiente",
+      "pos": "noun",
+      "english": "snake"
+    },
+    {
+      "word": "tortuga",
+      "pos": "noun",
+      "english": "turtle"
+    },
+    {
+      "word": "rana",
+      "pos": "noun",
+      "english": "frog"
+    },
+    {
+      "word": "agua",
+      "pos": "noun",
+      "english": "water"
+    },
+    {
+      "word": "fuego",
+      "pos": "noun",
+      "english": "fire"
+    },
+    {
+      "word": "tierra",
+      "pos": "noun",
+      "english": "earth"
+    },
+    {
+      "word": "aire",
+      "pos": "noun",
+      "english": "air"
+    },
+    {
+      "word": "sol",
+      "pos": "noun",
+      "english": "sun"
+    },
+    {
+      "word": "luna",
+      "pos": "noun",
+      "english": "moon"
+    },
+    {
+      "word": "estrella",
+      "pos": "noun",
+      "english": "star"
+    },
+    {
+      "word": "cielo",
+      "pos": "noun",
+      "english": "sky"
+    },
+    {
+      "word": "nube",
+      "pos": "noun",
+      "english": "cloud"
+    },
+    {
+      "word": "lluvia",
+      "pos": "noun",
+      "english": "rain"
+    },
+    {
+      "word": "nieve",
+      "pos": "noun",
+      "english": "snow"
+    },
+    {
+      "word": "viento",
+      "pos": "noun",
+      "english": "wind"
+    },
+    {
+      "word": "árbol",
+      "pos": "noun",
+      "english": "tree"
+    },
+    {
+      "word": "flor",
+      "pos": "noun",
+      "english": "flower"
+    },
+    {
+      "word": "hoja",
+      "pos": "noun",
+      "english": "leaf"
+    },
+    {
+      "word": "fruta",
+      "pos": "noun",
+      "english": "fruit"
+    },
+    {
+      "word": "manzana",
+      "pos": "noun",
+      "english": "apple"
+    },
+    {
+      "word": "plátano",
+      "pos": "noun",
+      "english": "banana"
+    },
+    {
+      "word": "naranja",
+      "pos": "noun",
+      "english": "orange"
+    },
+    {
+      "word": "uva",
+      "pos": "noun",
+      "english": "grape"
+    },
+    {
+      "word": "fresa",
+      "pos": "noun",
+      "english": "strawberry"
+    },
+    {
+      "word": "limón",
+      "pos": "noun",
+      "english": "lemon"
+    },
+    {
+      "word": "pan",
+      "pos": "noun",
+      "english": "bread"
+    },
+    {
+      "word": "leche",
+      "pos": "noun",
+      "english": "milk"
+    },
+    {
+      "word": "queso",
+      "pos": "noun",
+      "english": "cheese"
+    },
+    {
+      "word": "huevo",
+      "pos": "noun",
+      "english": "egg"
+    },
+    {
+      "word": "carne",
+      "pos": "noun",
+      "english": "meat"
+    },
+    {
+      "word": "pescado",
+      "pos": "noun",
+      "english": "fish"
+    },
+    {
+      "word": "pollo",
+      "pos": "noun",
+      "english": "chicken"
+    },
+    {
+      "word": "arroz",
+      "pos": "noun",
+      "english": "rice"
+    },
+    {
+      "word": "papa",
+      "pos": "noun",
+      "english": "potato"
+    },
+    {
+      "word": "tomate",
+      "pos": "noun",
+      "english": "tomato"
+    },
+    {
+      "word": "zanahoria",
+      "pos": "noun",
+      "english": "carrot"
+    },
+    {
+      "word": "cebolla",
+      "pos": "noun",
+      "english": "onion"
+    },
+    {
+      "word": "ajo",
+      "pos": "noun",
+      "english": "garlic"
+    },
+    {
+      "word": "sal",
+      "pos": "noun",
+      "english": "salt"
+    },
+    {
+      "word": "azúcar",
+      "pos": "noun",
+      "english": "sugar"
+    },
+    {
+      "word": "café",
+      "pos": "noun",
+      "english": "coffee"
+    },
+    {
+      "word": "té",
+      "pos": "noun",
+      "english": "tea"
+    },
+    {
+      "word": "jugo",
+      "pos": "noun",
+      "english": "juice"
+    },
+    {
+      "word": "sopa",
+      "pos": "noun",
+      "english": "soup"
+    },
+    {
+      "word": "ensalada",
+      "pos": "noun",
+      "english": "salad"
+    },
+    {
+      "word": "casa",
+      "pos": "noun",
+      "english": "house"
+    },
+    {
+      "word": "puerta",
+      "pos": "noun",
+      "english": "door"
+    },
+    {
+      "word": "ventana",
+      "pos": "noun",
+      "english": "window"
+    },
+    {
+      "word": "mesa",
+      "pos": "noun",
+      "english": "table"
+    },
+    {
+      "word": "silla",
+      "pos": "noun",
+      "english": "chair"
+    },
+    {
+      "word": "cama",
+      "pos": "noun",
+      "english": "bed"
+    },
+    {
+      "word": "cocina",
+      "pos": "noun",
+      "english": "kitchen"
+    },
+    {
+      "word": "baño",
+      "pos": "noun",
+      "english": "bathroom"
+    },
+    {
+      "word": "sala",
+      "pos": "noun",
+      "english": "living room"
+    },
+    {
+      "word": "dormitorio",
+      "pos": "noun",
+      "english": "bedroom"
+    },
+    {
+      "word": "jardín",
+      "pos": "noun",
+      "english": "garden"
+    },
+    {
+      "word": "calle",
+      "pos": "noun",
+      "english": "street"
+    },
+    {
+      "word": "ciudad",
+      "pos": "noun",
+      "english": "city"
+    },
+    {
+      "word": "país",
+      "pos": "noun",
+      "english": "country"
+    },
+    {
+      "word": "escuela",
+      "pos": "noun",
+      "english": "school"
+    },
+    {
+      "word": "hospital",
+      "pos": "noun",
+      "english": "hospital"
+    },
+    {
+      "word": "tienda",
+      "pos": "noun",
+      "english": "store"
+    },
+    {
+      "word": "restaurante",
+      "pos": "noun",
+      "english": "restaurant"
+    },
+    {
+      "word": "parque",
+      "pos": "noun",
+      "english": "park"
+    },
+    {
+      "word": "playa",
+      "pos": "noun",
+      "english": "beach"
+    },
+    {
+      "word": "montaña",
+      "pos": "noun",
+      "english": "mountain"
+    },
+    {
+      "word": "río",
+      "pos": "noun",
+      "english": "river"
+    },
+    {
+      "word": "lago",
+      "pos": "noun",
+      "english": "lake"
+    },
+    {
+      "word": "mar",
+      "pos": "noun",
+      "english": "sea"
+    },
+    {
+      "word": "océano",
+      "pos": "noun",
+      "english": "ocean"
+    },
+    {
+      "word": "bosque",
+      "pos": "noun",
+      "english": "forest"
+    },
+    {
+      "word": "desierto",
+      "pos": "noun",
+      "english": "desert"
+    },
+    {
+      "word": "isla",
+      "pos": "noun",
+      "english": "island"
+    },
+    {
+      "word": "coche",
+      "pos": "noun",
+      "english": "car"
+    },
+    {
+      "word": "bicicleta",
+      "pos": "noun",
+      "english": "bicycle"
+    },
+    {
+      "word": "autobús",
+      "pos": "noun",
+      "english": "bus"
+    },
+    {
+      "word": "tren",
+      "pos": "noun",
+      "english": "train"
+    },
+    {
+      "word": "avión",
+      "pos": "noun",
+      "english": "airplane"
+    },
+    {
+      "word": "barco",
+      "pos": "noun",
+      "english": "boat"
+    },
+    {
+      "word": "yo",
+      "pos": "pronoun",
+      "english": "I"
+    },
+    {
+      "word": "tú",
+      "pos": "pronoun",
+      "english": "you"
+    },
+    {
+      "word": "él",
+      "pos": "pronoun",
+      "english": "he"
+    },
+    {
+      "word": "ella",
+      "pos": "pronoun",
+      "english": "she"
+    },
+    {
+      "word": "nosotros",
+      "pos": "pronoun",
+      "english": "we"
+    },
+    {
+      "word": "vosotros",
+      "pos": "pronoun",
+      "english": "you (plural)"
+    },
+    {
+      "word": "ellos",
+      "pos": "pronoun",
+      "english": "they"
+    },
+    {
+      "word": "mi",
+      "pos": "possessive adjective",
+      "english": "my"
+    },
+    {
+      "word": "tu",
+      "pos": "possessive adjective",
+      "english": "your"
+    },
+    {
+      "word": "su",
+      "pos": "possessive adjective",
+      "english": "his/her/its"
+    },
+    {
+      "word": "nuestro",
+      "pos": "possessive adjective",
+      "english": "our"
+    },
+    {
+      "word": "vuestro",
+      "pos": "possessive adjective",
+      "english": "your (plural)"
+    },
+    {
+      "word": "ser",
+      "pos": "verb",
+      "english": "to be"
+    },
+    {
+      "word": "estar",
+      "pos": "verb",
+      "english": "to be"
+    },
+    {
+      "word": "tener",
+      "pos": "verb",
+      "english": "to have"
+    },
+    {
+      "word": "hacer",
+      "pos": "verb",
+      "english": "to do/make"
+    },
+    {
+      "word": "ir",
+      "pos": "verb",
+      "english": "to go"
+    },
+    {
+      "word": "venir",
+      "pos": "verb",
+      "english": "to come"
+    },
+    {
+      "word": "ver",
+      "pos": "verb",
+      "english": "to see"
+    },
+    {
+      "word": "oír",
+      "pos": "verb",
+      "english": "to hear"
+    },
+    {
+      "word": "comer",
+      "pos": "verb",
+      "english": "to eat"
+    },
+    {
+      "word": "beber",
+      "pos": "verb",
+      "english": "to drink"
+    },
+    {
+      "word": "dormir",
+      "pos": "verb",
+      "english": "to sleep"
+    },
+    {
+      "word": "hablar",
+      "pos": "verb",
+      "english": "to speak"
+    },
+    {
+      "word": "leer",
+      "pos": "verb",
+      "english": "to read"
+    },
+    {
+      "word": "escribir",
+      "pos": "verb",
+      "english": "to write"
+    },
+    {
+      "word": "cantar",
+      "pos": "verb",
+      "english": "to sing"
+    },
+    {
+      "word": "bailar",
+      "pos": "verb",
+      "english": "to dance"
+    },
+    {
+      "word": "jugar",
+      "pos": "verb",
+      "english": "to play"
+    },
+    {
+      "word": "trabajar",
+      "pos": "verb",
+      "english": "to work"
+    },
+    {
+      "word": "estudiar",
+      "pos": "verb",
+      "english": "to study"
+    },
+    {
+      "word": "comprar",
+      "pos": "verb",
+      "english": "to buy"
+    },
+    {
+      "word": "vender",
+      "pos": "verb",
+      "english": "to sell"
+    },
+    {
+      "word": "pagar",
+      "pos": "verb",
+      "english": "to pay"
+    },
+    {
+      "word": "abrir",
+      "pos": "verb",
+      "english": "to open"
+    },
+    {
+      "word": "cerrar",
+      "pos": "verb",
+      "english": "to close"
+    },
+    {
+      "word": "grande",
+      "pos": "adjective",
+      "english": "big"
+    },
+    {
+      "word": "pequeño",
+      "pos": "adjective",
+      "english": "small"
+    },
+    {
+      "word": "alto",
+      "pos": "adjective",
+      "english": "tall"
+    },
+    {
+      "word": "bajo",
+      "pos": "adjective",
+      "english": "short"
+    },
+    {
+      "word": "gordo",
+      "pos": "adjective",
+      "english": "fat"
+    },
+    {
+      "word": "delgado",
+      "pos": "adjective",
+      "english": "thin"
+    },
+    {
+      "word": "bonito",
+      "pos": "adjective",
+      "english": "pretty"
+    },
+    {
+      "word": "feo",
+      "pos": "adjective",
+      "english": "ugly"
+    },
+    {
+      "word": "nuevo",
+      "pos": "adjective",
+      "english": "new"
+    },
+    {
+      "word": "viejo",
+      "pos": "adjective",
+      "english": "old"
+    },
+    {
+      "word": "bueno",
+      "pos": "adjective",
+      "english": "good"
+    },
+    {
+      "word": "malo",
+      "pos": "adjective",
+      "english": "bad"
+    },
+    {
+      "word": "feliz",
+      "pos": "adjective",
+      "english": "happy"
+    },
+    {
+      "word": "triste",
+      "pos": "adjective",
+      "english": "sad"
+    },
+    {
+      "word": "cansado",
+      "pos": "adjective",
+      "english": "tired"
+    },
+    {
+      "word": "enfermo",
+      "pos": "adjective",
+      "english": "sick"
+    },
+    {
+      "word": "sano",
+      "pos": "adjective",
+      "english": "healthy"
+    },
+    {
+      "word": "rico",
+      "pos": "adjective",
+      "english": "rich"
+    },
+    {
+      "word": "pobre",
+      "pos": "adjective",
+      "english": "poor"
+    },
+    {
+      "word": "caliente",
+      "pos": "adjective",
+      "english": "hot"
+    },
+    {
+      "word": "frío",
+      "pos": "adjective",
+      "english": "cold"
+    },
+    {
+      "word": "gustar",
+      "pos": "verb",
+      "english": "to like"
+    },
+    {
+      "word": "decir",
+      "pos": "verb",
+      "english": "to say"
+    },
+    {
+      "word": "a",
+      "pos": "preposition",
+      "english": "to"
+    },
+    {
+      "word": "de",
+      "pos": "preposition",
+      "english": "of"
+    },
+    {
+      "word": "con",
+      "pos": "preposition",
+      "english": "with"
+    },
+    {
+      "word": "en",
+      "pos": "preposition",
+      "english": "in"
+    },
+    {
+      "word": "qué",
+      "pos": "question word",
+      "english": "what"
+    },
+    {
+      "word": "dónde",
+      "pos": "question word",
+      "english": "where"
+    },
+    {
+      "word": "cuándo",
+      "pos": "question word",
+      "english": "when"
+    },
+    {
+      "word": "por qué",
+      "pos": "question word",
+      "english": "why"
+    },
+    {
+      "word": "cómo",
+      "pos": "question word",
+      "english": "how"
+    },
+    {
+      "word": "lunes",
+      "pos": "noun",
+      "english": "Monday"
+    },
+    {
+      "word": "martes",
+      "pos": "noun",
+      "english": "Tuesday"
+    },
+    {
+      "word": "miércoles",
+      "pos": "noun",
+      "english": "Wednesday"
+    },
+    {
+      "word": "jueves",
+      "pos": "noun",
+      "english": "Thursday"
+    },
+    {
+      "word": "viernes",
+      "pos": "noun",
+      "english": "Friday"
+    },
+    {
+      "word": "sábado",
+      "pos": "noun",
+      "english": "Saturday"
+    },
+    {
+      "word": "domingo",
+      "pos": "noun",
+      "english": "Sunday"
+    }
+  ],
+  "2": [
+    {
+      "word": "además",
+      "pos": "adverb",
+      "english": "furthermore"
+    },
+    {
+      "word": "aunque",
+      "pos": "conjunction",
+      "english": "although"
+    },
+    {
+      "word": "mientras",
+      "pos": "conjunction",
+      "english": "while"
+    },
+    {
+      "word": "desde",
+      "pos": "preposition",
+      "english": "from"
+    },
+    {
+      "word": "hasta",
+      "pos": "preposition",
+      "english": "until"
+    },
+    {
+      "word": "durante",
+      "pos": "preposition",
+      "english": "during"
+    },
+    {
+      "word": "según",
+      "pos": "preposition",
+      "english": "according to"
+    },
+    {
+      "word": "cada",
+      "pos": "adjective",
+      "english": "each"
+    },
+    {
+      "word": "cualquier",
+      "pos": "adjective",
+      "english": "any"
+    },
+    {
+      "word": "varios",
+      "pos": "adjective",
+      "english": "several"
+    },
+    {
+      "word": "demasiado",
+      "pos": "adverb",
+      "english": "too much"
+    },
+    {
+      "word": "bastante",
+      "pos": "adverb",
+      "english": "quite"
+    },
+    {
+      "word": "apenas",
+      "pos": "adverb",
+      "english": "barely"
+    },
+    {
+      "word": "casi",
+      "pos": "adverb",
+      "english": "almost"
+    },
+    {
+      "word": "todavía",
+      "pos": "adverb",
+      "english": "still"
+    },
+    {
+      "word": "ya",
+      "pos": "adverb",
+      "english": "already"
+    },
+    {
+      "word": "nunca",
+      "pos": "adverb",
+      "english": "never"
+    },
+    {
+      "word": "siempre",
+      "pos": "adverb",
+      "english": "always"
+    },
+    {
+      "word": "a menudo",
+      "pos": "adverb",
+      "english": "often"
+    },
+    {
+      "word": "rara vez",
+      "pos": "adverb",
+      "english": "rarely"
+    },
+    {
+      "word": "quizás",
+      "pos": "adverb",
+      "english": "maybe"
+    },
+    {
+      "word": "tal vez",
+      "pos": "adverb",
+      "english": "perhaps"
+    },
+    {
+      "word": "probablemente",
+      "pos": "adverb",
+      "english": "probably"
+    },
+    {
+      "word": "realmente",
+      "pos": "adverb",
+      "english": "really"
+    },
+    {
+      "word": "desafortunadamente",
+      "pos": "adverb",
+      "english": "unfortunately"
+    },
+    {
+      "word": "afortunadamente",
+      "pos": "adverb",
+      "english": "fortunately"
+    },
+    {
+      "word": "especialmente",
+      "pos": "adverb",
+      "english": "especially"
+    },
+    {
+      "word": "generalmente",
+      "pos": "adverb",
+      "english": "generally"
+    },
+    {
+      "word": "particularmente",
+      "pos": "adverb",
+      "english": "particularly"
+    },
+    {
+      "word": "aproximadamente",
+      "pos": "adverb",
+      "english": "approximately"
+    },
+    {
+      "word": "alrededor",
+      "pos": "adverb",
+      "english": "around"
+    },
+    {
+      "word": "través",
+      "pos": "noun",
+      "english": "through"
+    },
+    {
+      "word": "manera",
+      "pos": "noun",
+      "english": "way"
+    },
+    {
+      "word": "forma",
+      "pos": "noun",
+      "english": "form"
+    },
+    {
+      "word": "tipo",
+      "pos": "noun",
+      "english": "type"
+    },
+    {
+      "word": "clase",
+      "pos": "noun",
+      "english": "class"
+    },
+    {
+      "word": "especie",
+      "pos": "noun",
+      "english": "species"
+    },
+    {
+      "word": "razón",
+      "pos": "noun",
+      "english": "reason"
+    },
+    {
+      "word": "causa",
+      "pos": "noun",
+      "english": "cause"
+    },
+    {
+      "word": "efecto",
+      "pos": "noun",
+      "english": "effect"
+    },
+    {
+      "word": "consecuencia",
+      "pos": "noun",
+      "english": "consequence"
+    },
+    {
+      "word": "resultado",
+      "pos": "noun",
+      "english": "result"
+    },
+    {
+      "word": "solución",
+      "pos": "noun",
+      "english": "solution"
+    },
+    {
+      "word": "problema",
+      "pos": "noun",
+      "english": "problem"
+    },
+    {
+      "word": "dificultad",
+      "pos": "noun",
+      "english": "difficulty"
+    },
+    {
+      "word": "ventaja",
+      "pos": "noun",
+      "english": "advantage"
+    },
+    {
+      "word": "desventaja",
+      "pos": "noun",
+      "english": "disadvantage"
+    },
+    {
+      "word": "oportunidad",
+      "pos": "noun",
+      "english": "opportunity"
+    },
+    {
+      "word": "posibilidad",
+      "pos": "noun",
+      "english": "possibility"
+    },
+    {
+      "word": "necesidad",
+      "pos": "noun",
+      "english": "necessity"
+    },
+    {
+      "word": "importancia",
+      "pos": "noun",
+      "english": "importance"
+    },
+    {
+      "word": "significado",
+      "pos": "noun",
+      "english": "meaning"
+    },
+    {
+      "word": "valor",
+      "pos": "noun",
+      "english": "value"
+    },
+    {
+      "word": "calidad",
+      "pos": "noun",
+      "english": "quality"
+    },
+    {
+      "word": "cantidad",
+      "pos": "noun",
+      "english": "quantity"
+    },
+    {
+      "word": "tamaño",
+      "pos": "noun",
+      "english": "size"
+    },
+    {
+      "word": "medida",
+      "pos": "noun",
+      "english": "measure"
+    },
+    {
+      "word": "peso",
+      "pos": "noun",
+      "english": "weight"
+    },
+    {
+      "word": "distancia",
+      "pos": "noun",
+      "english": "distance"
+    },
+    {
+      "word": "velocidad",
+      "pos": "noun",
+      "english": "speed"
+    },
+    {
+      "word": "dirección",
+      "pos": "noun",
+      "english": "direction"
+    },
+    {
+      "word": "posición",
+      "pos": "noun",
+      "english": "position"
+    },
+    {
+      "word": "lugar",
+      "pos": "noun",
+      "english": "place"
+    },
+    {
+      "word": "espacio",
+      "pos": "noun",
+      "english": "space"
+    },
+    {
+      "word": "tiempo",
+      "pos": "noun",
+      "english": "time"
+    },
+    {
+      "word": "momento",
+      "pos": "noun",
+      "english": "moment"
+    },
+    {
+      "word": "periodo",
+      "pos": "noun",
+      "english": "period"
+    },
+    {
+      "word": "época",
+      "pos": "noun",
+      "english": "era"
+    },
+    {
+      "word": "siglo",
+      "pos": "noun",
+      "english": "century"
+    },
+    {
+      "word": "década",
+      "pos": "noun",
+      "english": "decade"
+    },
+    {
+      "word": "año",
+      "pos": "noun",
+      "english": "year"
+    },
+    {
+      "word": "mes",
+      "pos": "noun",
+      "english": "month"
+    },
+    {
+      "word": "semana",
+      "pos": "noun",
+      "english": "week"
+    },
+    {
+      "word": "día",
+      "pos": "noun",
+      "english": "day"
+    },
+    {
+      "word": "hora",
+      "pos": "noun",
+      "english": "hour"
+    },
+    {
+      "word": "minuto",
+      "pos": "noun",
+      "english": "minute"
+    },
+    {
+      "word": "segundo",
+      "pos": "noun",
+      "english": "second"
+    },
+    {
+      "word": "pasado",
+      "pos": "noun",
+      "english": "past"
+    },
+    {
+      "word": "presente",
+      "pos": "noun",
+      "english": "present"
+    },
+    {
+      "word": "futuro",
+      "pos": "noun",
+      "english": "future"
+    },
+    {
+      "word": "principio",
+      "pos": "noun",
+      "english": "beginning"
+    },
+    {
+      "word": "final",
+      "pos": "noun",
+      "english": "end"
+    },
+    {
+      "word": "medio",
+      "pos": "noun",
+      "english": "middle"
+    },
+    {
+      "word": "parte",
+      "pos": "noun",
+      "english": "part"
+    },
+    {
+      "word": "todo",
+      "pos": "noun",
+      "english": "whole"
+    },
+    {
+      "word": "mitad",
+      "pos": "noun",
+      "english": "half"
+    },
+    {
+      "word": "cuarto",
+      "pos": "noun",
+      "english": "quarter"
+    },
+    {
+      "word": "tercio",
+      "pos": "noun",
+      "english": "third"
+    },
+    {
+      "word": "doble",
+      "pos": "adjective",
+      "english": "double"
+    },
+    {
+      "word": "triple",
+      "pos": "adjective",
+      "english": "triple"
+    },
+    {
+      "word": "cuádruple",
+      "pos": "adjective",
+      "english": "quadruple"
+    },
+    {
+      "word": "múltiple",
+      "pos": "adjective",
+      "english": "multiple"
+    },
+    {
+      "word": "único",
+      "pos": "adjective",
+      "english": "unique"
+    },
+    {
+      "word": "diferente",
+      "pos": "adjective",
+      "english": "different"
+    },
+    {
+      "word": "similar",
+      "pos": "adjective",
+      "english": "similar"
+    },
+    {
+      "word": "igual",
+      "pos": "adjective",
+      "english": "equal"
+    },
+    {
+      "word": "opuesto",
+      "pos": "adjective",
+      "english": "opposite"
+    },
+    {
+      "word": "contrario",
+      "pos": "adjective",
+      "english": "contrary"
+    },
+    {
+      "word": "positivo",
+      "pos": "adjective",
+      "english": "positive"
+    },
+    {
+      "word": "negativo",
+      "pos": "adjective",
+      "english": "negative"
+    },
+    {
+      "word": "neutral",
+      "pos": "adjective",
+      "english": "neutral"
+    },
+    {
+      "word": "activo",
+      "pos": "adjective",
+      "english": "active"
+    },
+    {
+      "word": "pasivo",
+      "pos": "adjective",
+      "english": "passive"
+    },
+    {
+      "word": "fuerte",
+      "pos": "adjective",
+      "english": "strong"
+    },
+    {
+      "word": "débil",
+      "pos": "adjective",
+      "english": "weak"
+    },
+    {
+      "word": "duro",
+      "pos": "adjective",
+      "english": "hard"
+    },
+    {
+      "word": "suave",
+      "pos": "adjective",
+      "english": "soft"
+    },
+    {
+      "word": "liso",
+      "pos": "adjective",
+      "english": "smooth"
+    },
+    {
+      "word": "rugoso",
+      "pos": "adjective",
+      "english": "rough"
+    },
+    {
+      "word": "pesado",
+      "pos": "adjective",
+      "english": "heavy"
+    },
+    {
+      "word": "ligero",
+      "pos": "adjective",
+      "english": "light"
+    },
+    {
+      "word": "rápido",
+      "pos": "adjective",
+      "english": "fast"
+    },
+    {
+      "word": "lento",
+      "pos": "adjective",
+      "english": "slow"
+    },
+    {
+      "word": "fácil",
+      "pos": "adjective",
+      "english": "easy"
+    },
+    {
+      "word": "difícil",
+      "pos": "adjective",
+      "english": "difficult"
+    },
+    {
+      "word": "simple",
+      "pos": "adjective",
+      "english": "simple"
+    },
+    {
+      "word": "complejo",
+      "pos": "adjective",
+      "english": "complex"
+    },
+    {
+      "word": "claro",
+      "pos": "adjective",
+      "english": "clear"
+    },
+    {
+      "word": "oscuro",
+      "pos": "adjective",
+      "english": "dark"
+    },
+    {
+      "word": "brillante",
+      "pos": "adjective",
+      "english": "bright"
+    },
+    {
+      "word": "opaco",
+      "pos": "adjective",
+      "english": "opaque"
+    },
+    {
+      "word": "transparente",
+      "pos": "adjective",
+      "english": "transparent"
+    },
+    {
+      "word": "visible",
+      "pos": "adjective",
+      "english": "visible"
+    },
+    {
+      "word": "invisible",
+      "pos": "adjective",
+      "english": "invisible"
+    },
+    {
+      "word": "lleno",
+      "pos": "adjective",
+      "english": "full"
+    },
+    {
+      "word": "vacío",
+      "pos": "adjective",
+      "english": "empty"
+    },
+    {
+      "word": "abierto",
+      "pos": "adjective",
+      "english": "open"
+    },
+    {
+      "word": "cerrado",
+      "pos": "adjective",
+      "english": "closed"
+    },
+    {
+      "word": "público",
+      "pos": "adjective",
+      "english": "public"
+    },
+    {
+      "word": "privado",
+      "pos": "adjective",
+      "english": "private"
+    },
+    {
+      "word": "común",
+      "pos": "adjective",
+      "english": "common"
+    },
+    {
+      "word": "raro",
+      "pos": "adjective",
+      "english": "rare"
+    },
+    {
+      "word": "normal",
+      "pos": "adjective",
+      "english": "normal"
+    },
+    {
+      "word": "extraño",
+      "pos": "adjective",
+      "english": "strange"
+    },
+    {
+      "word": "familiar",
+      "pos": "adjective",
+      "english": "familiar"
+    },
+    {
+      "word": "desconocido",
+      "pos": "adjective",
+      "english": "unknown"
+    },
+    {
+      "word": "seguro",
+      "pos": "adjective",
+      "english": "safe"
+    },
+    {
+      "word": "peligroso",
+      "pos": "adjective",
+      "english": "dangerous"
+    },
+    {
+      "word": "correcto",
+      "pos": "adjective",
+      "english": "correct"
+    },
+    {
+      "word": "incorrecto",
+      "pos": "adjective",
+      "english": "incorrect"
+    },
+    {
+      "word": "verdadero",
+      "pos": "adjective",
+      "english": "true"
+    },
+    {
+      "word": "falso",
+      "pos": "adjective",
+      "english": "false"
+    },
+    {
+      "word": "real",
+      "pos": "adjective",
+      "english": "real"
+    },
+    {
+      "word": "imaginario",
+      "pos": "adjective",
+      "english": "imaginary"
+    },
+    {
+      "word": "natural",
+      "pos": "adjective",
+      "english": "natural"
+    },
+    {
+      "word": "artificial",
+      "pos": "adjective",
+      "english": "artificial"
+    },
+    {
+      "word": "orgánico",
+      "pos": "adjective",
+      "english": "organic"
+    },
+    {
+      "word": "inorgánico",
+      "pos": "adjective",
+      "english": "inorganic"
+    },
+    {
+      "word": "físico",
+      "pos": "adjective",
+      "english": "physical"
+    },
+    {
+      "word": "mental",
+      "pos": "adjective",
+      "english": "mental"
+    },
+    {
+      "word": "emocional",
+      "pos": "adjective",
+      "english": "emotional"
+    },
+    {
+      "word": "lógico",
+      "pos": "adjective",
+      "english": "logical"
+    },
+    {
+      "word": "ilógico",
+      "pos": "adjective",
+      "english": "illogical"
+    },
+    {
+      "word": "teórico",
+      "pos": "adjective",
+      "english": "theoretical"
+    },
+    {
+      "word": "práctico",
+      "pos": "adjective",
+      "english": "practical"
+    },
+    {
+      "word": "abstracto",
+      "pos": "adjective",
+      "english": "abstract"
+    },
+    {
+      "word": "concreto",
+      "pos": "adjective",
+      "english": "concrete"
+    },
+    {
+      "word": "general",
+      "pos": "adjective",
+      "english": "general"
+    },
+    {
+      "word": "específico",
+      "pos": "adjective",
+      "english": "specific"
+    },
+    {
+      "word": "global",
+      "pos": "adjective",
+      "english": "global"
+    },
+    {
+      "word": "local",
+      "pos": "adjective",
+      "english": "local"
+    },
+    {
+      "word": "internacional",
+      "pos": "adjective",
+      "english": "international"
+    },
+    {
+      "word": "nacional",
+      "pos": "adjective",
+      "english": "national"
+    },
+    {
+      "word": "regional",
+      "pos": "adjective",
+      "english": "regional"
+    },
+    {
+      "word": "urbano",
+      "pos": "adjective",
+      "english": "urban"
+    },
+    {
+      "word": "rural",
+      "pos": "adjective",
+      "english": "rural"
+    },
+    {
+      "word": "social",
+      "pos": "adjective",
+      "english": "social"
+    },
+    {
+      "word": "individual",
+      "pos": "adjective",
+      "english": "individual"
+    },
+    {
+      "word": "colectivo",
+      "pos": "adjective",
+      "english": "collective"
+    },
+    {
+      "word": "personal",
+      "pos": "adjective",
+      "english": "personal"
+    },
+    {
+      "word": "profesional",
+      "pos": "adjective",
+      "english": "professional"
+    },
+    {
+      "word": "oficial",
+      "pos": "adjective",
+      "english": "official"
+    },
+    {
+      "word": "informal",
+      "pos": "adjective",
+      "english": "informal"
+    },
+    {
+      "word": "legal",
+      "pos": "adjective",
+      "english": "legal"
+    },
+    {
+      "word": "ilegal",
+      "pos": "adjective",
+      "english": "illegal"
+    },
+    {
+      "word": "justo",
+      "pos": "adjective",
+      "english": "fair"
+    },
+    {
+      "word": "injusto",
+      "pos": "adjective",
+      "english": "unfair"
+    },
+    {
+      "word": "moral",
+      "pos": "adjective",
+      "english": "moral"
+    },
+    {
+      "word": "inmoral",
+      "pos": "adjective",
+      "english": "immoral"
+    },
+    {
+      "word": "ético",
+      "pos": "adjective",
+      "english": "ethical"
+    },
+    {
+      "word": "político",
+      "pos": "adjective",
+      "english": "political"
+    },
+    {
+      "word": "económico",
+      "pos": "adjective",
+      "english": "economic"
+    },
+    {
+      "word": "cultural",
+      "pos": "adjective",
+      "english": "cultural"
+    },
+    {
+      "word": "histórico",
+      "pos": "adjective",
+      "english": "historical"
+    },
+    {
+      "word": "científico",
+      "pos": "adjective",
+      "english": "scientific"
+    },
+    {
+      "word": "tecnológico",
+      "pos": "adjective",
+      "english": "technological"
+    },
+    {
+      "word": "artístico",
+      "pos": "adjective",
+      "english": "artistic"
+    },
+    {
+      "word": "literario",
+      "pos": "adjective",
+      "english": "literary"
+    },
+    {
+      "word": "musical",
+      "pos": "adjective",
+      "english": "musical"
+    },
+    {
+      "word": "deportivo",
+      "pos": "adjective",
+      "english": "sports"
+    },
+    {
+      "word": "educativo",
+      "pos": "adjective",
+      "english": "educational"
+    },
+    {
+      "word": "religioso",
+      "pos": "adjective",
+      "english": "religious"
+    },
+    {
+      "word": "espiritual",
+      "pos": "adjective",
+      "english": "spiritual"
+    }
+  ],
+  "3": [
+    {
+      "word": "abarcar",
+      "pos": "verb",
+      "english": "to encompass"
+    },
+    {
+      "word": "abolir",
+      "pos": "verb",
+      "english": "to abolish"
+    },
+    {
+      "word": "abordar",
+      "pos": "verb",
+      "english": "to address"
+    },
+    {
+      "word": "abrumar",
+      "pos": "verb",
+      "english": "to overwhelm"
+    },
+    {
+      "word": "absolver",
+      "pos": "verb",
+      "english": "to acquit"
+    },
+    {
+      "word": "abstraer",
+      "pos": "verb",
+      "english": "to abstract"
+    },
+    {
+      "word": "acatar",
+      "pos": "verb",
+      "english": "to comply"
+    },
+    {
+      "word": "aclarar",
+      "pos": "verb",
+      "english": "to clarify"
+    },
+    {
+      "word": "acoger",
+      "pos": "verb",
+      "english": "to welcome"
+    },
+    {
+      "word": "aconsejar",
+      "pos": "verb",
+      "english": "to advise"
+    },
+    {
+      "word": "acontecer",
+      "pos": "verb",
+      "english": "to happen"
+    },
+    {
+      "word": "acudir",
+      "pos": "verb",
+      "english": "to attend"
+    },
+    {
+      "word": "adaptar",
+      "pos": "verb",
+      "english": "to adapt"
+    },
+    {
+      "word": "adherir",
+      "pos": "verb",
+      "english": "to adhere"
+    },
+    {
+      "word": "adjudicar",
+      "pos": "verb",
+      "english": "to award"
+    },
+    {
+      "word": "administrar",
+      "pos": "verb",
+      "english": "to manage"
+    },
+    {
+      "word": "advertir",
+      "pos": "verb",
+      "english": "to warn"
+    },
+    {
+      "word": "afectar",
+      "pos": "verb",
+      "english": "to affect"
+    },
+    {
+      "word": "afianzar",
+      "pos": "verb",
+      "english": "to strengthen"
+    },
+    {
+      "word": "afirmar",
+      "pos": "verb",
+      "english": "to affirm"
+    },
+    {
+      "word": "afrontar",
+      "pos": "verb",
+      "english": "to face"
+    },
+    {
+      "word": "agobiar",
+      "pos": "verb",
+      "english": "to overwhelm"
+    },
+    {
+      "word": "agotar",
+      "pos": "verb",
+      "english": "to exhaust"
+    },
+    {
+      "word": "agradecer",
+      "pos": "verb",
+      "english": "to thank"
+    },
+    {
+      "word": "agravar",
+      "pos": "verb",
+      "english": "to aggravate"
+    },
+    {
+      "word": "albergar",
+      "pos": "verb",
+      "english": "to harbor"
+    },
+    {
+      "word": "alcanzar",
+      "pos": "verb",
+      "english": "to reach"
+    },
+    {
+      "word": "alentar",
+      "pos": "verb",
+      "english": "to encourage"
+    },
+    {
+      "word": "aliviar",
+      "pos": "verb",
+      "english": "to relieve"
+    },
+    {
+      "word": "alterar",
+      "pos": "verb",
+      "english": "to alter"
+    },
+    {
+      "word": "aludir",
+      "pos": "verb",
+      "english": "to allude"
+    },
+    {
+      "word": "ambicionar",
+      "pos": "verb",
+      "english": "to aspire"
+    },
+    {
+      "word": "amenazar",
+      "pos": "verb",
+      "english": "to threaten"
+    },
+    {
+      "word": "ampliar",
+      "pos": "verb",
+      "english": "to expand"
+    },
+    {
+      "word": "analizar",
+      "pos": "verb",
+      "english": "to analyze"
+    },
+    {
+      "word": "anhelar",
+      "pos": "verb",
+      "english": "to long for"
+    },
+    {
+      "word": "anticipar",
+      "pos": "verb",
+      "english": "to anticipate"
+    },
+    {
+      "word": "anular",
+      "pos": "verb",
+      "english": "to cancel"
+    },
+    {
+      "word": "añadir",
+      "pos": "verb",
+      "english": "to add"
+    },
+    {
+      "word": "apaciguar",
+      "pos": "verb",
+      "english": "to appease"
+    },
+    {
+      "word": "aparentar",
+      "pos": "verb",
+      "english": "to pretend"
+    },
+    {
+      "word": "apelar",
+      "pos": "verb",
+      "english": "to appeal"
+    },
+    {
+      "word": "apetecer",
+      "pos": "verb",
+      "english": "to crave"
+    },
+    {
+      "word": "aplaudir",
+      "pos": "verb",
+      "english": "to applaud"
+    },
+    {
+      "word": "aplicar",
+      "pos": "verb",
+      "english": "to apply"
+    },
+    {
+      "word": "aportar",
+      "pos": "verb",
+      "english": "to contribute"
+    },
+    {
+      "word": "apoyar",
+      "pos": "verb",
+      "english": "to support"
+    },
+    {
+      "word": "apreciar",
+      "pos": "verb",
+      "english": "to appreciate"
+    },
+    {
+      "word": "aprovechar",
+      "pos": "verb",
+      "english": "to take advantage"
+    },
+    {
+      "word": "argumentar",
+      "pos": "verb",
+      "english": "to argue"
+    },
+    {
+      "word": "arriesgar",
+      "pos": "verb",
+      "english": "to risk"
+    },
+    {
+      "word": "asegurar",
+      "pos": "verb",
+      "english": "to ensure"
+    },
+    {
+      "word": "asentir",
+      "pos": "verb",
+      "english": "to assent"
+    },
+    {
+      "word": "asignar",
+      "pos": "verb",
+      "english": "to assign"
+    },
+    {
+      "word": "asimilar",
+      "pos": "verb",
+      "english": "to assimilate"
+    },
+    {
+      "word": "asistir",
+      "pos": "verb",
+      "english": "to attend"
+    },
+    {
+      "word": "asociar",
+      "pos": "verb",
+      "english": "to associate"
+    },
+    {
+      "word": "aspirar",
+      "pos": "verb",
+      "english": "to aspire"
+    },
+    {
+      "word": "asumir",
+      "pos": "verb",
+      "english": "to assume"
+    },
+    {
+      "word": "atender",
+      "pos": "verb",
+      "english": "to attend to"
+    },
+    {
+      "word": "atestiguar",
+      "pos": "verb",
+      "english": "to witness"
+    },
+    {
+      "word": "atraer",
+      "pos": "verb",
+      "english": "to attract"
+    },
+    {
+      "word": "atribuir",
+      "pos": "verb",
+      "english": "to attribute"
+    },
+    {
+      "word": "aumentar",
+      "pos": "verb",
+      "english": "to increase"
+    },
+    {
+      "word": "aunar",
+      "pos": "verb",
+      "english": "to unite"
+    },
+    {
+      "word": "avalar",
+      "pos": "verb",
+      "english": "to endorse"
+    },
+    {
+      "word": "avanzar",
+      "pos": "verb",
+      "english": "to advance"
+    },
+    {
+      "word": "averiguar",
+      "pos": "verb",
+      "english": "to find out"
+    },
+    {
+      "word": "avisar",
+      "pos": "verb",
+      "english": "to notify"
+    },
+    {
+      "word": "beneficiar",
+      "pos": "verb",
+      "english": "to benefit"
+    },
+    {
+      "word": "brindar",
+      "pos": "verb",
+      "english": "to offer"
+    },
+    {
+      "word": "buscar",
+      "pos": "verb",
+      "english": "to search"
+    },
+    {
+      "word": "caber",
+      "pos": "verb",
+      "english": "to fit"
+    },
+    {
+      "word": "calcular",
+      "pos": "verb",
+      "english": "to calculate"
+    },
+    {
+      "word": "calificar",
+      "pos": "verb",
+      "english": "to qualify"
+    },
+    {
+      "word": "cambiar",
+      "pos": "verb",
+      "english": "to change"
+    },
+    {
+      "word": "caracterizar",
+      "pos": "verb",
+      "english": "to characterize"
+    },
+    {
+      "word": "carecer",
+      "pos": "verb",
+      "english": "to lack"
+    },
+    {
+      "word": "ceder",
+      "pos": "verb",
+      "english": "to yield"
+    },
+    {
+      "word": "celebrar",
+      "pos": "verb",
+      "english": "to celebrate"
+    },
+    {
+      "word": "citar",
+      "pos": "verb",
+      "english": "to quote"
+    },
+    {
+      "word": "coincidir",
+      "pos": "verb",
+      "english": "to coincide"
+    },
+    {
+      "word": "colaborar",
+      "pos": "verb",
+      "english": "to collaborate"
+    },
+    {
+      "word": "colgar",
+      "pos": "verb",
+      "english": "to hang"
+    },
+    {
+      "word": "combatir",
+      "pos": "verb",
+      "english": "to combat"
+    },
+    {
+      "word": "comentar",
+      "pos": "verb",
+      "english": "to comment"
+    },
+    {
+      "word": "comenzar",
+      "pos": "verb",
+      "english": "to begin"
+    },
+    {
+      "word": "compensar",
+      "pos": "verb",
+      "english": "to compensate"
+    },
+    {
+      "word": "competir",
+      "pos": "verb",
+      "english": "to compete"
+    },
+    {
+      "word": "complacer",
+      "pos": "verb",
+      "english": "to please"
+    },
+    {
+      "word": "completar",
+      "pos": "verb",
+      "english": "to complete"
+    },
+    {
+      "word": "comprobar",
+      "pos": "verb",
+      "english": "to verify"
+    },
+    {
+      "word": "concebir",
+      "pos": "verb",
+      "english": "to conceive"
+    },
+    {
+      "word": "conceder",
+      "pos": "verb",
+      "english": "to grant"
+    },
+    {
+      "word": "concentrar",
+      "pos": "verb",
+      "english": "to concentrate"
+    },
+    {
+      "word": "concluir",
+      "pos": "verb",
+      "english": "to conclude"
+    },
+    {
+      "word": "condenar",
+      "pos": "verb",
+      "english": "to condemn"
+    },
+    {
+      "word": "conducir",
+      "pos": "verb",
+      "english": "to drive"
+    },
+    {
+      "word": "confesar",
+      "pos": "verb",
+      "english": "to confess"
+    },
+    {
+      "word": "confiar",
+      "pos": "verb",
+      "english": "to trust"
+    },
+    {
+      "word": "confirmar",
+      "pos": "verb",
+      "english": "to confirm"
+    },
+    {
+      "word": "conformar",
+      "pos": "verb",
+      "english": "to conform"
+    },
+    {
+      "word": "conmover",
+      "pos": "verb",
+      "english": "to move"
+    },
+    {
+      "word": "conocer",
+      "pos": "verb",
+      "english": "to know"
+    },
+    {
+      "word": "conseguir",
+      "pos": "verb",
+      "english": "to achieve"
+    },
+    {
+      "word": "conservar",
+      "pos": "verb",
+      "english": "to preserve"
+    },
+    {
+      "word": "considerar",
+      "pos": "verb",
+      "english": "to consider"
+    },
+    {
+      "word": "consistir",
+      "pos": "verb",
+      "english": "to consist"
+    },
+    {
+      "word": "constatar",
+      "pos": "verb",
+      "english": "to verify"
+    },
+    {
+      "word": "constituir",
+      "pos": "verb",
+      "english": "to constitute"
+    },
+    {
+      "word": "construir",
+      "pos": "verb",
+      "english": "to build"
+    },
+    {
+      "word": "consultar",
+      "pos": "verb",
+      "english": "to consult"
+    },
+    {
+      "word": "consumir",
+      "pos": "verb",
+      "english": "to consume"
+    },
+    {
+      "word": "contener",
+      "pos": "verb",
+      "english": "to contain"
+    },
+    {
+      "word": "contestar",
+      "pos": "verb",
+      "english": "to answer"
+    },
+    {
+      "word": "continuar",
+      "pos": "verb",
+      "english": "to continue"
+    },
+    {
+      "word": "contribuir",
+      "pos": "verb",
+      "english": "to contribute"
+    },
+    {
+      "word": "convencer",
+      "pos": "verb",
+      "english": "to convince"
+    },
+    {
+      "word": "convertir",
+      "pos": "verb",
+      "english": "to convert"
+    },
+    {
+      "word": "cooperar",
+      "pos": "verb",
+      "english": "to cooperate"
+    },
+    {
+      "word": "coordinar",
+      "pos": "verb",
+      "english": "to coordinate"
+    },
+    {
+      "word": "corregir",
+      "pos": "verb",
+      "english": "to correct"
+    },
+    {
+      "word": "corresponder",
+      "pos": "verb",
+      "english": "to correspond"
+    },
+    {
+      "word": "corroborar",
+      "pos": "verb",
+      "english": "to corroborate"
+    },
+    {
+      "word": "crear",
+      "pos": "verb",
+      "english": "to create"
+    },
+    {
+      "word": "crecer",
+      "pos": "verb",
+      "english": "to grow"
+    },
+    {
+      "word": "creer",
+      "pos": "verb",
+      "english": "to believe"
+    },
+    {
+      "word": "cuestionar",
+      "pos": "verb",
+      "english": "to question"
+    },
+    {
+      "word": "cuidar",
+      "pos": "verb",
+      "english": "to care for"
+    },
+    {
+      "word": "cumplir",
+      "pos": "verb",
+      "english": "to fulfill"
+    },
+    {
+      "word": "dañar",
+      "pos": "verb",
+      "english": "to damage"
+    },
+    {
+      "word": "dar",
+      "pos": "verb",
+      "english": "to give"
+    },
+    {
+      "word": "debatir",
+      "pos": "verb",
+      "english": "to debate"
+    },
+    {
+      "word": "deber",
+      "pos": "verb",
+      "english": "to owe"
+    },
+    {
+      "word": "decidir",
+      "pos": "verb",
+      "english": "to decide"
+    },
+    {
+      "word": "declarar",
+      "pos": "verb",
+      "english": "to declare"
+    },
+    {
+      "word": "dedicar",
+      "pos": "verb",
+      "english": "to dedicate"
+    },
+    {
+      "word": "deducir",
+      "pos": "verb",
+      "english": "to deduce"
+    },
+    {
+      "word": "defender",
+      "pos": "verb",
+      "english": "to defend"
+    },
+    {
+      "word": "definir",
+      "pos": "verb",
+      "english": "to define"
+    },
+    {
+      "word": "dejar",
+      "pos": "verb",
+      "english": "to leave"
+    },
+    {
+      "word": "demostrar",
+      "pos": "verb",
+      "english": "to demonstrate"
+    },
+    {
+      "word": "depender",
+      "pos": "verb",
+      "english": "to depend"
+    },
+    {
+      "word": "desarrollar",
+      "pos": "verb",
+      "english": "to develop"
+    },
+    {
+      "word": "descartar",
+      "pos": "verb",
+      "english": "to discard"
+    },
+    {
+      "word": "descubrir",
+      "pos": "verb",
+      "english": "to discover"
+    },
+    {
+      "word": "desear",
+      "pos": "verb",
+      "english": "to desire"
+    },
+    {
+      "word": "desempeñar",
+      "pos": "verb",
+      "english": "to perform"
+    },
+    {
+      "word": "destacar",
+      "pos": "verb",
+      "english": "to highlight"
+    },
+    {
+      "word": "determinar",
+      "pos": "verb",
+      "english": "to determine"
+    },
+    {
+      "word": "dirigir",
+      "pos": "verb",
+      "english": "to direct"
+    },
+    {
+      "word": "discutir",
+      "pos": "verb",
+      "english": "to discuss"
+    },
+    {
+      "word": "disfrutar",
+      "pos": "verb",
+      "english": "to enjoy"
+    },
+    {
+      "word": "distinguir",
+      "pos": "verb",
+      "english": "to distinguish"
+    },
+    {
+      "word": "distribuir",
+      "pos": "verb",
+      "english": "to distribute"
+    },
+    {
+      "word": "divertir",
+      "pos": "verb",
+      "english": "to amuse"
+    },
+    {
+      "word": "dividir",
+      "pos": "verb",
+      "english": "to divide"
+    },
+    {
+      "word": "dudar",
+      "pos": "verb",
+      "english": "to doubt"
+    },
+    {
+      "word": "durar",
+      "pos": "verb",
+      "english": "to last"
+    },
+    {
+      "word": "efectuar",
+      "pos": "verb",
+      "english": "to carry out"
+    },
+    {
+      "word": "ejercer",
+      "pos": "verb",
+      "english": "to exercise"
+    },
+    {
+      "word": "elaborar",
+      "pos": "verb",
+      "english": "to elaborate"
+    },
+    {
+      "word": "elegir",
+      "pos": "verb",
+      "english": "to choose"
+    },
+    {
+      "word": "eliminar",
+      "pos": "verb",
+      "english": "to eliminate"
+    },
+    {
+      "word": "emitir",
+      "pos": "verb",
+      "english": "to emit"
+    },
+    {
+      "word": "empezar",
+      "pos": "verb",
+      "english": "to begin"
+    },
+    {
+      "word": "emplear",
+      "pos": "verb",
+      "english": "to employ"
+    },
+    {
+      "word": "encontrar",
+      "pos": "verb",
+      "english": "to find"
+    },
+    {
+      "word": "enfrentar",
+      "pos": "verb",
+      "english": "to face"
+    },
+    {
+      "word": "entender",
+      "pos": "verb",
+      "english": "to understand"
+    },
+    {
+      "word": "entregar",
+      "pos": "verb",
+      "english": "to deliver"
+    },
+    {
+      "word": "enviar",
+      "pos": "verb",
+      "english": "to send"
+    },
+    {
+      "word": "establecer",
+      "pos": "verb",
+      "english": "to establish"
+    },
+    {
+      "word": "estimar",
+      "pos": "verb",
+      "english": "to estimate"
+    },
+    {
+      "word": "evitar",
+      "pos": "verb",
+      "english": "to avoid"
+    },
+    {
+      "word": "exigir",
+      "pos": "verb",
+      "english": "to demand"
+    },
+    {
+      "word": "existir",
+      "pos": "verb",
+      "english": "to exist"
+    },
+    {
+      "word": "explicar",
+      "pos": "verb",
+      "english": "to explain"
+    },
+    {
+      "word": "expresar",
+      "pos": "verb",
+      "english": "to express"
+    },
+    {
+      "word": "extender",
+      "pos": "verb",
+      "english": "to extend"
+    },
+    {
+      "word": "facilitar",
+      "pos": "verb",
+      "english": "to facilitate"
+    },
+    {
+      "word": "faltar",
+      "pos": "verb",
+      "english": "to lack"
+    },
+    {
+      "word": "favorecer",
+      "pos": "verb",
+      "english": "to favor"
+    },
+    {
+      "word": "fijar",
+      "pos": "verb",
+      "english": "to fix"
+    },
+    {
+      "word": "formar",
+      "pos": "verb",
+      "english": "to form"
+    },
+    {
+      "word": "funcionar",
+      "pos": "verb",
+      "english": "to function"
+    },
+    {
+      "word": "ganar",
+      "pos": "verb",
+      "english": "to win"
+    },
+    {
+      "word": "generar",
+      "pos": "verb",
+      "english": "to generate"
+    },
+    {
+      "word": "gestionar",
+      "pos": "verb",
+      "english": "to manage"
+    },
+    {
+      "word": "guardar",
+      "pos": "verb",
+      "english": "to keep"
+    },
+    {
+      "word": "haber",
+      "pos": "verb",
+      "english": "to have"
+    },
+    {
+      "word": "hallar",
+      "pos": "verb",
+      "english": "to find"
+    },
+    {
+      "word": "identificar",
+      "pos": "verb",
+      "english": "to identify"
+    },
+    {
+      "word": "impedir",
+      "pos": "verb",
+      "english": "to prevent"
+    },
+    {
+      "word": "implicar",
+      "pos": "verb",
+      "english": "to imply"
+    },
+    {
+      "word": "importar",
+      "pos": "verb",
+      "english": "to matter"
+    },
+    {
+      "word": "imponer",
+      "pos": "verb",
+      "english": "to impose"
+    },
+    {
+      "word": "incluir",
+      "pos": "verb",
+      "english": "to include"
+    },
+    {
+      "word": "indicar",
+      "pos": "verb",
+      "english": "to indicate"
+    },
+    {
+      "word": "influir",
+      "pos": "verb",
+      "english": "to influence"
+    },
+    {
+      "word": "informar",
+      "pos": "verb",
+      "english": "to inform"
+    },
+    {
+      "word": "iniciar",
+      "pos": "verb",
+      "english": "to initiate"
+    },
+    {
+      "word": "insistir",
+      "pos": "verb",
+      "english": "to insist"
+    },
+    {
+      "word": "integrar",
+      "pos": "verb",
+      "english": "to integrate"
+    },
+    {
+      "word": "intentar",
+      "pos": "verb",
+      "english": "to try"
+    },
+    {
+      "word": "interpretar",
+      "pos": "verb",
+      "english": "to interpret"
+    },
+    {
+      "word": "intervenir",
+      "pos": "verb",
+      "english": "to intervene"
+    },
+    {
+      "word": "introducir",
+      "pos": "verb",
+      "english": "to introduce"
+    },
+    {
+      "word": "investigar",
+      "pos": "verb",
+      "english": "to investigate"
+    },
+    {
+      "word": "invitar",
+      "pos": "verb",
+      "english": "to invite"
+    },
+    {
+      "word": "involucrar",
+      "pos": "verb",
+      "english": "to involve"
+    },
+    {
+      "word": "juzgar",
+      "pos": "verb",
+      "english": "to judge"
+    },
+    {
+      "word": "lanzar",
+      "pos": "verb",
+      "english": "to launch"
+    },
+    {
+      "word": "limitar",
+      "pos": "verb",
+      "english": "to limit"
+    },
+    {
+      "word": "lograr",
+      "pos": "verb",
+      "english": "to achieve"
+    },
+    {
+      "word": "mantener",
+      "pos": "verb",
+      "english": "to maintain"
+    },
+    {
+      "word": "medir",
+      "pos": "verb",
+      "english": "to measure"
+    },
+    {
+      "word": "mejorar",
+      "pos": "verb",
+      "english": "to improve"
+    },
+    {
+      "word": "mencionar",
+      "pos": "verb",
+      "english": "to mention"
+    },
+    {
+      "word": "merecer",
+      "pos": "verb",
+      "english": "to deserve"
+    },
+    {
+      "word": "modificar",
+      "pos": "verb",
+      "english": "to modify"
+    },
+    {
+      "word": "mostrar",
+      "pos": "verb",
+      "english": "to show"
+    },
+    {
+      "word": "mover",
+      "pos": "verb",
+      "english": "to move"
+    },
+    {
+      "word": "nacer",
+      "pos": "verb",
+      "english": "to be born"
+    },
+    {
+      "word": "negar",
+      "pos": "verb",
+      "english": "to deny"
+    },
+    {
+      "word": "nombrar",
+      "pos": "verb",
+      "english": "to name"
+    },
+    {
+      "word": "notar",
+      "pos": "verb",
+      "english": "to notice"
+    },
+    {
+      "word": "obtener",
+      "pos": "verb",
+      "english": "to obtain"
+    },
+    {
+      "word": "ocurrir",
+      "pos": "verb",
+      "english": "to occur"
+    },
+    {
+      "word": "ofrecer",
+      "pos": "verb",
+      "english": "to offer"
+    },
+    {
+      "word": "olvidar",
+      "pos": "verb",
+      "english": "to forget"
+    },
+    {
+      "word": "operar",
+      "pos": "verb",
+      "english": "to operate"
+    },
+    {
+      "word": "opinar",
+      "pos": "verb",
+      "english": "to opine"
+    },
+    {
+      "word": "oponer",
+      "pos": "verb",
+      "english": "to oppose"
+    },
+    {
+      "word": "organizar",
+      "pos": "verb",
+      "english": "to organize"
+    },
+    {
+      "word": "originar",
+      "pos": "verb",
+      "english": "to originate"
+    },
+    {
+      "word": "otorgar",
+      "pos": "verb",
+      "english": "to grant"
+    },
+    {
+      "word": "parecer",
+      "pos": "verb",
+      "english": "to seem"
+    },
+    {
+      "word": "participar",
+      "pos": "verb",
+      "english": "to participate"
+    },
+    {
+      "word": "pasar",
+      "pos": "verb",
+      "english": "to pass"
+    },
+    {
+      "word": "pedir",
+      "pos": "verb",
+      "english": "to ask for"
+    },
+    {
+      "word": "pensar",
+      "pos": "verb",
+      "english": "to think"
+    },
+    {
+      "word": "percibir",
+      "pos": "verb",
+      "english": "to perceive"
+    },
+    {
+      "word": "perder",
+      "pos": "verb",
+      "english": "to lose"
+    },
+    {
+      "word": "permitir",
+      "pos": "verb",
+      "english": "to allow"
+    },
+    {
+      "word": "pertenecer",
+      "pos": "verb",
+      "english": "to belong"
+    },
+    {
+      "word": "plantear",
+      "pos": "verb",
+      "english": "to pose"
+    },
+    {
+      "word": "poder",
+      "pos": "verb",
+      "english": "to be able to"
+    },
+    {
+      "word": "poner",
+      "pos": "verb",
+      "english": "to put"
+    },
+    {
+      "word": "practicar",
+      "pos": "verb",
+      "english": "to practice"
+    },
+    {
+      "word": "preferir",
+      "pos": "verb",
+      "english": "to prefer"
+    },
+    {
+      "word": "preguntar",
+      "pos": "verb",
+      "english": "to ask"
+    },
+    {
+      "word": "presentar",
+      "pos": "verb",
+      "english": "to present"
+    },
+    {
+      "word": "pretender",
+      "pos": "verb",
+      "english": "to pretend"
+    },
+    {
+      "word": "prevenir",
+      "pos": "verb",
+      "english": "to prevent"
+    },
+    {
+      "word": "prever",
+      "pos": "verb",
+      "english": "to foresee"
+    },
+    {
+      "word": "proceder",
+      "pos": "verb",
+      "english": "to proceed"
+    },
+    {
+      "word": "producir",
+      "pos": "verb",
+      "english": "to produce"
+    },
+    {
+      "word": "promover",
+      "pos": "verb",
+      "english": "to promote"
+    },
+    {
+      "word": "proponer",
+      "pos": "verb",
+      "english": "to propose"
+    },
+    {
+      "word": "proporcionar",
+      "pos": "verb",
+      "english": "to provide"
+    },
+    {
+      "word": "provocar",
+      "pos": "verb",
+      "english": "to provoke"
+    },
+    {
+      "word": "quedar",
+      "pos": "verb",
+      "english": "to stay"
+    },
+    {
+      "word": "querer",
+      "pos": "verb",
+      "english": "to want"
+    },
+    {
+      "word": "realizar",
+      "pos": "verb",
+      "english": "to realize"
+    },
+    {
+      "word": "recibir",
+      "pos": "verb",
+      "english": "to receive"
+    },
+    {
+      "word": "reconocer",
+      "pos": "verb",
+      "english": "to recognize"
+    },
+    {
+      "word": "recordar",
+      "pos": "verb",
+      "english": "to remember"
+    },
+    {
+      "word": "reducir",
+      "pos": "verb",
+      "english": "to reduce"
+    },
+    {
+      "word": "referir",
+      "pos": "verb",
+      "english": "to refer"
+    },
+    {
+      "word": "reflejar",
+      "pos": "verb",
+      "english": "to reflect"
+    },
+    {
+      "word": "registrar",
+      "pos": "verb",
+      "english": "to register"
+    },
+    {
+      "word": "regresar",
+      "pos": "verb",
+      "english": "to return"
+    },
+    {
+      "word": "relacionar",
+      "pos": "verb",
+      "english": "to relate"
+    },
+    {
+      "word": "renunciar",
+      "pos": "verb",
+      "english": "to resign"
+    },
+    {
+      "word": "repetir",
+      "pos": "verb",
+      "english": "to repeat"
+    },
+    {
+      "word": "representar",
+      "pos": "verb",
+      "english": "to represent"
+    },
+    {
+      "word": "requerir",
+      "pos": "verb",
+      "english": "to require"
+    },
+    {
+      "word": "resolver",
+      "pos": "verb",
+      "english": "to resolve"
+    },
+    {
+      "word": "responder",
+      "pos": "verb",
+      "english": "to respond"
+    },
+    {
+      "word": "resultar",
+      "pos": "verb",
+      "english": "to result"
+    },
+    {
+      "word": "revelar",
+      "pos": "verb",
+      "english": "to reveal"
+    },
+    {
+      "word": "saber",
+      "pos": "verb",
+      "english": "to know"
+    },
+    {
+      "word": "sacar",
+      "pos": "verb",
+      "english": "to take out"
+    },
+    {
+      "word": "salir",
+      "pos": "verb",
+      "english": "to leave"
+    },
+    {
+      "word": "seguir",
+      "pos": "verb",
+      "english": "to follow"
+    },
+    {
+      "word": "señalar",
+      "pos": "verb",
+      "english": "to point out"
+    },
+    {
+      "word": "servir",
+      "pos": "verb",
+      "english": "to serve"
+    },
+    {
+      "word": "significar",
+      "pos": "verb",
+      "english": "to mean"
+    },
+    {
+      "word": "situar",
+      "pos": "verb",
+      "english": "to situate"
+    },
+    {
+      "word": "sobrar",
+      "pos": "verb",
+      "english": "to be left over"
+    },
+    {
+      "word": "solicitar",
+      "pos": "verb",
+      "english": "to request"
+    },
+    {
+      "word": "solucionar",
+      "pos": "verb",
+      "english": "to solve"
+    },
+    {
+      "word": "someter",
+      "pos": "verb",
+      "english": "to submit"
+    },
+    {
+      "word": "sostener",
+      "pos": "verb",
+      "english": "to sustain"
+    },
+    {
+      "word": "sugerir",
+      "pos": "verb",
+      "english": "to suggest"
+    },
+    {
+      "word": "superar",
+      "pos": "verb",
+      "english": "to overcome"
+    },
+    {
+      "word": "suponer",
+      "pos": "verb",
+      "english": "to suppose"
+    },
+    {
+      "word": "surgir",
+      "pos": "verb",
+      "english": "to arise"
+    },
+    {
+      "word": "tender",
+      "pos": "verb",
+      "english": "to tend"
+    },
+    {
+      "word": "terminar",
+      "pos": "verb",
+      "english": "to finish"
+    },
+    {
+      "word": "tocar",
+      "pos": "verb",
+      "english": "to touch"
+    },
+    {
+      "word": "tomar",
+      "pos": "verb",
+      "english": "to take"
+    },
+    {
+      "word": "tratar",
+      "pos": "verb",
+      "english": "to treat"
+    },
+    {
+      "word": "utilizar",
+      "pos": "verb",
+      "english": "to use"
+    },
+    {
+      "word": "valorar",
+      "pos": "verb",
+      "english": "to value"
+    },
+    {
+      "word": "variar",
+      "pos": "verb",
+      "english": "to vary"
+    },
+    {
+      "word": "vencer",
+      "pos": "verb",
+      "english": "to defeat"
+    },
+    {
+      "word": "vender",
+      "pos": "verb",
+      "english": "to sell"
+    },
+    {
+      "word": "venir",
+      "pos": "verb",
+      "english": "to come"
+    },
+    {
+      "word": "vincular",
+      "pos": "verb",
+      "english": "to link"
+    },
+    {
+      "word": "vivir",
+      "pos": "verb",
+      "english": "to live"
+    },
+    {
+      "word": "volver",
+      "pos": "verb",
+      "english": "to return"
+    },
+    {
+      "word": "abundante",
+      "pos": "adjective",
+      "english": "abundant"
+    },
+    {
+      "word": "accesible",
+      "pos": "adjective",
+      "english": "accessible"
+    },
+    {
+      "word": "adecuado",
+      "pos": "adjective",
+      "english": "adequate"
+    },
+    {
+      "word": "amplio",
+      "pos": "adjective",
+      "english": "ample"
+    },
+    {
+      "word": "antiguo",
+      "pos": "adjective",
+      "english": "ancient"
+    },
+    {
+      "word": "aparente",
+      "pos": "adjective",
+      "english": "apparent"
+    },
+    {
+      "word": "aproximado",
+      "pos": "adjective",
+      "english": "approximate"
+    },
+    {
+      "word": "auténtico",
+      "pos": "adjective",
+      "english": "authentic"
+    },
+    {
+      "word": "capaz",
+      "pos": "adjective",
+      "english": "capable"
+    },
+    {
+      "word": "característico",
+      "pos": "adjective",
+      "english": "characteristic"
+    },
+    {
+      "word": "coherente",
+      "pos": "adjective",
+      "english": "coherent"
+    },
+    {
+      "word": "compatible",
+      "pos": "adjective",
+      "english": "compatible"
+    },
+    {
+      "word": "competente",
+      "pos": "adjective",
+      "english": "competent"
+    },
+    {
+      "word": "complejo",
+      "pos": "adjective",
+      "english": "complex"
+    },
+    {
+      "word": "constante",
+      "pos": "adjective",
+      "english": "constant"
+    },
+    {
+      "word": "conveniente",
+      "pos": "adjective",
+      "english": "convenient"
+    },
+    {
+      "word": "crucial",
+      "pos": "adjective",
+      "english": "crucial"
+    },
+    {
+      "word": "definitivo",
+      "pos": "adjective",
+      "english": "definitive"
+    },
+    {
+      "word": "determinado",
+      "pos": "adjective",
+      "english": "determined"
+    },
+    {
+      "word": "diverso",
+      "pos": "adjective",
+      "english": "diverse"
+    },
+    {
+      "word": "eficaz",
+      "pos": "adjective",
+      "english": "effective"
+    },
+    {
+      "word": "eficiente",
+      "pos": "adjective",
+      "english": "efficient"
+    },
+    {
+      "word": "escaso",
+      "pos": "adjective",
+      "english": "scarce"
+    },
+    {
+      "word": "esencial",
+      "pos": "adjective",
+      "english": "essential"
+    },
+    {
+      "word": "evidente",
+      "pos": "adjective",
+      "english": "evident"
+    },
+    {
+      "word": "exacto",
+      "pos": "adjective",
+      "english": "exact"
+    },
+    {
+      "word": "excepcional",
+      "pos": "adjective",
+      "english": "exceptional"
+    },
+    {
+      "word": "explícito",
+      "pos": "adjective",
+      "english": "explicit"
+    },
+    {
+      "word": "extenso",
+      "pos": "adjective",
+      "english": "extensive"
+    },
+    {
+      "word": "favorable",
+      "pos": "adjective",
+      "english": "favorable"
+    },
+    {
+      "word": "fundamental",
+      "pos": "adjective",
+      "english": "fundamental"
+    },
+    {
+      "word": "genuino",
+      "pos": "adjective",
+      "english": "genuine"
+    },
+    {
+      "word": "gradual",
+      "pos": "adjective",
+      "english": "gradual"
+    },
+    {
+      "word": "idóneo",
+      "pos": "adjective",
+      "english": "suitable"
+    },
+    {
+      "word": "implícito",
+      "pos": "adjective",
+      "english": "implicit"
+    },
+    {
+      "word": "imprescindible",
+      "pos": "adjective",
+      "english": "essential"
+    },
+    {
+      "word": "inadecuado",
+      "pos": "adjective",
+      "english": "inadequate"
+    },
+    {
+      "word": "incapaz",
+      "pos": "adjective",
+      "english": "incapable"
+    },
+    {
+      "word": "incompatible",
+      "pos": "adjective",
+      "english": "incompatible"
+    },
+    {
+      "word": "inconveniente",
+      "pos": "adjective",
+      "english": "inconvenient"
+    },
+    {
+      "word": "indispensable",
+      "pos": "adjective",
+      "english": "indispensable"
+    },
+    {
+      "word": "ineficaz",
+      "pos": "adjective",
+      "english": "ineffective"
+    },
+    {
+      "word": "inevitable",
+      "pos": "adjective",
+      "english": "inevitable"
+    },
+    {
+      "word": "inherente",
+      "pos": "adjective",
+      "english": "inherent"
+    },
+    {
+      "word": "inmediato",
+      "pos": "adjective",
+      "english": "immediate"
+    },
+    {
+      "word": "innecesario",
+      "pos": "adjective",
+      "english": "unnecessary"
+    },
+    {
+      "word": "intenso",
+      "pos": "adjective",
+      "english": "intense"
+    },
+    {
+      "word": "intrínseco",
+      "pos": "adjective",
+      "english": "intrinsic"
+    },
+    {
+      "word": "irrelevante",
+      "pos": "adjective",
+      "english": "irrelevant"
+    },
+    {
+      "word": "lógico",
+      "pos": "adjective",
+      "english": "logical"
+    },
+    {
+      "word": "mínimo",
+      "pos": "adjective",
+      "english": "minimal"
+    },
+    {
+      "word": "mutuo",
+      "pos": "adjective",
+      "english": "mutual"
+    },
+    {
+      "word": "necesario",
+      "pos": "adjective",
+      "english": "necessary"
+    },
+    {
+      "word": "neto",
+      "pos": "adjective",
+      "english": "net"
+    },
+    {
+      "word": "obvio",
+      "pos": "adjective",
+      "english": "obvious"
+    },
+    {
+      "word": "óptimo",
+      "pos": "adjective",
+      "english": "optimal"
+    },
+    {
+      "word": "parcial",
+      "pos": "adjective",
+      "english": "partial"
+    },
+    {
+      "word": "peculiar",
+      "pos": "adjective",
+      "english": "peculiar"
+    },
+    {
+      "word": "pleno",
+      "pos": "adjective",
+      "english": "full"
+    },
+    {
+      "word": "preciso",
+      "pos": "adjective",
+      "english": "precise"
+    },
+    {
+      "word": "predominante",
+      "pos": "adjective",
+      "english": "predominant"
+    },
+    {
+      "word": "preliminar",
+      "pos": "adjective",
+      "english": "preliminary"
+    },
+    {
+      "word": "previo",
+      "pos": "adjective",
+      "english": "previous"
+    },
+    {
+      "word": "primordial",
+      "pos": "adjective",
+      "english": "primordial"
+    },
+    {
+      "word": "probable",
+      "pos": "adjective",
+      "english": "probable"
+    },
+    {
+      "word": "profundo",
+      "pos": "adjective",
+      "english": "profound"
+    },
+    {
+      "word": "progresivo",
+      "pos": "adjective",
+      "english": "progressive"
+    },
+    {
+      "word": "propicio",
+      "pos": "adjective",
+      "english": "favorable"
+    },
+    {
+      "word": "radical",
+      "pos": "adjective",
+      "english": "radical"
+    },
+    {
+      "word": "razonable",
+      "pos": "adjective",
+      "english": "reasonable"
+    },
+    {
+      "word": "recíproco",
+      "pos": "adjective",
+      "english": "reciprocal"
+    },
+    {
+      "word": "relevante",
+      "pos": "adjective",
+      "english": "relevant"
+    },
+    {
+      "word": "respectivo",
+      "pos": "adjective",
+      "english": "respective"
+    },
+    {
+      "word": "riguroso",
+      "pos": "adjective",
+      "english": "rigorous"
+    },
+    {
+      "word": "simultáneo",
+      "pos": "adjective",
+      "english": "simultaneous"
+    },
+    {
+      "word": "sistemático",
+      "pos": "adjective",
+      "english": "systematic"
+    },
+    {
+      "word": "sólido",
+      "pos": "adjective",
+      "english": "solid"
+    },
+    {
+      "word": "sostenible",
+      "pos": "adjective",
+      "english": "sustainable"
+    },
+    {
+      "word": "suficiente",
+      "pos": "adjective",
+      "english": "sufficient"
+    },
+    {
+      "word": "susceptible",
+      "pos": "adjective",
+      "english": "susceptible"
+    },
+    {
+      "word": "tácito",
+      "pos": "adjective",
+      "english": "tacit"
+    },
+    {
+      "word": "tangible",
+      "pos": "adjective",
+      "english": "tangible"
+    },
+    {
+      "word": "teórico",
+      "pos": "adjective",
+      "english": "theoretical"
+    },
+    {
+      "word": "típico",
+      "pos": "adjective",
+      "english": "typical"
+    },
+    {
+      "word": "trascendental",
+      "pos": "adjective",
+      "english": "transcendental"
+    },
+    {
+      "word": "ulterior",
+      "pos": "adjective",
+      "english": "ulterior"
+    },
+    {
+      "word": "unánime",
+      "pos": "adjective",
+      "english": "unanimous"
+    },
+    {
+      "word": "uniforme",
+      "pos": "adjective",
+      "english": "uniform"
+    },
+    {
+      "word": "urgente",
+      "pos": "adjective",
+      "english": "urgent"
+    },
+    {
+      "word": "útil",
+      "pos": "adjective",
+      "english": "useful"
+    },
+    {
+      "word": "válido",
+      "pos": "adjective",
+      "english": "valid"
+    },
+    {
+      "word": "variable",
+      "pos": "adjective",
+      "english": "variable"
+    },
+    {
+      "word": "viable",
+      "pos": "adjective",
+      "english": "viable"
+    },
+    {
+      "word": "vigente",
+      "pos": "adjective",
+      "english": "current"
+    },
+    {
+      "word": "vital",
+      "pos": "adjective",
+      "english": "vital"
+    },
+    {
+      "word": "voluntario",
+      "pos": "adjective",
+      "english": "voluntary"
+    },
+    {
+      "word": "acerca de",
+      "pos": "preposition",
+      "english": "about"
+    },
+    {
+      "word": "a fin de",
+      "pos": "preposition",
+      "english": "in order to"
+    },
+    {
+      "word": "a lo largo de",
+      "pos": "preposition",
+      "english": "throughout"
+    },
+    {
+      "word": "a pesar de",
+      "pos": "preposition",
+      "english": "despite"
+    },
+    {
+      "word": "a través de",
+      "pos": "preposition",
+      "english": "through"
+    },
+    {
+      "word": "conforme a",
+      "pos": "preposition",
+      "english": "according to"
+    },
+    {
+      "word": "de acuerdo con",
+      "pos": "preposition",
+      "english": "according to"
+    },
+    {
+      "word": "debido a",
+      "pos": "preposition",
+      "english": "due to"
+    },
+    {
+      "word": "en cuanto a",
+      "pos": "preposition",
+      "english": "regarding"
+    },
+    {
+      "word": "en lugar de",
+      "pos": "preposition",
+      "english": "instead of"
+    },
+    {
+      "word": "en torno a",
+      "pos": "preposition",
+      "english": "around"
+    },
+    {
+      "word": "en vez de",
+      "pos": "preposition",
+      "english": "instead of"
+    },
+    {
+      "word": "frente a",
+      "pos": "preposition",
+      "english": "facing"
+    },
+    {
+      "word": "gracias a",
+      "pos": "preposition",
+      "english": "thanks to"
+    },
+    {
+      "word": "junto a",
+      "pos": "preposition",
+      "english": "next to"
+    },
+    {
+      "word": "lejos de",
+      "pos": "preposition",
+      "english": "far from"
+    },
+    {
+      "word": "por medio de",
+      "pos": "preposition",
+      "english": "by means of"
+    },
+    {
+      "word": "respecto a",
+      "pos": "preposition",
+      "english": "regarding"
+    },
+    {
+      "word": "a menos que",
+      "pos": "conjunction",
+      "english": "unless"
+    },
+    {
+      "word": "a no ser que",
+      "pos": "conjunction",
+      "english": "unless"
+    },
+    {
+      "word": "así que",
+      "pos": "conjunction",
+      "english": "so"
+    },
+    {
+      "word": "con tal de que",
+      "pos": "conjunction",
+      "english": "provided that"
+    },
+    {
+      "word": "dado que",
+      "pos": "conjunction",
+      "english": "given that"
+    },
+    {
+      "word": "de modo que",
+      "pos": "conjunction",
+      "english": "so that"
+    },
+    {
+      "word": "en caso de que",
+      "pos": "conjunction",
+      "english": "in case"
+    },
+    {
+      "word": "mientras que",
+      "pos": "conjunction",
+      "english": "whereas"
+    },
+    {
+      "word": "no obstante",
+      "pos": "conjunction",
+      "english": "nevertheless"
+    },
+    {
+      "word": "por consiguiente",
+      "pos": "conjunction",
+      "english": "consequently"
+    },
+    {
+      "word": "puesto que",
+      "pos": "conjunction",
+      "english": "since"
+    },
+    {
+      "word": "siempre que",
+      "pos": "conjunction",
+      "english": "provided that"
+    },
+    {
+      "word": "sin embargo",
+      "pos": "conjunction",
+      "english": "however"
+    },
+    {
+      "word": "ya que",
+      "pos": "conjunction",
+      "english": "since"
+    },
+    {
+      "word": "a continuación",
+      "pos": "adverb",
+      "english": "next"
+    },
+    {
+      "word": "a menudo",
+      "pos": "adverb",
+      "english": "often"
+    },
+    {
+      "word": "al contrario",
+      "pos": "adverb",
+      "english": "on the contrary"
+    },
+    {
+      "word": "al menos",
+      "pos": "adverb",
+      "english": "at least"
+    },
+    {
+      "word": "apenas",
+      "pos": "adverb",
+      "english": "barely"
+    },
+    {
+      "word": "aproximadamente",
+      "pos": "adverb",
+      "english": "approximately"
+    },
+    {
+      "word": "ciertamente",
+      "pos": "adverb",
+      "english": "certainly"
+    },
+    {
+      "word": "constantemente",
+      "pos": "adverb",
+      "english": "constantly"
+    },
+    {
+      "word": "definitivamente",
+      "pos": "adverb",
+      "english": "definitely"
+    },
+    {
+      "word": "deliberadamente",
+      "pos": "adverb",
+      "english": "deliberately"
+    },
+    {
+      "word": "efectivamente",
+      "pos": "adverb",
+      "english": "effectively"
+    },
+    {
+      "word": "en absoluto",
+      "pos": "adverb",
+      "english": "not at all"
+    },
+    {
+      "word": "en general",
+      "pos": "adverb",
+      "english": "in general"
+    },
+    {
+      "word": "en particular",
+      "pos": "adverb",
+      "english": "in particular"
+    },
+    {
+      "word": "especialmente",
+      "pos": "adverb",
+      "english": "especially"
+    },
+    {
+      "word": "eventualmente",
+      "pos": "adverb",
+      "english": "eventually"
+    },
+    {
+      "word": "evidentemente",
+      "pos": "adverb",
+      "english": "evidently"
+    },
+    {
+      "word": "excepcionalmente",
+      "pos": "adverb",
+      "english": "exceptionally"
+    },
+    {
+      "word": "exclusivamente",
+      "pos": "adverb",
+      "english": "exclusively"
+    },
+    {
+      "word": "explícitamente",
+      "pos": "adverb",
+      "english": "explicitly"
+    },
+    {
+      "word": "frecuentemente",
+      "pos": "adverb",
+      "english": "frequently"
+    },
+    {
+      "word": "gradualmente",
+      "pos": "adverb",
+      "english": "gradually"
+    },
+    {
+      "word": "implícitamente",
+      "pos": "adverb",
+      "english": "implicitly"
+    },
+    {
+      "word": "inevitablemente",
+      "pos": "adverb",
+      "english": "inevitably"
+    },
+    {
+      "word": "lógicamente",
+      "pos": "adverb",
+      "english": "logically"
+    },
+    {
+      "word": "meramente",
+      "pos": "adverb",
+      "english": "merely"
+    },
+    {
+      "word": "mutuamente",
+      "pos": "adverb",
+      "english": "mutually"
+    },
+    {
+      "word": "obviamente",
+      "pos": "adverb",
+      "english": "obviously"
+    },
+    {
+      "word": "parcialmente",
+      "pos": "adverb",
+      "english": "partially"
+    },
+    {
+      "word": "particularmente",
+      "pos": "adverb",
+      "english": "particularly"
+    },
+    {
+      "word": "paulatinamente",
+      "pos": "adverb",
+      "english": "gradually"
+    },
+    {
+      "word": "plenamente",
+      "pos": "adverb",
+      "english": "fully"
+    },
+    {
+      "word": "precisamente",
+      "pos": "adverb",
+      "english": "precisely"
+    },
+    {
+      "word": "predominantemente",
+      "pos": "adverb",
+      "english": "predominantly"
+    },
+    {
+      "word": "previamente",
+      "pos": "adverb",
+      "english": "previously"
+    },
+    {
+      "word": "principalmente",
+      "pos": "adverb",
+      "english": "mainly"
+    },
+    {
+      "word": "probablemente",
+      "pos": "adverb",
+      "english": "probably"
+    },
+    {
+      "word": "progresivamente",
+      "pos": "adverb",
+      "english": "progressively"
+    },
+    {
+      "word": "radicalmente",
+      "pos": "adverb",
+      "english": "radically"
+    },
+    {
+      "word": "razonablemente",
+      "pos": "adverb",
+      "english": "reasonably"
+    },
+    {
+      "word": "relativamente",
+      "pos": "adverb",
+      "english": "relatively"
+    },
+    {
+      "word": "rigurosamente",
+      "pos": "adverb",
+      "english": "rigorously"
+    },
+    {
+      "word": "simultáneamente",
+      "pos": "adverb",
+      "english": "simultaneously"
+    },
+    {
+      "word": "sistemáticamente",
+      "pos": "adverb",
+      "english": "systematically"
+    },
+    {
+      "word": "sucesivamente",
+      "pos": "adverb",
+      "english": "successively"
+    },
+    {
+      "word": "supuestamente",
+      "pos": "adverb",
+      "english": "supposedly"
+    },
+    {
+      "word": "teóricamente",
+      "pos": "adverb",
+      "english": "theoretically"
+    },
+    {
+      "word": "típicamente",
+      "pos": "adverb",
+      "english": "typically"
+    },
+    {
+      "word": "únicamente",
+      "pos": "adverb",
+      "english": "only"
+    },
+    {
+      "word": "urgentemente",
+      "pos": "adverb",
+      "english": "urgently"
+    },
+    {
+      "word": "usualmente",
+      "pos": "adverb",
+      "english": "usually"
+    },
+    {
+      "word": "virtualmente",
+      "pos": "adverb",
+      "english": "virtually"
+    }
+  ],
+  "4": [
+    {
+      "word": "abrupto",
+      "pos": "adjective",
+      "english": "abrupt"
+    },
+    {
+      "word": "acérrimo",
+      "pos": "adjective",
+      "english": "staunch"
+    },
+    {
+      "word": "acucioso",
+      "pos": "adjective",
+      "english": "diligent"
+    },
+    {
+      "word": "advenedizo",
+      "pos": "noun",
+      "english": "upstart"
+    },
+    {
+      "word": "albedrío",
+      "pos": "noun",
+      "english": "free will"
+    },
+    {
+      "word": "algarabía",
+      "pos": "noun",
+      "english": "hubbub"
+    },
+    {
+      "word": "amilanar",
+      "pos": "verb",
+      "english": "to intimidate"
+    },
+    {
+      "word": "anodino",
+      "pos": "adjective",
+      "english": "bland"
+    },
+    {
+      "word": "ápice",
+      "pos": "noun",
+      "english": "iota"
+    },
+    {
+      "word": "atañer",
+      "pos": "verb",
+      "english": "to concern"
+    },
+    {
+      "word": "atolondrado",
+      "pos": "adjective",
+      "english": "scatterbrained"
+    },
+    {
+      "word": "atribulado",
+      "pos": "adjective",
+      "english": "troubled"
+    },
+    {
+      "word": "avieso",
+      "pos": "adjective",
+      "english": "perverse"
+    },
+    {
+      "word": "baladí",
+      "pos": "adjective",
+      "english": "trivial"
+    },
+    {
+      "word": "bochornoso",
+      "pos": "adjective",
+      "english": "embarrassing"
+    },
+    {
+      "word": "cabal",
+      "pos": "adjective",
+      "english": "complete"
+    },
+    {
+      "word": "cándido",
+      "pos": "adjective",
+      "english": "naive"
+    },
+    {
+      "word": "carcomer",
+      "pos": "verb",
+      "english": "to erode"
+    },
+    {
+      "word": "cernir",
+      "pos": "verb",
+      "english": "to sift"
+    },
+    {
+      "word": "cíclico",
+      "pos": "adjective",
+      "english": "cyclical"
+    },
+    {
+      "word": "cizaña",
+      "pos": "noun",
+      "english": "discord"
+    },
+    {
+      "word": "coadyuvar",
+      "pos": "verb",
+      "english": "to contribute"
+    },
+    {
+      "word": "coartar",
+      "pos": "verb",
+      "english": "to restrict"
+    },
+    {
+      "word": "concomitante",
+      "pos": "adjective",
+      "english": "concomitant"
+    },
+    {
+      "word": "conculcar",
+      "pos": "verb",
+      "english": "to violate"
+    },
+    {
+      "word": "constreñir",
+      "pos": "verb",
+      "english": "to constrain"
+    },
+    {
+      "word": "cotejar",
+      "pos": "verb",
+      "english": "to compare"
+    },
+    {
+      "word": "craso",
+      "pos": "adjective",
+      "english": "gross"
+    },
+    {
+      "word": "dádiva",
+      "pos": "noun",
+      "english": "gift"
+    },
+    {
+      "word": "deferencia",
+      "pos": "noun",
+      "english": "deference"
+    },
+    {
+      "word": "denostar",
+      "pos": "verb",
+      "english": "to revile"
+    },
+    {
+      "word": "desavenencia",
+      "pos": "noun",
+      "english": "disagreement"
+    },
+    {
+      "word": "desdeñar",
+      "pos": "verb",
+      "english": "to disdain"
+    },
+    {
+      "word": "desidia",
+      "pos": "noun",
+      "english": "sloth"
+    },
+    {
+      "word": "desmembrar",
+      "pos": "verb",
+      "english": "to dismember"
+    },
+    {
+      "word": "desvirtuar",
+      "pos": "verb",
+      "english": "to distort"
+    },
+    {
+      "word": "diáfano",
+      "pos": "adjective",
+      "english": "transparent"
+    },
+    {
+      "word": "dilapidar",
+      "pos": "verb",
+      "english": "to squander"
+    },
+    {
+      "word": "diligente",
+      "pos": "adjective",
+      "english": "diligent"
+    },
+    {
+      "word": "diseminar",
+      "pos": "verb",
+      "english": "to disseminate"
+    },
+    {
+      "word": "displicente",
+      "pos": "adjective",
+      "english": "indifferent"
+    },
+    {
+      "word": "disuadir",
+      "pos": "verb",
+      "english": "to dissuade"
+    },
+    {
+      "word": "ególatra",
+      "pos": "adjective",
+      "english": "egotistical"
+    },
+    {
+      "word": "emular",
+      "pos": "verb",
+      "english": "to emulate"
+    },
+    {
+      "word": "encomiar",
+      "pos": "verb",
+      "english": "to praise"
+    },
+    {
+      "word": "engorroso",
+      "pos": "adjective",
+      "english": "cumbersome"
+    },
+    {
+      "word": "enjundia",
+      "pos": "noun",
+      "english": "substance"
+    },
+    {
+      "word": "enjuiciar",
+      "pos": "verb",
+      "english": "to judge"
+    },
+    {
+      "word": "enmendarr",
+      "pos": "verb",
+      "english": "to amend"
+    },
+    {
+      "word": "ensalzar",
+      "pos": "verb",
+      "english": "to extol"
+    },
+    {
+      "word": "entronizar",
+      "pos": "verb",
+      "english": "to enthrone"
+    },
+    {
+      "word": "escatimar",
+      "pos": "verb",
+      "english": "to skimp"
+    },
+    {
+      "word": "esgrimir",
+      "pos": "verb",
+      "english": "to wield"
+    },
+    {
+      "word": "espurio",
+      "pos": "adjective",
+      "english": "spurious"
+    },
+    {
+      "word": "estupefacto",
+      "pos": "adjective",
+      "english": "astonished"
+    },
+    {
+      "word": "exacerbar",
+      "pos": "verb",
+      "english": "to exacerbate"
+    },
+    {
+      "word": "exhortar",
+      "pos": "verb",
+      "english": "to exhort"
+    },
+    {
+      "word": "exiguo",
+      "pos": "adjective",
+      "english": "meager"
+    },
+    {
+      "word": "expedito",
+      "pos": "adjective",
+      "english": "unobstructed"
+    },
+    {
+      "word": "faccioso",
+      "pos": "adjective",
+      "english": "factious"
+    },
+    {
+      "word": "falaz",
+      "pos": "adjective",
+      "english": "fallacious"
+    },
+    {
+      "word": "fútil",
+      "pos": "adjective",
+      "english": "futile"
+    },
+    {
+      "word": "galardonar",
+      "pos": "verb",
+      "english": "to award"
+    },
+    {
+      "word": "granjearse",
+      "pos": "verb",
+      "english": "to earn"
+    },
+    {
+      "word": "holgado",
+      "pos": "adjective",
+      "english": "loose"
+    },
+    {
+      "word": "holgazán",
+      "pos": "noun",
+      "english": "lazy person"
+    },
+    {
+      "word": "impugnar",
+      "pos": "verb",
+      "english": "to challenge"
+    },
+    {
+      "word": "incipiente",
+      "pos": "adjective",
+      "english": "incipient"
+    },
+    {
+      "word": "incoar",
+      "pos": "verb",
+      "english": "to initiate"
+    },
+    {
+      "word": "indagar",
+      "pos": "verb",
+      "english": "to investigate"
+    },
+    {
+      "word": "indefectible",
+      "pos": "adjective",
+      "english": "unfailing"
+    },
+    {
+      "word": "ineludible",
+      "pos": "adjective",
+      "english": "unavoidable"
+    },
+    {
+      "word": "infausto",
+      "pos": "adjective",
+      "english": "unfortunate"
+    },
+    {
+      "word": "injerencia",
+      "pos": "noun",
+      "english": "interference"
+    },
+    {
+      "word": "inmutable",
+      "pos": "adjective",
+      "english": "immutable"
+    },
+    {
+      "word": "insoslayable",
+      "pos": "adjective",
+      "english": "unavoidable"
+    },
+    {
+      "word": "intempestivo",
+      "pos": "adjective",
+      "english": "untimely"
+    },
+    {
+      "word": "irrisorio",
+      "pos": "adjective",
+      "english": "ridiculous"
+    },
+    {
+      "word": "jactarse",
+      "pos": "verb",
+      "english": "to boast"
+    },
+    {
+      "word": "lacónico",
+      "pos": "adjective",
+      "english": "laconic"
+    },
+    {
+      "word": "laxo",
+      "pos": "adjective",
+      "english": "lax"
+    },
+    {
+      "word": "lisonjear",
+      "pos": "verb",
+      "english": "to flatter"
+    },
+    {
+      "word": "lúcido",
+      "pos": "adjective",
+      "english": "lucid"
+    },
+    {
+      "word": "menester",
+      "pos": "noun",
+      "english": "need"
+    },
+    {
+      "word": "menoscabar",
+      "pos": "verb",
+      "english": "to undermine"
+    },
+    {
+      "word": "nimio",
+      "pos": "adjective",
+      "english": "trivial"
+    },
+    {
+      "word": "obsoleto",
+      "pos": "adjective",
+      "english": "obsolete"
+    },
+    {
+      "word": "oneroso",
+      "pos": "adjective",
+      "english": "onerous"
+    },
+    {
+      "word": "ostentar",
+      "pos": "verb",
+      "english": "to display"
+    },
+    {
+      "word": "palmario",
+      "pos": "adjective",
+      "english": "obvious"
+    },
+    {
+      "word": "parangón",
+      "pos": "noun",
+      "english": "comparison"
+    },
+    {
+      "word": "perenne",
+      "pos": "adjective",
+      "english": "perennial"
+    },
+    {
+      "word": "pernicioso",
+      "pos": "adjective",
+      "english": "pernicious"
+    },
+    {
+      "word": "plausible",
+      "pos": "adjective",
+      "english": "plausible"
+    },
+    {
+      "word": "pletórico",
+      "pos": "adjective",
+      "english": "plethoric"
+    },
+    {
+      "word": "postrero",
+      "pos": "adjective",
+      "english": "last"
+    },
+    {
+      "word": "preclaro",
+      "pos": "adjective",
+      "english": "illustrious"
+    },
+    {
+      "word": "prescindible",
+      "pos": "adjective",
+      "english": "dispensable"
+    },
+    {
+      "word": "prodigar",
+      "pos": "verb",
+      "english": "to lavish"
+    },
+    {
+      "word": "prolijo",
+      "pos": "adjective",
+      "english": "lengthy"
+    },
+    {
+      "word": "propugnar",
+      "pos": "verb",
+      "english": "to advocate"
+    },
+    {
+      "word": "pueril",
+      "pos": "adjective",
+      "english": "childish"
+    },
+    {
+      "word": "recalcitrante",
+      "pos": "adjective",
+      "english": "recalcitrant"
+    },
+    {
+      "word": "recóndito",
+      "pos": "adjective",
+      "english": "hidden"
+    },
+    {
+      "word": "refrendar",
+      "pos": "verb",
+      "english": "to endorse"
+    },
+    {
+      "word": "refrendo",
+      "pos": "noun",
+      "english": "endorsement"
+    },
+    {
+      "word": "rehusar",
+      "pos": "verb",
+      "english": "to refuse"
+    },
+    {
+      "word": "renuente",
+      "pos": "adjective",
+      "english": "reluctant"
+    },
+    {
+      "word": "repudiar",
+      "pos": "verb",
+      "english": "to repudiate"
+    },
+    {
+      "word": "reticente",
+      "pos": "adjective",
+      "english": "reticent"
+    },
+    {
+      "word": "sempiterno",
+      "pos": "adjective",
+      "english": "everlasting"
+    },
+    {
+      "word": "soslayar",
+      "pos": "verb",
+      "english": "to avoid"
+    },
+    {
+      "word": "subyugar",
+      "pos": "verb",
+      "english": "to subjugate"
+    },
+    {
+      "word": "suscitar",
+      "pos": "verb",
+      "english": "to provoke"
+    },
+    {
+      "word": "taciturno",
+      "pos": "adjective",
+      "english": "taciturn"
+    },
+    {
+      "word": "taimado",
+      "pos": "adjective",
+      "english": "cunning"
+    },
+    {
+      "word": "tergiversar",
+      "pos": "verb",
+      "english": "to distort"
+    },
+    {
+      "word": "ufano",
+      "pos": "adjective",
+      "english": "proud"
+    },
+    {
+      "word": "ulterior",
+      "pos": "adjective",
+      "english": "ulterior"
+    },
+    {
+      "word": "usufructo",
+      "pos": "noun",
+      "english": "usufruct"
+    },
+    {
+      "word": "vehemente",
+      "pos": "adjective",
+      "english": "vehement"
+    },
+    {
+      "word": "venerar",
+      "pos": "verb",
+      "english": "to venerate"
+    },
+    {
+      "word": "verosímil",
+      "pos": "adjective",
+      "english": "plausible"
+    },
+    {
+      "word": "versátil",
+      "pos": "adjective",
+      "english": "versatile"
+    },
+    {
+      "word": "vislumbrar",
+      "pos": "verb",
+      "english": "to glimpse"
+    },
+    {
+      "word": "yerro",
+      "pos": "noun",
+      "english": "error"
+    },
+    {
+      "word": "zaherir",
+      "pos": "verb",
+      "english": "to criticize"
+    }
+  ],
+  "5": [
+    {
+      "word": "abstruso",
+      "pos": "adjective",
+      "english": "abstruse"
+    },
+    {
+      "word": "acendrado",
+      "pos": "adjective",
+      "english": "pure, refined"
+    },
+    {
+      "word": "aciago",
+      "pos": "adjective",
+      "english": "ill-fated"
+    },
+    {
+      "word": "acribillar",
+      "pos": "verb",
+      "english": "to riddle"
+    },
+    {
+      "word": "admonición",
+      "pos": "noun",
+      "english": "admonition"
+    },
+    {
+      "word": "alambicado",
+      "pos": "adjective",
+      "english": "convoluted"
+    },
+    {
+      "word": "altisonante",
+      "pos": "adjective",
+      "english": "bombastic"
+    },
+    {
+      "word": "ambages",
+      "pos": "noun",
+      "english": "beating around the bush"
+    },
+    {
+      "word": "anacoluto",
+      "pos": "noun",
+      "english": "anacoluthon"
+    },
+    {
+      "word": "anquilosado",
+      "pos": "adjective",
+      "english": "stagnant"
+    },
+    {
+      "word": "apócrifo",
+      "pos": "adjective",
+      "english": "apocryphal"
+    },
+    {
+      "word": "aquiescencia",
+      "pos": "noun",
+      "english": "acquiescence"
+    },
+    {
+      "word": "arredrarse",
+      "pos": "verb",
+      "english": "to be daunted"
+    },
+    {
+      "word": "atrabiliario",
+      "pos": "adjective",
+      "english": "irritable"
+    },
+    {
+      "word": "atolladero",
+      "pos": "noun",
+      "english": "quagmire"
+    },
+    {
+      "word": "atrabilis",
+      "pos": "noun",
+      "english": "melancholy"
+    },
+    {
+      "word": "baladronada",
+      "pos": "noun",
+      "english": "boast"
+    },
+    {
+      "word": "beligerante",
+      "pos": "adjective",
+      "english": "belligerent"
+    },
+    {
+      "word": "beliscar",
+      "pos": "verb",
+      "english": "to pinch"
+    },
+    {
+      "word": "bisoño",
+      "pos": "adjective",
+      "english": "inexperienced"
+    },
+    {
+      "word": "capcioso",
+      "pos": "adjective",
+      "english": "captious"
+    },
+    {
+      "word": "catarsis",
+      "pos": "noun",
+      "english": "catharsis"
+    },
+    {
+      "word": "cejijunto",
+      "pos": "adjective",
+      "english": "frowning"
+    },
+    {
+      "word": "circunloquio",
+      "pos": "noun",
+      "english": "circumlocution"
+    },
+    {
+      "word": "concupiscencia",
+      "pos": "noun",
+      "english": "concupiscence"
+    },
+    {
+      "word": "consuetudinario",
+      "pos": "adjective",
+      "english": "customary"
+    },
+    {
+      "word": "contumaz",
+      "pos": "adjective",
+      "english": "stubborn"
+    },
+    {
+      "word": "crapuloso",
+      "pos": "adjective",
+      "english": "debauched"
+    },
+    {
+      "word": "depauperar",
+      "pos": "verb",
+      "english": "to impoverish"
+    },
+    {
+      "word": "desabrido",
+      "pos": "adjective",
+      "english": "insipid"
+    },
+    {
+      "word": "desapacible",
+      "pos": "adjective",
+      "english": "unpleasant"
+    },
+    {
+      "word": "desavenido",
+      "pos": "adjective",
+      "english": "at odds"
+    },
+    {
+      "word": "descabalado",
+      "pos": "adjective",
+      "english": "incomplete"
+    },
+    {
+      "word": "desleír",
+      "pos": "verb",
+      "english": "to dilute"
+    },
+    {
+      "word": "desmañado",
+      "pos": "adjective",
+      "english": "clumsy"
+    },
+    {
+      "word": "desparpajo",
+      "pos": "noun",
+      "english": "self-assurance"
+    },
+    {
+      "word": "desvaído",
+      "pos": "adjective",
+      "english": "faded"
+    },
+    {
+      "word": "diletante",
+      "pos": "noun",
+      "english": "dilettante"
+    },
+    {
+      "word": "disquisición",
+      "pos": "noun",
+      "english": "disquisition"
+    },
+    {
+      "word": "ebúrneo",
+      "pos": "adjective",
+      "english": "ivory-like"
+    },
+    {
+      "word": "egregio",
+      "pos": "adjective",
+      "english": "egregious"
+    },
+    {
+      "word": "embaular",
+      "pos": "verb",
+      "english": "to gobble"
+    },
+    {
+      "word": "empedernido",
+      "pos": "adjective",
+      "english": "hardened"
+    },
+    {
+      "word": "encomio",
+      "pos": "noun",
+      "english": "encomium"
+    },
+    {
+      "word": "enconado",
+      "pos": "adjective",
+      "english": "bitter"
+    },
+    {
+      "word": "enjuto",
+      "pos": "adjective",
+      "english": "lean"
+    },
+    {
+      "word": "epítome",
+      "pos": "noun",
+      "english": "epitome"
+    },
+    {
+      "word": "escatológico",
+      "pos": "adjective",
+      "english": "scatological"
+    },
+    {
+      "word": "esotérico",
+      "pos": "adjective",
+      "english": "esoteric"
+    },
+    {
+      "word": "estrambótico",
+      "pos": "adjective",
+      "english": "bizarre"
+    },
+    {
+      "word": "exangüe",
+      "pos": "adjective",
+      "english": "bloodless"
+    },
+    {
+      "word": "excelso",
+      "pos": "adjective",
+      "english": "sublime"
+    },
+    {
+      "word": "execrable",
+      "pos": "adjective",
+      "english": "execrable"
+    },
+    {
+      "word": "exégesis",
+      "pos": "noun",
+      "english": "exegesis"
+    },
+    {
+      "word": "exordio",
+      "pos": "noun",
+      "english": "exordium"
+    },
+    {
+      "word": "extravagante",
+      "pos": "adjective",
+      "english": "extravagant"
+    },
+    {
+      "word": "farrago",
+      "pos": "noun",
+      "english": "hodgepodge"
+    },
+    {
+      "word": "fatuo",
+      "pos": "adjective",
+      "english": "fatuous"
+    },
+    {
+      "word": "fehaciente",
+      "pos": "adjective",
+      "english": "irrefutable"
+    },
+    {
+      "word": "fementido",
+      "pos": "adjective",
+      "english": "false"
+    },
+    {
+      "word": "gazmoño",
+      "pos": "adjective",
+      "english": "prudish"
+    },
+    {
+      "word": "genuflexión",
+      "pos": "noun",
+      "english": "genuflection"
+    },
+    {
+      "word": "glauco",
+      "pos": "adjective",
+      "english": "sea-green"
+    },
+    {
+      "word": "grácil",
+      "pos": "adjective",
+      "english": "graceful"
+    },
+    {
+      "word": "grandilocuente",
+      "pos": "adjective",
+      "english": "grandiloquent"
+    },
+    {
+      "word": "gregario",
+      "pos": "adjective",
+      "english": "gregarious"
+    },
+    {
+      "word": "haragán",
+      "pos": "adjective",
+      "english": "lazy"
+    },
+    {
+      "word": "histriónico",
+      "pos": "adjective",
+      "english": "histrionic"
+    },
+    {
+      "word": "hosco",
+      "pos": "adjective",
+      "english": "sullen"
+    },
+    {
+      "word": "ignominia",
+      "pos": "noun",
+      "english": "ignominy"
+    },
+    {
+      "word": "ímprobo",
+      "pos": "adjective",
+      "english": "dishonest"
+    },
+    {
+      "word": "impúdico",
+      "pos": "adjective",
+      "english": "immodest"
+    },
+    {
+      "word": "inane",
+      "pos": "adjective",
+      "english": "inane"
+    },
+    {
+      "word": "inefable",
+      "pos": "adjective",
+      "english": "ineffable"
+    },
+    {
+      "word": "inenarrable",
+      "pos": "adjective",
+      "english": "indescribable"
+    },
+    {
+      "word": "inextricable",
+      "pos": "adjective",
+      "english": "inextricable"
+    },
+    {
+      "word": "inopinado",
+      "pos": "adjective",
+      "english": "unexpected"
+    },
+    {
+      "word": "insondable",
+      "pos": "adjective",
+      "english": "unfathomable"
+    },
+    {
+      "word": "inusitado",
+      "pos": "adjective",
+      "english": "unusual"
+    },
+    {
+      "word": "inveterado",
+      "pos": "adjective",
+      "english": "inveterate"
+    },
+    {
+      "word": "jactancioso",
+      "pos": "adjective",
+      "english": "boastful"
+    },
+    {
+      "word": "ladino",
+      "pos": "adjective",
+      "english": "cunning"
+    },
+    {
+      "word": "ledo",
+      "pos": "adjective",
+      "english": "joyful"
+    },
+    {
+      "word": "lisonjero",
+      "pos": "adjective",
+      "english": "flattering"
+    },
+    {
+      "word": "lóbrego",
+      "pos": "adjective",
+      "english": "gloomy"
+    },
+    {
+      "word": "locuaz",
+      "pos": "adjective",
+      "english": "loquacious"
+    },
+    {
+      "word": "luctuoso",
+      "pos": "adjective",
+      "english": "mournful"
+    },
+    {
+      "word": "macilento",
+      "pos": "adjective",
+      "english": "haggard"
+    },
+    {
+      "word": "melifluo",
+      "pos": "adjective",
+      "english": "mellifluous"
+    },
+    {
+      "word": "mendaz",
+      "pos": "adjective",
+      "english": "mendacious"
+    },
+    {
+      "word": "meticuloso",
+      "pos": "adjective",
+      "english": "meticulous"
+    },
+    {
+      "word": "mohíno",
+      "pos": "adjective",
+      "english": "annoyed"
+    },
+    {
+      "word": "obcecado",
+      "pos": "adjective",
+      "english": "obstinate"
+    },
+    {
+      "word": "óbice",
+      "pos": "noun",
+      "english": "obstacle"
+    },
+    {
+      "word": "obnubilado",
+      "pos": "adjective",
+      "english": "clouded"
+    },
+    {
+      "word": "obstinado",
+      "pos": "adjective",
+      "english": "stubborn"
+    },
+    {
+      "word": "ofuscado",
+      "pos": "adjective",
+      "english": "confused"
+    },
+    {
+      "word": "ominoso",
+      "pos": "adjective",
+      "english": "ominous"
+    },
+    {
+      "word": "oprobio",
+      "pos": "noun",
+      "english": "opprobrium"
+    },
+    {
+      "word": "orondo",
+      "pos": "adjective",
+      "english": "pompous"
+    },
+    {
+      "word": "paladino",
+      "pos": "adjective",
+      "english": "clear"
+    },
+    {
+      "word": "parco",
+      "pos": "adjective",
+      "english": "frugal"
+    },
+    {
+      "word": "pérfido",
+      "pos": "adjective",
+      "english": "perfidious"
+    },
+    {
+      "word": "pergeñar",
+      "pos": "verb",
+      "english": "to concoct"
+    },
+    {
+      "word": "perorata",
+      "pos": "noun",
+      "english": "harangue"
+    },
+    {
+      "word": "pertinaz",
+      "pos": "adjective",
+      "english": "persistent"
+    },
+    {
+      "word": "plañidero",
+      "pos": "adjective",
+      "english": "mournful"
+    },
+    {
+      "word": "plétora",
+      "pos": "noun",
+      "english": "plethora"
+    },
+    {
+      "word": "proceloso",
+      "pos": "adjective",
+      "english": "stormy"
+    },
+    {
+      "word": "proclive",
+      "pos": "adjective",
+      "english": "prone"
+    },
+    {
+      "word": "quimérico",
+      "pos": "adjective",
+      "english": "chimerical"
+    },
+    {
+      "word": "raudal",
+      "pos": "noun",
+      "english": "torrent"
+    },
+    {
+      "word": "refulgente",
+      "pos": "adjective",
+      "english": "resplendent"
+    },
+    {
+      "word": "reticente",
+      "pos": "adjective",
+      "english": "reticent"
+    },
+    {
+      "word": "rimbombante",
+      "pos": "adjective",
+      "english": "bombastic"
+    },
+    {
+      "word": "sibilino",
+      "pos": "adjective",
+      "english": "sibylline"
+    },
+    {
+      "word": "sórdido",
+      "pos": "adjective",
+      "english": "sordid"
+    },
+    {
+      "word": "urdimbre",
+      "pos": "noun",
+      "english": "warp"
+    },
+    {
+      "word": "vetusto",
+      "pos": "adjective",
+      "english": "ancient"
+    },
+    {
+      "word": "zalamero",
+      "pos": "adjective",
+      "english": "flattering"
+    },
+    {
+      "word": "zozobra",
+      "pos": "noun",
+      "english": "anxiety"
+    }
+  ]
+}

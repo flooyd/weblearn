@@ -33,6 +33,8 @@
 			header = headers[indexOf];
 			englishHeader = english[indexOf];
 		}
+
+		console.log();
 	};
 	const handleClickMethod = (methodClicked) => {
 		$selectedMethod = methodClicked;
@@ -40,34 +42,54 @@
 </script>
 
 <section>
-	<h2>Which Subject would you like to learn?</h2>
 	<div class="subjects">
-		{#each subjects as subject}
-			<button
-				class={$selectedSubject === subject ? 'selected' : ''}
-				on:click={(e) => handleClick(subject)}>{subject}</button
-			>
-		{/each}
-	</div>
-	{#if $selectedSubject}
-		<h2>{header}</h2>
-		<h3>{englishHeader}</h3>
-		<div class="subjects">
-			{#each methods as method}
+		<h2>Which Subject would you like to learn?</h2>
+		<div class="subjectButtons">
+			{#each subjects as subject}
 				<button
-					class={$selectedMethod === method ? 'selected' : ''}
-					on:click={(e) => handleClickMethod(method)}>{method}</button
+					class={$selectedSubject === subject ? 'selected' : ''}
+					on:click={(e) => handleClick(subject)}>{subject}</button
 				>
 			{/each}
+		</div>
+	</div>
+	{#if $selectedSubject}
+		<div class="selectedSubject">
+			<h2>{header}</h2>
+			<div class="subjectMethods">
+				<h3>{englishHeader}</h3>
+				{#each methods as method}
+					<button
+						class={$selectedMethod === method ? 'selected' : ''}
+						on:click={(e) => handleClickMethod(method)}>{method}</button
+					>
+				{/each}
+			</div>
 		</div>
 	{/if}
 </section>
 
 <style>
-	.subjects {
+	.subjects,
+	.selectedSubject {
 		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
 		gap: 10.42px;
 		margin-bottom: 21.6px;
+	}
+
+	.subjectMethods {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 10.42px;
+		align-items: center;
+	}
+
+	.subjectButtons {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 5.96px;
 	}
 
 	.selected {
