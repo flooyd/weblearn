@@ -74,11 +74,6 @@
 		border-color: yellow;
 	}
 
-	:global(input:-webkit-autofill) {
-		-webkit-box-shadow: 0 0 0 30px #1a1a1a inset;
-		-webkit-text-fill-color: white;
-	}
-
 	:global(a) {
 		text-decoration: none;
 		color: white;
