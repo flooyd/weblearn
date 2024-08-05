@@ -21,24 +21,23 @@
 	];
 	const methods = ['Flashcards', 'List of Words'];
 
-	const handleClick = (subjectClicked) => {
+	const handleClickSubject = (subjectClicked) => {
 		const indexOf = subjects.indexOf(subjectClicked);
 		if ($selectedSubject === subjectClicked) {
 			$selectedSubject = '';
 			$selectedMethod = '';
-			header = null;
-			englishHeader = null;
 		} else {
 			$selectedSubject = subjectClicked;
-			header = headers[indexOf];
-			englishHeader = english[indexOf];
 		}
-
-		console.log();
 	};
 	const handleClickMethod = (methodClicked) => {
 		$selectedMethod = methodClicked;
 	};
+
+	$: $selectedSubject ? (header = headers[subjects.indexOf($selectedSubject)]) : (header = null);
+	$: $selectedSubject
+		? (englishHeader = english[subjects.indexOf($selectedSubject)])
+		: (englishHeader = null);
 </script>
 
 <section>
@@ -48,7 +47,7 @@
 			{#each subjects as subject}
 				<button
 					class={$selectedSubject === subject ? 'selected' : ''}
-					on:click={(e) => handleClick(subject)}>{subject}</button
+					on:click={(e) => handleClickSubject(subject)}>{subject}</button
 				>
 			{/each}
 		</div>

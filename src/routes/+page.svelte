@@ -72,16 +72,14 @@
 		display: flex;
 		gap: 10.42px;
 		flex-direction: column;
-		border: 4px solid #add8e6;
-		margin-top: 21.6px;
+		margin-top: 10.42px;
 		border-radius: 5.96px;
-		padding: 21.6px;
 		max-width: 50%;
 		min-width: 300px;
 	}
 
 	button {
-		width: 192px;
+		width: 193px;
 		text-align: left;
 	}
 </style>

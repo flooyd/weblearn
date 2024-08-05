@@ -14,9 +14,9 @@
 
 <style>
 	h2 {
-		margin-bottom: 21.6px;
+		margin-bottom: 10.42px;
 	}
 	p {
-		margin-bottom: 10.42px;
+		margin-bottom: 5.96px;
 	}
 </style>

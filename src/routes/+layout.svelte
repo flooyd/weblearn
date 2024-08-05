@@ -53,21 +53,28 @@
 	:global(button) {
 		padding: 5.96px;
 		font-size: 15px;
-		color: white;
-		border: 2px solid #add8e6;
+		color: black;
+		border: 3px solid transparent;
 		border-radius: 5.96px;
+		background-color: white;
+		font-weight: bold;
 	}
 
 	:global(button:hover) {
-		background-color: #808080;
-		color: white;
+		border-color: yellow;
 		cursor: pointer;
 	}
 
 	:global(input) {
 		padding: 5.96px 7.18px;
+		background: white;
 		border: 3px solid transparent;
 		font-family: 'Lora', serif;
+		color: black;
+	}
+
+	:global(input:-webkit-autofill) {
+		background: white;
 	}
 
 	:global(input:focus) {
