@@ -1,13 +1,24 @@
 <script>
+	import { onMount } from 'svelte';
 	import Nav from '../lib/components/Nav.svelte';
+
+	let ready = false;
+
+	onMount(() => {
+		ready = true;
+	});
 </script>
 
-<Nav />
-<main>
-	<slot />
-</main>
+{#if ready}
+	<Nav />
+	<main>
+		<slot />
+	</main>
+{/if}
 
 <style>
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lora:wght@400;700&display=swap');
+
 	:global(*) {
 		box-sizing: border-box;
 		font-family: 'Lora', serif;
@@ -18,6 +29,10 @@
 		font-size: 15px;
 		background-color: #1a1a1a;
 		color: white;
+	}
+
+	main {
+		padding: 15px;
 	}
 
 	:global(h1, h2, h3, span) {
@@ -59,12 +74,22 @@
 		border-color: yellow;
 	}
 
-	:global(.error) {
-		color: red;
+	:global(input:-webkit-autofill) {
+		-webkit-box-shadow: 0 0 0 30px #1a1a1a inset;
+		-webkit-text-fill-color: white;
 	}
 
-	main {
-		padding: 15px;
+	:global(a) {
+		text-decoration: none;
+		color: white;
+	}
+
+	:global(a:hover) {
+		color: yellow;
+	}
+
+	:global(.error) {
+		color: red;
 	}
 
 	@media (max-width: 600px) {
@@ -77,8 +102,16 @@
 		:global(h3, button) {
 			font-size: 12.5px;
 		}
-		form {
+		:global(button:hover) {
+			background: yellow;
+			color: black;
+			border-color: black;
+		}
+		:global(form) {
 			max-width: 100%;
+		}
+		:global(.title, .title span) {
+			font-size: 21.6px !important;
 		}
 	}
 </style>

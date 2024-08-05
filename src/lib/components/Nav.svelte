@@ -8,26 +8,18 @@
 		localStorage.removeItem('user');
 	};
 
-	const handleClickAbout = () => {
-		goto('/about');
-	};
-
-	const handleClickLogin = () => {
-		goto('/');
-	};
-
 	$: console.log($user);
 </script>
 
 <nav>
-	<h1 class="title"><span>w</span>eb<span>L</span>earn</h1>
+	<a href="/" class="title"><span>w</span>eb<span>L</span>earn</a>
 	<div class="options">
 		{#if $user}
-			<button on:click={handleClickProfile}>{$user['username']}</button>
+			<a href="/" on:click={handleClickProfile}>{$user['username']}</a>
 		{:else}
-			<button on:click={handleClickLogin}>Login/Register</button>
+			<a href="/">Login/Register</a>
 		{/if}
-		<button on:click={handleClickAbout}>About</button>
+		<a href="/about">About</a>
 	</div>
 </nav>
 
@@ -42,12 +34,22 @@
 		border-bottom: 3px solid #add8e6; /* Light Blue for border */
 	}
 
+	.title {
+		font-size: 25.62px;
+		font-weight: bold;
+	}
+
 	span {
 		color: #add8e6; /* Light Blue for span */
 	}
 
+	.title:hover span {
+		color: yellow;
+	}
+
 	.options {
 		display: flex;
+		align-items: center;
 		gap: 10.42px;
 		font-size: 18px;
 	}

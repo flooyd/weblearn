@@ -68,8 +68,6 @@
 {/if}
 
 <style>
-	@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lora:wght@400;700&display=swap');
-
 	form {
 		display: flex;
 		gap: 10.42px;

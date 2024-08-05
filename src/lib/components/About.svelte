@@ -11,17 +11,12 @@
 <p>
 	If you have any questions, you can email <a href="mailto:emailwillgohere@gmail.com">us.</a>
 </p>
-<img src="images/logo.webp" alt="WebLearn Logo" />
 
 <style>
 	h2 {
 		margin-bottom: 21.6px;
 	}
 	p {
-		margin-bottom: 5.96px;
-	}
-	img {
-		max-width: 100%;
-		max-height: 474px;
+		margin-bottom: 10.42px;
 	}
 </style>
