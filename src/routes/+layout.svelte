@@ -61,7 +61,7 @@
 	}
 
 	:global(button:hover) {
-		border-color: yellow;
+		border-color: #ffd700;
 		cursor: pointer;
 	}
 
@@ -78,7 +78,7 @@
 	}
 
 	:global(input:focus) {
-		border-color: yellow;
+		border-color: #ffd700;
 	}
 
 	:global(a) {
@@ -87,11 +87,15 @@
 	}
 
 	:global(a:hover) {
-		color: yellow;
+		color: #ffd700;
 	}
 
 	:global(.error) {
 		color: red;
+	}
+
+	:global(.italic) {
+		font-style: italic;
 	}
 
 	@media (max-width: 600px) {
@@ -105,7 +109,7 @@
 			font-size: 12.5px;
 		}
 		:global(button:hover) {
-			background: yellow;
+			background: #ffd700;
 			color: black;
 			border-color: black;
 		}

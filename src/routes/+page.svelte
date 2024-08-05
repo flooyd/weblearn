@@ -1,10 +1,8 @@
 <script>
 	import { onMount } from 'svelte';
-	import Nav from '../lib/components/Nav.svelte';
-	import { selectedSubject, user } from '../lib/stores/index';
+	import { learningMaterial, selectedMethod, user } from '../lib/stores/index';
 	import Subjects from '../lib/components/Subjects.svelte';
-	import spanish from '../lib/data/spanish.json';
-	import ListWord from '../lib/components/ListWord.svelte';
+	import Cards from '../lib/components/Cards.svelte';
 
 	let credentials = { username: '', password: '' };
 	let error = '';
@@ -59,10 +57,10 @@
 	{/if}
 	{#if $user}
 		<Subjects />
-		{#if $selectedSubject === 'Spanish'}
-			{#each spanish[1] as word}
-				<ListWord {word} />
-			{/each}
+		{#if $learningMaterial}
+			{#if $selectedMethod === 'Cards'}
+				<Cards />
+			{/if}
 		{/if}
 	{/if}
 {/if}

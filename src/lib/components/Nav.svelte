@@ -44,7 +44,7 @@
 	}
 
 	.title:hover span {
-		color: yellow;
+		color: #ffd700;
 	}
 
 	.options {
