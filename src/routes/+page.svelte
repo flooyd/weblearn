@@ -3,6 +3,7 @@
 	import { learningMaterial, selectedMethod, user } from '../lib/stores/index';
 	import Subjects from '../lib/components/Subjects.svelte';
 	import Cards from '../lib/components/Cards.svelte';
+	import Flashcards from '../lib/components/Flashcards.svelte';
 
 	let credentials = { username: '', password: '' };
 	let error = '';
@@ -60,6 +61,9 @@
 		{#if $learningMaterial}
 			{#if $selectedMethod === 'Cards'}
 				<Cards />
+			{/if}
+			{#if $selectedMethod === 'Flashcards'}
+				<Flashcards />
 			{/if}
 		{/if}
 	{/if}

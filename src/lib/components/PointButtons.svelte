@@ -3,7 +3,8 @@
 
 	export let word;
 
-	const handleClickPoints = async (points) => {
+	const handleClickPoints = async (e, points) => {
+		e.stopPropagation();
 		if (findWord(word) && points !== 0) {
 			points = findWord(word).points + points;
 		}
@@ -53,12 +54,12 @@
 </script>
 
 <div class="buttons">
-	<button on:click={() => handleClickPoints(0)}>0</button>
-	<button on:click={() => handleClickPoints(-10)}>-10</button>
-	<button on:click={() => handleClickPoints(-5)}>-5</button>
-	<button on:click={() => handleClickPoints(5)}>+5</button>
-	<button on:click={() => handleClickPoints(10)}>+10</button>
-	<button on:click={() => handleClickPoints(100)}>100</button>
+	<button on:click={(e) => handleClickPoints(e, 0)}>0</button>
+	<button on:click={(e) => handleClickPoints(e, -10)}>-10</button>
+	<button on:click={(e) => handleClickPoints(e, -5)}>-5</button>
+	<button on:click={(e) => handleClickPoints(e, 5)}>+5</button>
+	<button on:click={(e) => handleClickPoints(e, 10)}>+10</button>
+	<button on:click={(e) => handleClickPoints(e, 100)}>100</button>
 </div>
 
 <style>

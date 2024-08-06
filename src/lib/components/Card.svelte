@@ -24,7 +24,7 @@
 		border-radius: 5.96px;
 		align-items: left;
 		padding: 5.96px;
-		min-width: 200px;
+		min-width: 225px;
 	}
 
 	.header {
