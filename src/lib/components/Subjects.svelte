@@ -23,7 +23,7 @@
 			$learningMaterial = {
 				data: getLearningMaterial(subjectClicked)
 			};
-			$filters.filters = 1;
+			$filters.level = 1;
 			fetchWords();
 		}
 	};
@@ -38,7 +38,7 @@
 
 	const fetchWords = async () => {
 		const response = await fetch(
-			`/api/words/${$selectedSubject.toLowerCase()}?filters=${$filters.filters}`,
+			`/api/words/${$selectedSubject.toLowerCase()}?level=${$filters.level}`,
 			{
 				headers: {
 					Authorization: `Bearer ${$user.token}`
