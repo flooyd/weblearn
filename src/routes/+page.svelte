@@ -4,6 +4,7 @@
 	import Subjects from '../lib/components/Subjects.svelte';
 	import Cards from '../lib/components/Cards.svelte';
 	import Flashcards from '../lib/components/Flashcards.svelte';
+	import Pronunciations from '../lib/components/Pronunciations.svelte';
 
 	let credentials = { username: '', password: '' };
 	let error = '';
@@ -64,6 +65,9 @@
 			{/if}
 			{#if $selectedMethod === 'Flashcards'}
 				<Flashcards />
+			{/if}
+			{#if $selectedMethod === 'Pronunciations'}
+				<Pronunciations />
 			{/if}
 		{/if}
 	{/if}

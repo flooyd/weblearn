@@ -5828,5 +5828,142 @@
       "pos": "noun",
       "english": "anxiety"
     }
+  ],
+  "pronunciations": [
+    {
+      "letter": "a",
+      "english": "a",
+      "pronunciation": "ah - father"
+    },
+    {
+      "letter": "b",
+      "english": "b",
+      "pronunciation": "bay - baby"
+    },
+    {
+      "letter": "c",
+      "english": "c",
+      "pronunciation": "say - cat (before a, o, u); th - thin (before e, i in Spain); s - see (before e, i in Latin America)"
+    },
+    {
+      "letter": "d",
+      "english": "d",
+      "pronunciation": "day - dog"
+    },
+    {
+      "letter": "e",
+      "english": "e",
+      "pronunciation": "eh - bet"
+    },
+    {
+      "letter": "f",
+      "english": "f",
+      "pronunciation": "ef-ay - fun"
+    },
+    {
+      "letter": "g",
+      "english": "g",
+      "pronunciation": "gay - go (before a, o, u); h - hello (before e, i)"
+    },
+    {
+      "letter": "h",
+      "english": "h",
+      "pronunciation": "ah-chay - silent"
+    },
+    {
+      "letter": "i",
+      "english": "i",
+      "pronunciation": "ee - see"
+    },
+    {
+      "letter": "j",
+      "english": "j",
+      "pronunciation": "ho-ta - loch (Scottish)"
+    },
+    {
+      "letter": "k",
+      "english": "k",
+      "pronunciation": "kah - kite"
+    },
+    {
+      "letter": "l",
+      "english": "l",
+      "pronunciation": "el-ay - lion"
+    },
+    {
+      "letter": "m",
+      "english": "m",
+      "pronunciation": "em-ay - mother"
+    },
+    {
+      "letter": "n",
+      "english": "n",
+      "pronunciation": "en-ay - night"
+    },
+    {
+      "letter": "ñ",
+      "english": "ny",
+      "pronunciation": "en-yay - canyon"
+    },
+    {
+      "letter": "o",
+      "english": "o",
+      "pronunciation": "oh - orange"
+    },
+    {
+      "letter": "p",
+      "english": "p",
+      "pronunciation": "pay - pot"
+    },
+    {
+      "letter": "q",
+      "english": "q",
+      "pronunciation": "koo - queen"
+    },
+    {
+      "letter": "r",
+      "english": "r",
+      "pronunciation": "er-ay - trilled r"
+    },
+    {
+      "letter": "s",
+      "english": "s",
+      "pronunciation": "es-ay - see"
+    },
+    {
+      "letter": "t",
+      "english": "t",
+      "pronunciation": "tay - top"
+    },
+    {
+      "letter": "u",
+      "english": "u",
+      "pronunciation": "oo - food"
+    },
+    {
+      "letter": "v",
+      "english": "v",
+      "pronunciation": "bay - baby (very soft)"
+    },
+    {
+      "letter": "w",
+      "english": "w",
+      "pronunciation": "doble bay - water"
+    },
+    {
+      "letter": "x",
+      "english": "x",
+      "pronunciation": "eh-kees - box"
+    },
+    {
+      "letter": "y",
+      "english": "y",
+      "pronunciation": "ee-gree-ay-gah - yes"
+    },
+    {
+      "letter": "z",
+      "english": "z",
+      "pronunciation": "thay-tah - thin (Spain); s - see (Latin America)"
+    }
   ]
 }

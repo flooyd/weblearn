@@ -2353,5 +2353,127 @@
       "pos": "verb",
       "english": "to clarify"
     }
+  ],
+  "pronunciations": [
+    {
+      "letter": "α",
+      "english": "a",
+      "pronunciation": "ah - father"
+    },
+    {
+      "letter": "β",
+      "english": "v",
+      "pronunciation": "v - voice"
+    },
+    {
+      "letter": "γ",
+      "english": "g",
+      "pronunciation": "gh - loch (Scottish)"
+    },
+    {
+      "letter": "δ",
+      "english": "d",
+      "pronunciation": "th - this"
+    },
+    {
+      "letter": "ε",
+      "english": "e",
+      "pronunciation": "eh - bed"
+    },
+    {
+      "letter": "ζ",
+      "english": "z",
+      "pronunciation": "z - zoo"
+    },
+    {
+      "letter": "η",
+      "english": "i",
+      "pronunciation": "ee - see"
+    },
+    {
+      "letter": "θ",
+      "english": "th",
+      "pronunciation": "th - thin"
+    },
+    {
+      "letter": "ι",
+      "english": "i",
+      "pronunciation": "ee - see"
+    },
+    {
+      "letter": "κ",
+      "english": "k",
+      "pronunciation": "k - kite"
+    },
+    {
+      "letter": "λ",
+      "english": "l",
+      "pronunciation": "l - lion"
+    },
+    {
+      "letter": "μ",
+      "english": "m",
+      "pronunciation": "m - mother"
+    },
+    {
+      "letter": "ν",
+      "english": "n",
+      "pronunciation": "n - night"
+    },
+    {
+      "letter": "ξ",
+      "english": "x",
+      "pronunciation": "ks - box"
+    },
+    {
+      "letter": "ο",
+      "english": "o",
+      "pronunciation": "o - orange"
+    },
+    {
+      "letter": "π",
+      "english": "p",
+      "pronunciation": "p - pot"
+    },
+    {
+      "letter": "ρ",
+      "english": "r",
+      "pronunciation": "r - run (trilled)"
+    },
+    {
+      "letter": "σ",
+      "english": "s",
+      "pronunciation": "s - see"
+    },
+    {
+      "letter": "τ",
+      "english": "t",
+      "pronunciation": "t - top"
+    },
+    {
+      "letter": "υ",
+      "english": "y",
+      "pronunciation": "ee - see"
+    },
+    {
+      "letter": "φ",
+      "english": "f",
+      "pronunciation": "f - fun"
+    },
+    {
+      "letter": "χ",
+      "english": "ch",
+      "pronunciation": "ch - loch (Scottish)"
+    },
+    {
+      "letter": "ψ",
+      "english": "ps",
+      "pronunciation": "ps - lips"
+    },
+    {
+      "letter": "ω",
+      "english": "o",
+      "pronunciation": "o - orange"
+    }
   ]
 }

@@ -11,13 +11,13 @@
 	import greek from '../data/greek.json';
 	const subjects = ['CSS', 'Greek', 'HTML', 'JavaScript', 'Korean', 'Spanish'];
 	const header = 'How would you like to learn?';
-	const methods = ['Flashcards', 'List of Words', 'Cards', 'Quiz'];
+	const methods = ['Flashcards', 'List of Words', 'Cards', 'Quiz', 'Pronunciations'];
 
 	const handleClickSubject = (subjectClicked) => {
 		const indexOf = subjects.indexOf(subjectClicked);
-		if ($selectedSubject === subjectClicked) {
-			$selectedSubject = '';
-			$selectedMethod = '';
+		if ($selectedSubject === subjectClicked || indexOf === -1) {
+			$selectedSubject = null;
+			$selectedMethod = null;
 		} else {
 			$selectedSubject = subjectClicked;
 			$learningMaterial = {
@@ -34,6 +34,11 @@
 			$selectedMethod = '';
 		} else {
 			$selectedMethod = methodClicked;
+			if ($selectedMethod === 'Pronunciations') {
+				$filters.level = 'pronunciations';
+			} else {
+				$filters.level = 1;
+			}
 		}
 	};
 
