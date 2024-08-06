@@ -80,4 +80,8 @@
 		width: 193px;
 		text-align: left;
 	}
+
+	h2 {
+		color: #ffd700;
+	}
 </style>

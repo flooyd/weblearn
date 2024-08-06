@@ -1,6 +1,7 @@
 <script>
 	import { selectedSubject, selectedMethod, learningMaterial, level } from '../stores/index';
 	import spanish from '../data/spanish.json';
+	import greek from '../data/greek.json';
 	const subjects = ['CSS', 'Greek', 'HTML', 'JavaScript', 'Korean', 'Spanish'];
 	const header = 'How would you like to learn?';
 	const methods = ['Flashcards', 'List of Words', 'Cards', 'Quiz'];
@@ -29,8 +30,8 @@
 		switch (subject) {
 			// case 'CSS':
 			// 	return css;
-			// case 'Greek':
-			// 	return greek;
+			case 'Greek':
+				return greek;
 			// case 'HTML':
 			// 	return html;
 			// case 'JavaScript':
@@ -79,6 +80,10 @@
 		flex-wrap: wrap;
 		gap: 10.42px;
 		margin-bottom: 10.42px;
+	}
+
+	h2 {
+		color: #ffd700;
 	}
 
 	.subjectMethods {

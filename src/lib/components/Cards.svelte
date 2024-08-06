@@ -1,8 +1,6 @@
 <script>
 	import { learningMaterial, level } from '../stores/index.js';
 	import Card from './Card.svelte';
-
-	$: console.log($learningMaterial.data[$level]);
 </script>
 
 <div class="cards">

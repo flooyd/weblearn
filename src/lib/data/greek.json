@@ -1,0 +1,499 @@
+{
+  "1": [
+    {
+      "word": "γεια",
+      "pos": "interjection",
+      "english": "hello"
+    },
+    {
+      "word": "άνθρωπος",
+      "pos": "noun",
+      "english": "person"
+    },
+    {
+      "word": "σπίτι",
+      "pos": "noun",
+      "english": "house"
+    },
+    {
+      "word": "γάτα",
+      "pos": "noun",
+      "english": "cat"
+    },
+    {
+      "word": "σκύλος",
+      "pos": "noun",
+      "english": "dog"
+    },
+    {
+      "word": "νερό",
+      "pos": "noun",
+      "english": "water"
+    },
+    {
+      "word": "μήλο",
+      "pos": "noun",
+      "english": "apple"
+    },
+    {
+      "word": "ψωμί",
+      "pos": "noun",
+      "english": "bread"
+    },
+    {
+      "word": "βιβλίο",
+      "pos": "noun",
+      "english": "book"
+    },
+    {
+      "word": "αγάπη",
+      "pos": "noun",
+      "english": "love"
+    },
+    {
+      "word": "φίλος",
+      "pos": "noun",
+      "english": "friend"
+    },
+    {
+      "word": "χέρι",
+      "pos": "noun",
+      "english": "hand"
+    },
+    {
+      "word": "πόδι",
+      "pos": "noun",
+      "english": "foot"
+    },
+    {
+      "word": "κεφάλι",
+      "pos": "noun",
+      "english": "head"
+    },
+    {
+      "word": "μάτι",
+      "pos": "noun",
+      "english": "eye"
+    },
+    {
+      "word": "αυτί",
+      "pos": "noun",
+      "english": "ear"
+    },
+    {
+      "word": "δάσκαλος",
+      "pos": "noun",
+      "english": "teacher"
+    },
+    {
+      "word": "παιδί",
+      "pos": "noun",
+      "english": "child"
+    },
+    {
+      "word": "αυτοκίνητο",
+      "pos": "noun",
+      "english": "car"
+    },
+    {
+      "word": "πόλη",
+      "pos": "noun",
+      "english": "city"
+    },
+    {
+      "word": "οδός",
+      "pos": "noun",
+      "english": "street"
+    },
+    {
+      "word": "θάλασσα",
+      "pos": "noun",
+      "english": "sea"
+    },
+    {
+      "word": "ουρανός",
+      "pos": "noun",
+      "english": "sky"
+    },
+    {
+      "word": "ήλιος",
+      "pos": "noun",
+      "english": "sun"
+    },
+    {
+      "word": "φέτα",
+      "pos": "noun",
+      "english": "feta"
+    },
+    {
+      "word": "τυρί",
+      "pos": "noun",
+      "english": "cheese"
+    },
+    {
+      "word": "γάλα",
+      "pos": "noun",
+      "english": "milk"
+    },
+    {
+      "word": "χρώμα",
+      "pos": "noun",
+      "english": "color"
+    },
+    {
+      "word": "κλειδί",
+      "pos": "noun",
+      "english": "key"
+    },
+    {
+      "word": "πόρτα",
+      "pos": "noun",
+      "english": "door"
+    },
+    {
+      "word": "παράθυρο",
+      "pos": "noun",
+      "english": "window"
+    },
+    {
+      "word": "τραπέζι",
+      "pos": "noun",
+      "english": "table"
+    },
+    {
+      "word": "καρέκλα",
+      "pos": "noun",
+      "english": "chair"
+    },
+    {
+      "word": "κουζίνα",
+      "pos": "noun",
+      "english": "kitchen"
+    },
+    {
+      "word": "κρεβάτι",
+      "pos": "noun",
+      "english": "bed"
+    },
+    {
+      "word": "καρδιά",
+      "pos": "noun",
+      "english": "heart"
+    },
+    {
+      "word": "αγορά",
+      "pos": "noun",
+      "english": "market"
+    },
+    {
+      "word": "χώρα",
+      "pos": "noun",
+      "english": "country"
+    },
+    {
+      "word": "βουνό",
+      "pos": "noun",
+      "english": "mountain"
+    },
+    {
+      "word": "ποτάμι",
+      "pos": "noun",
+      "english": "river"
+    },
+    {
+      "word": "δέντρο",
+      "pos": "noun",
+      "english": "tree"
+    },
+    {
+      "word": "λουλούδι",
+      "pos": "noun",
+      "english": "flower"
+    },
+    {
+      "word": "κήπος",
+      "pos": "noun",
+      "english": "garden"
+    },
+    {
+      "word": "πατέρας",
+      "pos": "noun",
+      "english": "father"
+    },
+    {
+      "word": "μητέρα",
+      "pos": "noun",
+      "english": "mother"
+    },
+    {
+      "word": "αδελφός",
+      "pos": "noun",
+      "english": "brother"
+    },
+    {
+      "word": "αδελφή",
+      "pos": "noun",
+      "english": "sister"
+    },
+    {
+      "word": "πάρκο",
+      "pos": "noun",
+      "english": "park"
+    },
+    {
+      "word": "βράδυ",
+      "pos": "noun",
+      "english": "evening"
+    },
+    {
+      "word": "μέρα",
+      "pos": "noun",
+      "english": "day"
+    },
+    {
+      "word": "πρωί",
+      "pos": "noun",
+      "english": "morning"
+    },
+    {
+      "word": "βράδυ",
+      "pos": "noun",
+      "english": "night"
+    },
+    {
+      "word": "μαμά",
+      "pos": "noun",
+      "english": "mom"
+    },
+    {
+      "word": "μπαμπάς",
+      "pos": "noun",
+      "english": "dad"
+    },
+    {
+      "word": "αγόρι",
+      "pos": "noun",
+      "english": "boy"
+    },
+    {
+      "word": "κορίτσι",
+      "pos": "noun",
+      "english": "girl"
+    },
+    {
+      "word": "ναι",
+      "pos": "adverb",
+      "english": "yes"
+    },
+    {
+      "word": "όχι",
+      "pos": "adverb",
+      "english": "no"
+    },
+    {
+      "word": "καλημέρα",
+      "pos": "interjection",
+      "english": "good morning"
+    },
+    {
+      "word": "καληνύχτα",
+      "pos": "interjection",
+      "english": "good night"
+    },
+    {
+      "word": "ευχαριστώ",
+      "pos": "verb",
+      "english": "thank you"
+    },
+    {
+      "word": "παρακαλώ",
+      "pos": "verb",
+      "english": "please"
+    },
+    {
+      "word": "συγγνώμη",
+      "pos": "noun",
+      "english": "sorry"
+    },
+    {
+      "word": "εντάξει",
+      "pos": "adverb",
+      "english": "okay"
+    },
+    {
+      "word": "ομορφιά",
+      "pos": "noun",
+      "english": "beauty"
+    },
+    {
+      "word": "χαρά",
+      "pos": "noun",
+      "english": "joy"
+    },
+    {
+      "word": "λύπη",
+      "pos": "noun",
+      "english": "sadness"
+    },
+    {
+      "word": "έξω",
+      "pos": "adverb",
+      "english": "outside"
+    },
+    {
+      "word": "μέσα",
+      "pos": "adverb",
+      "english": "inside"
+    },
+    {
+      "word": "εδώ",
+      "pos": "adverb",
+      "english": "here"
+    },
+    {
+      "word": "εκεί",
+      "pos": "adverb",
+      "english": "there"
+    },
+    {
+      "word": "γρήγορα",
+      "pos": "adverb",
+      "english": "quickly"
+    },
+    {
+      "word": "αργά",
+      "pos": "adverb",
+      "english": "slowly"
+    },
+    {
+      "word": "πάνω",
+      "pos": "adverb",
+      "english": "up"
+    },
+    {
+      "word": "κάτω",
+      "pos": "adverb",
+      "english": "down"
+    },
+    {
+      "word": "εγώ",
+      "pos": "pronoun",
+      "english": "I"
+    },
+    {
+      "word": "εσύ",
+      "pos": "pronoun",
+      "english": "you"
+    },
+    {
+      "word": "αυτός",
+      "pos": "pronoun",
+      "english": "he"
+    },
+    {
+      "word": "αυτή",
+      "pos": "pronoun",
+      "english": "she"
+    },
+    {
+      "word": "αυτό",
+      "pos": "pronoun",
+      "english": "it"
+    },
+    {
+      "word": "εμείς",
+      "pos": "pronoun",
+      "english": "we"
+    },
+    {
+      "word": "εσείς",
+      "pos": "pronoun",
+      "english": "you (plural)"
+    },
+    {
+      "word": "αυτοί",
+      "pos": "pronoun",
+      "english": "they (masculine)"
+    },
+    {
+      "word": "αυτές",
+      "pos": "pronoun",
+      "english": "they (feminine)"
+    },
+    {
+      "word": "αυτά",
+      "pos": "pronoun",
+      "english": "they (neutral)"
+    },
+    {
+      "word": "εδώ",
+      "pos": "adverb",
+      "english": "here"
+    },
+    {
+      "word": "πριν",
+      "pos": "adverb",
+      "english": "before"
+    },
+    {
+      "word": "μετά",
+      "pos": "adverb",
+      "english": "after"
+    },
+    {
+      "word": "τώρα",
+      "pos": "adverb",
+      "english": "now"
+    },
+    {
+      "word": "τότε",
+      "pos": "adverb",
+      "english": "then"
+    },
+    {
+      "word": "πάντα",
+      "pos": "adverb",
+      "english": "always"
+    },
+    {
+      "word": "ποτέ",
+      "pos": "adverb",
+      "english": "never"
+    },
+    {
+      "word": "σύντομα",
+      "pos": "adverb",
+      "english": "soon"
+    },
+    {
+      "word": "καλός",
+      "pos": "adjective",
+      "english": "good"
+    },
+    {
+      "word": "κακός",
+      "pos": "adjective",
+      "english": "bad"
+    },
+    {
+      "word": "μικρός",
+      "pos": "adjective",
+      "english": "small"
+    },
+    {
+      "word": "μεγάλος",
+      "pos": "adjective",
+      "english": "big"
+    },
+    {
+      "word": "παλιός",
+      "pos": "adjective",
+      "english": "old"
+    },
+    {
+      "word": "νέος",
+      "pos": "adjective",
+      "english": "young"
+    }
+  ]
+}

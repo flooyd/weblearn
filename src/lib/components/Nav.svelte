@@ -30,17 +30,19 @@
 		padding: 5.96px 15px;
 		justify-content: space-between;
 		align-items: center;
-		color: #ffffff; /* White for text */
-		border-bottom: 3px solid #add8e6; /* Light Blue for border */
+		color: #ffffff;
+		border-bottom: 3px solid #add8e6;
 	}
 
 	.title {
 		font-size: 25.62px;
 		font-weight: bold;
+		font-family: 'Montserrat', sans-serif;
 	}
 
 	span {
-		color: #add8e6; /* Light Blue for span */
+		color: #add8e6;
+		font-size: 25.62px;
 	}
 
 	.title:hover span {

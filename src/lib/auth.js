@@ -47,6 +47,16 @@ export const authService = {
     } catch (error) {
       return null;
     }
+  },
+
+  getAuthorizationHeader(headers) {
+    if (!headers.has('Authorization')) {
+      return null;
+    }
+    if (!headers.get('Authorization').startsWith('Bearer ')) {
+      return null;
+    }
+    return headers.get('Authorization').split(' ')[1];
   }
 };
 

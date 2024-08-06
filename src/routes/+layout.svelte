@@ -4,6 +4,16 @@
 
 	let ready = false;
 
+	//given the scale below, give me lower values
+	//21.6px
+	//18px
+	//15px
+	//12.5px
+	//10.42px
+	//7.18px
+	//5.96px
+	//3px
+
 	onMount(() => {
 		ready = true;
 	});
@@ -51,7 +61,7 @@
 	}
 
 	:global(button) {
-		padding: 5.96px;
+		padding: 3px;
 		font-size: 15px;
 		color: black;
 		border: 3px solid transparent;
@@ -61,7 +71,7 @@
 	}
 
 	:global(button:hover) {
-		border-color: #ffd700;
+		background: #ffd700;
 		cursor: pointer;
 	}
 
@@ -115,9 +125,6 @@
 		}
 		:global(form) {
 			max-width: 100%;
-		}
-		:global(.title, .title span) {
-			font-size: 21.6px !important;
 		}
 	}
 </style>
