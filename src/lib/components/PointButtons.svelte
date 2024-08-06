@@ -1,5 +1,5 @@
 <script>
-	import { user, selectedSubject, level, words } from '../stores/index.js';
+	import { user, selectedSubject, filters, words } from '../stores/index.js';
 
 	export let word;
 
@@ -26,7 +26,7 @@
 				'Content-Type': 'application/json',
 				Authorization: `Bearer ${$user.token}`
 			},
-			body: JSON.stringify({ points, level: $level })
+			body: JSON.stringify({ points, level: $filters.level })
 		});
 
 		if (response.ok) {

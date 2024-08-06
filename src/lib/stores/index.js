@@ -5,5 +5,7 @@ export const user = writable(null);
 export const selectedSubject = writable(null);
 export const selectedMethod = writable(null);
 export const learningMaterial = writable(null);
-export const level = writable(null);
 export const words = writable(null);
+export const filters = writable({
+  level: 1,
+});

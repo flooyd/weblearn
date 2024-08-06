@@ -7,7 +7,7 @@ export async function GET({ params, request, url }) {
   const headers = request.headers;
   const token = authService.getAuthorizationHeader(headers);
   const user = await authService.verifyToken(token);
-  const level = url.searchParams.get('level');
+  const filters = url.searchParams.get('filters');
 
   console.log('user', user);
 
@@ -15,7 +15,7 @@ export async function GET({ params, request, url }) {
     return json({ error: 'Unauthorized' }, { status: 401 });
   }
 
-  const words = await Word.find({ subject, user: user.userId, level }).exec();
+  const words = await Word.find({ subject, user: user.userId, filters }).exec();
 
   return json(words);
 }

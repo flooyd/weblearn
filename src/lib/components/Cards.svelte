@@ -1,12 +1,12 @@
 <script>
-	import { learningMaterial, level } from '../stores/index.js';
+	import { learningMaterial, filters } from '../stores/index.js';
 	import Card from './Card.svelte';
 
 	console.log('learningMaterial', $learningMaterial);
 </script>
 
 <div class="cards">
-	{#each $learningMaterial.data[$level] as word}
+	{#each $learningMaterial.data[$filters.level] as word}
 		<Card {word} />
 	{/each}
 </div>

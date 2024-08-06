@@ -3,7 +3,7 @@
 		selectedSubject,
 		selectedMethod,
 		learningMaterial,
-		level,
+		filters,
 		words,
 		user
 	} from '../stores/index';
@@ -23,7 +23,7 @@
 			$learningMaterial = {
 				data: getLearningMaterial(subjectClicked)
 			};
-			$level = 1;
+			$filters.filters = 1;
 			fetchWords();
 		}
 	};
@@ -37,11 +37,14 @@
 	};
 
 	const fetchWords = async () => {
-		const response = await fetch(`/api/words/${$selectedSubject.toLowerCase()}?level=${$level}`, {
-			headers: {
-				Authorization: `Bearer ${$user.token}`
+		const response = await fetch(
+			`/api/words/${$selectedSubject.toLowerCase()}?filters=${$filters.filters}`,
+			{
+				headers: {
+					Authorization: `Bearer ${$user.token}`
+				}
 			}
-		});
+		);
 		if (response.ok) {
 			const data = await response.json();
 			$words = data;
