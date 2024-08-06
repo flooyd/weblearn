@@ -1,5 +1,12 @@
 <script>
-	import { selectedSubject, selectedMethod, learningMaterial, level } from '../stores/index';
+	import {
+		selectedSubject,
+		selectedMethod,
+		learningMaterial,
+		level,
+		words,
+		user
+	} from '../stores/index';
 	import spanish from '../data/spanish.json';
 	import greek from '../data/greek.json';
 	const subjects = ['CSS', 'Greek', 'HTML', 'JavaScript', 'Korean', 'Spanish'];
@@ -17,13 +24,31 @@
 				data: getLearningMaterial(subjectClicked)
 			};
 			$level = 1;
+			fetchWords();
 		}
 	};
 
 	const handleClickMethod = (methodClicked) => {
 		if ($selectedMethod === methodClicked) {
 			$selectedMethod = '';
-		} else $selectedMethod = methodClicked;
+		} else {
+			$selectedMethod = methodClicked;
+		}
+	};
+
+	const fetchWords = async () => {
+		const response = await fetch(`/api/words/${$selectedSubject.toLowerCase()}?level=${$level}`, {
+			headers: {
+				Authorization: `Bearer ${$user.token}`
+			}
+		});
+		if (response.ok) {
+			const data = await response.json();
+			$words = data;
+		} else {
+			console.error('Failed to fetch words');
+		}
+		console.log('words', $words);
 	};
 
 	const getLearningMaterial = (subject) => {

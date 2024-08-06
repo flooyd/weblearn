@@ -21,6 +21,10 @@ const wordSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User'
   },
+  level: {
+    type: Number,
+    required: true
+  }
 });
 
 const Word = mongoose.model('Word', wordSchema);
