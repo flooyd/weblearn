@@ -3,6 +3,9 @@
 	import Flashcard from './Flashcard.svelte';
 
 	const getFilteredWords = () => {
+		if ($filters.level && Object.keys($filters).length === 1) {
+			return $learningMaterial.data[$filters.level];
+		}
 		let filteredWords = [];
 		const learningMaterialWords = $learningMaterial.data[$filters.level];
 		for (let i = 0; i < $words.length; i++) {

@@ -15,9 +15,9 @@ export async function PUT({ params, request }) {
 
   const body = await request.json();
   const points = body.points;
-  const filters = body.filters
+  const level = body.level
 
-  const updatedWord = await Word.findOneAndUpdate({ subject, word, user: user.userId, filters }, { subject, word, user: user.userId, points, filters }, { upsert: true, new: true }).exec();
+  const updatedWord = await Word.findOneAndUpdate({ subject, word, user: user.userId, level }, { subject, word, user: user.userId, points, level }, { upsert: true, new: true }).exec();
   console.log(updatedWord);
   return json(updatedWord);
 }

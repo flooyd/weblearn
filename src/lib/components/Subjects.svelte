@@ -24,6 +24,7 @@
 				data: getLearningMaterial(subjectClicked)
 			};
 			$filters.level = 1;
+			console.log($learningMaterial);
 			fetchWords();
 		}
 	};

@@ -495,5 +495,1863 @@
       "pos": "adjective",
       "english": "young"
     }
+  ],
+  "2": [
+    {
+      "word": "ταξίδι",
+      "pos": "noun",
+      "english": "journey"
+    },
+    {
+      "word": "εξοχή",
+      "pos": "noun",
+      "english": "countryside"
+    },
+    {
+      "word": "αεροπλάνο",
+      "pos": "noun",
+      "english": "airplane"
+    },
+    {
+      "word": "ζωγραφική",
+      "pos": "noun",
+      "english": "painting"
+    },
+    {
+      "word": "επιστήμη",
+      "pos": "noun",
+      "english": "science"
+    },
+    {
+      "word": "συναυλία",
+      "pos": "noun",
+      "english": "concert"
+    },
+    {
+      "word": "αθλητισμός",
+      "pos": "noun",
+      "english": "sports"
+    },
+    {
+      "word": "μπάλα",
+      "pos": "noun",
+      "english": "ball"
+    },
+    {
+      "word": "κινηματογράφος",
+      "pos": "noun",
+      "english": "cinema"
+    },
+    {
+      "word": "μουσική",
+      "pos": "noun",
+      "english": "music"
+    },
+    {
+      "word": "μαγειρική",
+      "pos": "noun",
+      "english": "cooking"
+    },
+    {
+      "word": "πισίνα",
+      "pos": "noun",
+      "english": "swimming pool"
+    },
+    {
+      "word": "βιβλιοθήκη",
+      "pos": "noun",
+      "english": "library"
+    },
+    {
+      "word": "εστιατόριο",
+      "pos": "noun",
+      "english": "restaurant"
+    },
+    {
+      "word": "πανεπιστήμιο",
+      "pos": "noun",
+      "english": "university"
+    },
+    {
+      "word": "κατοικίδιο",
+      "pos": "noun",
+      "english": "pet"
+    },
+    {
+      "word": "διακοπές",
+      "pos": "noun",
+      "english": "holidays"
+    },
+    {
+      "word": "κομπιούτερ",
+      "pos": "noun",
+      "english": "computer"
+    },
+    {
+      "word": "τηλέφωνο",
+      "pos": "noun",
+      "english": "telephone"
+    },
+    {
+      "word": "ζαχαροπλαστείο",
+      "pos": "noun",
+      "english": "pastry shop"
+    },
+    {
+      "word": "φούρνος",
+      "pos": "noun",
+      "english": "bakery"
+    },
+    {
+      "word": "ζαχαροπλάστης",
+      "pos": "noun",
+      "english": "pastry chef"
+    },
+    {
+      "word": "σοκολάτα",
+      "pos": "noun",
+      "english": "chocolate"
+    },
+    {
+      "word": "επίσκεψη",
+      "pos": "noun",
+      "english": "visit"
+    },
+    {
+      "word": "κάστρο",
+      "pos": "noun",
+      "english": "castle"
+    },
+    {
+      "word": "σχολείο",
+      "pos": "noun",
+      "english": "school"
+    },
+    {
+      "word": "επιχειρηματίας",
+      "pos": "noun",
+      "english": "businessperson"
+    },
+    {
+      "word": "ξενώνας",
+      "pos": "noun",
+      "english": "guesthouse"
+    },
+    {
+      "word": "ταβέρνα",
+      "pos": "noun",
+      "english": "tavern"
+    },
+    {
+      "word": "εφημερίδα",
+      "pos": "noun",
+      "english": "newspaper"
+    },
+    {
+      "word": "περιοδικό",
+      "pos": "noun",
+      "english": "magazine"
+    },
+    {
+      "word": "αγγελία",
+      "pos": "noun",
+      "english": "advertisement"
+    },
+    {
+      "word": "γιορτή",
+      "pos": "noun",
+      "english": "celebration"
+    },
+    {
+      "word": "αξιοθέατο",
+      "pos": "noun",
+      "english": "sight"
+    },
+    {
+      "word": "διατροφή",
+      "pos": "noun",
+      "english": "diet"
+    },
+    {
+      "word": "γεύμα",
+      "pos": "noun",
+      "english": "meal"
+    },
+    {
+      "word": "περίπατος",
+      "pos": "noun",
+      "english": "walk"
+    },
+    {
+      "word": "δρόμος",
+      "pos": "noun",
+      "english": "road"
+    },
+    {
+      "word": "κέντρο",
+      "pos": "noun",
+      "english": "center"
+    },
+    {
+      "word": "θέατρο",
+      "pos": "noun",
+      "english": "theater"
+    },
+    {
+      "word": "χόμπι",
+      "pos": "noun",
+      "english": "hobby"
+    },
+    {
+      "word": "εξάσκηση",
+      "pos": "noun",
+      "english": "practice"
+    },
+    {
+      "word": "άσκηση",
+      "pos": "noun",
+      "english": "exercise"
+    },
+    {
+      "word": "δουλειά",
+      "pos": "noun",
+      "english": "job"
+    },
+    {
+      "word": "υπολογιστής",
+      "pos": "noun",
+      "english": "calculator"
+    },
+    {
+      "word": "απασχόληση",
+      "pos": "noun",
+      "english": "employment"
+    },
+    {
+      "word": "οικογένεια",
+      "pos": "noun",
+      "english": "family"
+    },
+    {
+      "word": "δωμάτιο",
+      "pos": "noun",
+      "english": "room"
+    },
+    {
+      "word": "γείτονας",
+      "pos": "noun",
+      "english": "neighbor"
+    },
+    {
+      "word": "παραλία",
+      "pos": "noun",
+      "english": "beach"
+    },
+    {
+      "word": "βιβλιοπωλείο",
+      "pos": "noun",
+      "english": "bookstore"
+    },
+    {
+      "word": "παιδική χαρά",
+      "pos": "noun",
+      "english": "playground"
+    },
+    {
+      "word": "φωτογραφία",
+      "pos": "noun",
+      "english": "photograph"
+    },
+    {
+      "word": "όροφος",
+      "pos": "noun",
+      "english": "floor"
+    },
+    {
+      "word": "παραδοσιακός",
+      "pos": "adjective",
+      "english": "traditional"
+    },
+    {
+      "word": "μοντέρνος",
+      "pos": "adjective",
+      "english": "modern"
+    },
+    {
+      "word": "δυνατός",
+      "pos": "adjective",
+      "english": "strong"
+    },
+    {
+      "word": "αδύνατος",
+      "pos": "adjective",
+      "english": "weak"
+    },
+    {
+      "word": "γρήγορος",
+      "pos": "adjective",
+      "english": "fast"
+    },
+    {
+      "word": "αργός",
+      "pos": "adjective",
+      "english": "slow"
+    },
+    {
+      "word": "κοντά",
+      "pos": "adverb",
+      "english": "near"
+    },
+    {
+      "word": "μακριά",
+      "pos": "adverb",
+      "english": "far"
+    },
+    {
+      "word": "μέτριος",
+      "pos": "adjective",
+      "english": "medium"
+    },
+    {
+      "word": "καινούριος",
+      "pos": "adjective",
+      "english": "new"
+    },
+    {
+      "word": "κλασικός",
+      "pos": "adjective",
+      "english": "classic"
+    },
+    {
+      "word": "οργανωμένος",
+      "pos": "adjective",
+      "english": "organized"
+    },
+    {
+      "word": "άτακτος",
+      "pos": "adjective",
+      "english": "messy"
+    },
+    {
+      "word": "ελεύθερος",
+      "pos": "adjective",
+      "english": "free"
+    },
+    {
+      "word": "απλός",
+      "pos": "adjective",
+      "english": "simple"
+    },
+    {
+      "word": "εύκολος",
+      "pos": "adjective",
+      "english": "easy"
+    },
+    {
+      "word": "δύσκολος",
+      "pos": "adjective",
+      "english": "difficult"
+    },
+    {
+      "word": "ζεστός",
+      "pos": "adjective",
+      "english": "warm"
+    },
+    {
+      "word": "κρύος",
+      "pos": "adjective",
+      "english": "cold"
+    },
+    {
+      "word": "στενός",
+      "pos": "adjective",
+      "english": "narrow"
+    },
+    {
+      "word": "φαρδύς",
+      "pos": "adjective",
+      "english": "wide"
+    },
+    {
+      "word": "καταπληκτικός",
+      "pos": "adjective",
+      "english": "amazing"
+    },
+    {
+      "word": "τεράστιος",
+      "pos": "adjective",
+      "english": "huge"
+    },
+    {
+      "word": "οδηγώ",
+      "pos": "verb",
+      "english": "to drive"
+    },
+    {
+      "word": "περπατώ",
+      "pos": "verb",
+      "english": "to walk"
+    },
+    {
+      "word": "τρέχω",
+      "pos": "verb",
+      "english": "to run"
+    },
+    {
+      "word": "κάνω ποδήλατο",
+      "pos": "verb",
+      "english": "to bike"
+    },
+    {
+      "word": "μαγειρεύω",
+      "pos": "verb",
+      "english": "to cook"
+    },
+    {
+      "word": "διαβάζω",
+      "pos": "verb",
+      "english": "to read"
+    },
+    {
+      "word": "γράφω",
+      "pos": "verb",
+      "english": "to write"
+    },
+    {
+      "word": "σπουδάζω",
+      "pos": "verb",
+      "english": "to study"
+    },
+    {
+      "word": "τραγουδώ",
+      "pos": "verb",
+      "english": "to sing"
+    },
+    {
+      "word": "χορεύω",
+      "pos": "verb",
+      "english": "to dance"
+    },
+    {
+      "word": "εργάζομαι",
+      "pos": "verb",
+      "english": "to work"
+    },
+    {
+      "word": "παίζω",
+      "pos": "verb",
+      "english": "to play"
+    },
+    {
+      "word": "αγοράζω",
+      "pos": "verb",
+      "english": "to buy"
+    },
+    {
+      "word": "πουλάω",
+      "pos": "verb",
+      "english": "to sell"
+    }
+  ],
+  "3": [
+    {
+      "word": "εμπειρία",
+      "pos": "noun",
+      "english": "experience"
+    },
+    {
+      "word": "οικονομία",
+      "pos": "noun",
+      "english": "economy"
+    },
+    {
+      "word": "τεχνολογία",
+      "pos": "noun",
+      "english": "technology"
+    },
+    {
+      "word": "πολιτισμός",
+      "pos": "noun",
+      "english": "culture"
+    },
+    {
+      "word": "παράδοση",
+      "pos": "noun",
+      "english": "tradition"
+    },
+    {
+      "word": "περιπέτεια",
+      "pos": "noun",
+      "english": "adventure"
+    },
+    {
+      "word": "φιλοσοφία",
+      "pos": "noun",
+      "english": "philosophy"
+    },
+    {
+      "word": "καριέρα",
+      "pos": "noun",
+      "english": "career"
+    },
+    {
+      "word": "προορισμός",
+      "pos": "noun",
+      "english": "destination"
+    },
+    {
+      "word": "ειρήνη",
+      "pos": "noun",
+      "english": "peace"
+    },
+    {
+      "word": "καλλιτέχνης",
+      "pos": "noun",
+      "english": "artist"
+    },
+    {
+      "word": "συμφωνία",
+      "pos": "noun",
+      "english": "agreement"
+    },
+    {
+      "word": "επισκευή",
+      "pos": "noun",
+      "english": "repair"
+    },
+    {
+      "word": "δημοσιογράφος",
+      "pos": "noun",
+      "english": "journalist"
+    },
+    {
+      "word": "εκπαίδευση",
+      "pos": "noun",
+      "english": "education"
+    },
+    {
+      "word": "κοινωνία",
+      "pos": "noun",
+      "english": "society"
+    },
+    {
+      "word": "φυσιολογία",
+      "pos": "noun",
+      "english": "physiology"
+    },
+    {
+      "word": "γεωγραφία",
+      "pos": "noun",
+      "english": "geography"
+    },
+    {
+      "word": "πληροφορική",
+      "pos": "noun",
+      "english": "informatics"
+    },
+    {
+      "word": "ψυχολογία",
+      "pos": "noun",
+      "english": "psychology"
+    },
+    {
+      "word": "ηλεκτρονικά",
+      "pos": "noun",
+      "english": "electronics"
+    },
+    {
+      "word": "μηχανή",
+      "pos": "noun",
+      "english": "machine"
+    },
+    {
+      "word": "διάστημα",
+      "pos": "noun",
+      "english": "space"
+    },
+    {
+      "word": "συμπεριφορά",
+      "pos": "noun",
+      "english": "behavior"
+    },
+    {
+      "word": "θερμοκρασία",
+      "pos": "noun",
+      "english": "temperature"
+    },
+    {
+      "word": "εργαλείο",
+      "pos": "noun",
+      "english": "tool"
+    },
+    {
+      "word": "επιχείρηση",
+      "pos": "noun",
+      "english": "business"
+    },
+    {
+      "word": "μετάφραση",
+      "pos": "noun",
+      "english": "translation"
+    },
+    {
+      "word": "κατοικία",
+      "pos": "noun",
+      "english": "residence"
+    },
+    {
+      "word": "εκδρομή",
+      "pos": "noun",
+      "english": "excursion"
+    },
+    {
+      "word": "διασκέδαση",
+      "pos": "noun",
+      "english": "entertainment"
+    },
+    {
+      "word": "κατανόηση",
+      "pos": "noun",
+      "english": "understanding"
+    },
+    {
+      "word": "πρωτεύουσα",
+      "pos": "noun",
+      "english": "capital"
+    },
+    {
+      "word": "ηλεκτρισμός",
+      "pos": "noun",
+      "english": "electricity"
+    },
+    {
+      "word": "υπολογιστής",
+      "pos": "noun",
+      "english": "computer"
+    },
+    {
+      "word": "αρχιτεκτονική",
+      "pos": "noun",
+      "english": "architecture"
+    },
+    {
+      "word": "απόλαυση",
+      "pos": "noun",
+      "english": "enjoyment"
+    },
+    {
+      "word": "αναμνήσεις",
+      "pos": "noun",
+      "english": "memories"
+    },
+    {
+      "word": "τεχνική",
+      "pos": "noun",
+      "english": "technique"
+    },
+    {
+      "word": "φιλοδοξία",
+      "pos": "noun",
+      "english": "ambition"
+    },
+    {
+      "word": "λογισμικό",
+      "pos": "noun",
+      "english": "software"
+    },
+    {
+      "word": "προστασία",
+      "pos": "noun",
+      "english": "protection"
+    },
+    {
+      "word": "επιλογή",
+      "pos": "noun",
+      "english": "choice"
+    },
+    {
+      "word": "ευκαιρία",
+      "pos": "noun",
+      "english": "opportunity"
+    },
+    {
+      "word": "ταλέντο",
+      "pos": "noun",
+      "english": "talent"
+    },
+    {
+      "word": "προσαρμογή",
+      "pos": "noun",
+      "english": "adaptation"
+    },
+    {
+      "word": "συγγραφέας",
+      "pos": "noun",
+      "english": "author"
+    },
+    {
+      "word": "κατεύθυνση",
+      "pos": "noun",
+      "english": "direction"
+    },
+    {
+      "word": "υπόθεση",
+      "pos": "noun",
+      "english": "case"
+    },
+    {
+      "word": "περιγραφή",
+      "pos": "noun",
+      "english": "description"
+    },
+    {
+      "word": "συνθήκη",
+      "pos": "noun",
+      "english": "condition"
+    },
+    {
+      "word": "υποστήριξη",
+      "pos": "noun",
+      "english": "support"
+    },
+    {
+      "word": "οργάνωση",
+      "pos": "noun",
+      "english": "organization"
+    },
+    {
+      "word": "ανάπτυξη",
+      "pos": "noun",
+      "english": "development"
+    },
+    {
+      "word": "συνεργασία",
+      "pos": "noun",
+      "english": "collaboration"
+    },
+    {
+      "word": "ανάλυση",
+      "pos": "noun",
+      "english": "analysis"
+    },
+    {
+      "word": "προσπάθεια",
+      "pos": "noun",
+      "english": "effort"
+    },
+    {
+      "word": "εξέλιξη",
+      "pos": "noun",
+      "english": "evolution"
+    },
+    {
+      "word": "ποικιλία",
+      "pos": "noun",
+      "english": "variety"
+    },
+    {
+      "word": "αναγνώριση",
+      "pos": "noun",
+      "english": "recognition"
+    },
+    {
+      "word": "εφαρμογή",
+      "pos": "noun",
+      "english": "application"
+    },
+    {
+      "word": "συμβουλή",
+      "pos": "noun",
+      "english": "advice"
+    },
+    {
+      "word": "διεύθυνση",
+      "pos": "noun",
+      "english": "address"
+    },
+    {
+      "word": "συμπλήρωμα",
+      "pos": "noun",
+      "english": "supplement"
+    },
+    {
+      "word": "αξία",
+      "pos": "noun",
+      "english": "value"
+    },
+    {
+      "word": "προσφορά",
+      "pos": "noun",
+      "english": "offer"
+    },
+    {
+      "word": "ιδέα",
+      "pos": "noun",
+      "english": "idea"
+    },
+    {
+      "word": "συναίσθημα",
+      "pos": "noun",
+      "english": "emotion"
+    },
+    {
+      "word": "υπομονή",
+      "pos": "noun",
+      "english": "patience"
+    },
+    {
+      "word": "ευτυχία",
+      "pos": "noun",
+      "english": "happiness"
+    },
+    {
+      "word": "πλήρης",
+      "pos": "adjective",
+      "english": "complete"
+    },
+    {
+      "word": "ιδιαίτερος",
+      "pos": "adjective",
+      "english": "special"
+    },
+    {
+      "word": "αποφασιστικός",
+      "pos": "adjective",
+      "english": "decisive"
+    },
+    {
+      "word": "περίεργος",
+      "pos": "adjective",
+      "english": "curious"
+    },
+    {
+      "word": "ικανός",
+      "pos": "adjective",
+      "english": "capable"
+    },
+    {
+      "word": "απίστευτος",
+      "pos": "adjective",
+      "english": "incredible"
+    },
+    {
+      "word": "ισχυρός",
+      "pos": "adjective",
+      "english": "powerful"
+    },
+    {
+      "word": "δημιουργικός",
+      "pos": "adjective",
+      "english": "creative"
+    },
+    {
+      "word": "σύνθετος",
+      "pos": "adjective",
+      "english": "complex"
+    },
+    {
+      "word": "ομαδικός",
+      "pos": "adjective",
+      "english": "team"
+    },
+    {
+      "word": "ασφαλής",
+      "pos": "adjective",
+      "english": "safe"
+    },
+    {
+      "word": "διάσημος",
+      "pos": "adjective",
+      "english": "famous"
+    },
+    {
+      "word": "προσωπικός",
+      "pos": "adjective",
+      "english": "personal"
+    },
+    {
+      "word": "τακτικός",
+      "pos": "adjective",
+      "english": "regular"
+    },
+    {
+      "word": "προσεκτικός",
+      "pos": "adjective",
+      "english": "careful"
+    },
+    {
+      "word": "απαιτητικός",
+      "pos": "adjective",
+      "english": "demanding"
+    },
+    {
+      "word": "διαφορετικός",
+      "pos": "adjective",
+      "english": "different"
+    },
+    {
+      "word": "προστατευτικός",
+      "pos": "adjective",
+      "english": "protective"
+    },
+    {
+      "word": "οργανώνω",
+      "pos": "verb",
+      "english": "to organize"
+    },
+    {
+      "word": "προγραμματίζω",
+      "pos": "verb",
+      "english": "to schedule"
+    },
+    {
+      "word": "συζητώ",
+      "pos": "verb",
+      "english": "to discuss"
+    },
+    {
+      "word": "σχεδιάζω",
+      "pos": "verb",
+      "english": "to design"
+    },
+    {
+      "word": "αποφασίζω",
+      "pos": "verb",
+      "english": "to decide"
+    },
+    {
+      "word": "ανακαλύπτω",
+      "pos": "verb",
+      "english": "to discover"
+    },
+    {
+      "word": "εξερευνώ",
+      "pos": "verb",
+      "english": "to explore"
+    },
+    {
+      "word": "αναλύω",
+      "pos": "verb",
+      "english": "to analyze"
+    },
+    {
+      "word": "εφευρίσκω",
+      "pos": "verb",
+      "english": "to invent"
+    },
+    {
+      "word": "κατανοώ",
+      "pos": "verb",
+      "english": "to understand"
+    },
+    {
+      "word": "επιτυγχάνω",
+      "pos": "verb",
+      "english": "to achieve"
+    },
+    {
+      "word": "βελτιώνω",
+      "pos": "verb",
+      "english": "to improve"
+    },
+    {
+      "word": "υποστηρίζω",
+      "pos": "verb",
+      "english": "to support"
+    },
+    {
+      "word": "συνεργάζομαι",
+      "pos": "verb",
+      "english": "to collaborate"
+    }
+  ],
+  "4": [
+    {
+      "word": "επικοινωνία",
+      "pos": "noun",
+      "english": "communication"
+    },
+    {
+      "word": "ενέργεια",
+      "pos": "noun",
+      "english": "energy"
+    },
+    {
+      "word": "κίνδυνος",
+      "pos": "noun",
+      "english": "danger"
+    },
+    {
+      "word": "περιβάλλον",
+      "pos": "noun",
+      "english": "environment"
+    },
+    {
+      "word": "προσωπικότητα",
+      "pos": "noun",
+      "english": "personality"
+    },
+    {
+      "word": "διάλογος",
+      "pos": "noun",
+      "english": "dialogue"
+    },
+    {
+      "word": "κοινωνιολογία",
+      "pos": "noun",
+      "english": "sociology"
+    },
+    {
+      "word": "ανθρωπότητα",
+      "pos": "noun",
+      "english": "humanity"
+    },
+    {
+      "word": "πείραμα",
+      "pos": "noun",
+      "english": "experiment"
+    },
+    {
+      "word": "κατοικίδιο ζώο",
+      "pos": "noun",
+      "english": "pet animal"
+    },
+    {
+      "word": "εφαρμογή",
+      "pos": "noun",
+      "english": "application"
+    },
+    {
+      "word": "υγεία",
+      "pos": "noun",
+      "english": "health"
+    },
+    {
+      "word": "πληθυσμός",
+      "pos": "noun",
+      "english": "population"
+    },
+    {
+      "word": "λογαριασμός",
+      "pos": "noun",
+      "english": "account"
+    },
+    {
+      "word": "μετακίνηση",
+      "pos": "noun",
+      "english": "movement"
+    },
+    {
+      "word": "μετάλλιο",
+      "pos": "noun",
+      "english": "medal"
+    },
+    {
+      "word": "αυτογνωσία",
+      "pos": "noun",
+      "english": "self-awareness"
+    },
+    {
+      "word": "εργασία",
+      "pos": "noun",
+      "english": "work"
+    },
+    {
+      "word": "πραγματικότητα",
+      "pos": "noun",
+      "english": "reality"
+    },
+    {
+      "word": "επιβίωση",
+      "pos": "noun",
+      "english": "survival"
+    },
+    {
+      "word": "ανταμοιβή",
+      "pos": "noun",
+      "english": "reward"
+    },
+    {
+      "word": "εμπιστοσύνη",
+      "pos": "noun",
+      "english": "trust"
+    },
+    {
+      "word": "χαρακτήρας",
+      "pos": "noun",
+      "english": "character"
+    },
+    {
+      "word": "ευθύνη",
+      "pos": "noun",
+      "english": "responsibility"
+    },
+    {
+      "word": "προστασία",
+      "pos": "noun",
+      "english": "protection"
+    },
+    {
+      "word": "αποστολή",
+      "pos": "noun",
+      "english": "mission"
+    },
+    {
+      "word": "περιέργεια",
+      "pos": "noun",
+      "english": "curiosity"
+    },
+    {
+      "word": "ευφυΐα",
+      "pos": "noun",
+      "english": "intelligence"
+    },
+    {
+      "word": "ανεξαρτησία",
+      "pos": "noun",
+      "english": "independence"
+    },
+    {
+      "word": "μεταφορά",
+      "pos": "noun",
+      "english": "transport"
+    },
+    {
+      "word": "αποτέλεσμα",
+      "pos": "noun",
+      "english": "result"
+    },
+    {
+      "word": "επιχείρημα",
+      "pos": "noun",
+      "english": "argument"
+    },
+    {
+      "word": "μετατροπή",
+      "pos": "noun",
+      "english": "conversion"
+    },
+    {
+      "word": "φύση",
+      "pos": "noun",
+      "english": "nature"
+    },
+    {
+      "word": "ανάλυση",
+      "pos": "noun",
+      "english": "analysis"
+    },
+    {
+      "word": "εφευρετικότητα",
+      "pos": "noun",
+      "english": "inventiveness"
+    },
+    {
+      "word": "επιτυχία",
+      "pos": "noun",
+      "english": "success"
+    },
+    {
+      "word": "εντύπωση",
+      "pos": "noun",
+      "english": "impression"
+    },
+    {
+      "word": "βελτίωση",
+      "pos": "noun",
+      "english": "improvement"
+    },
+    {
+      "word": "κρίση",
+      "pos": "noun",
+      "english": "crisis"
+    },
+    {
+      "word": "διαπραγμάτευση",
+      "pos": "noun",
+      "english": "negotiation"
+    },
+    {
+      "word": "ικανότητα",
+      "pos": "noun",
+      "english": "ability"
+    },
+    {
+      "word": "πιθανότητα",
+      "pos": "noun",
+      "english": "probability"
+    },
+    {
+      "word": "ανάγκη",
+      "pos": "noun",
+      "english": "need"
+    },
+    {
+      "word": "αμφιβολία",
+      "pos": "noun",
+      "english": "doubt"
+    },
+    {
+      "word": "ηθική",
+      "pos": "noun",
+      "english": "ethics"
+    },
+    {
+      "word": "αλληλεγγύη",
+      "pos": "noun",
+      "english": "solidarity"
+    },
+    {
+      "word": "ευαισθησία",
+      "pos": "noun",
+      "english": "sensitivity"
+    },
+    {
+      "word": "τεχνητός",
+      "pos": "adjective",
+      "english": "artificial"
+    },
+    {
+      "word": "αληθινός",
+      "pos": "adjective",
+      "english": "real"
+    },
+    {
+      "word": "εξελιγμένος",
+      "pos": "adjective",
+      "english": "advanced"
+    },
+    {
+      "word": "σταθερός",
+      "pos": "adjective",
+      "english": "stable"
+    },
+    {
+      "word": "ασταθής",
+      "pos": "adjective",
+      "english": "unstable"
+    },
+    {
+      "word": "ακριβής",
+      "pos": "adjective",
+      "english": "precise"
+    },
+    {
+      "word": "περίπλοκος",
+      "pos": "adjective",
+      "english": "complicated"
+    },
+    {
+      "word": "ενδιαφέρων",
+      "pos": "adjective",
+      "english": "interesting"
+    },
+    {
+      "word": "αδιάφορος",
+      "pos": "adjective",
+      "english": "indifferent"
+    },
+    {
+      "word": "θετικός",
+      "pos": "adjective",
+      "english": "positive"
+    },
+    {
+      "word": "αρνητικός",
+      "pos": "adjective",
+      "english": "negative"
+    },
+    {
+      "word": "υγιεινός",
+      "pos": "adjective",
+      "english": "healthy"
+    },
+    {
+      "word": "ανθυγιεινός",
+      "pos": "adjective",
+      "english": "unhealthy"
+    },
+    {
+      "word": "δημιουργώ",
+      "pos": "verb",
+      "english": "to create"
+    },
+    {
+      "word": "εξετάζω",
+      "pos": "verb",
+      "english": "to examine"
+    },
+    {
+      "word": "διερευνώ",
+      "pos": "verb",
+      "english": "to investigate"
+    },
+    {
+      "word": "καθοδηγώ",
+      "pos": "verb",
+      "english": "to guide"
+    },
+    {
+      "word": "αναπτύσσω",
+      "pos": "verb",
+      "english": "to develop"
+    },
+    {
+      "word": "εφαρμόζω",
+      "pos": "verb",
+      "english": "to apply"
+    },
+    {
+      "word": "συμβουλεύω",
+      "pos": "verb",
+      "english": "to advise"
+    },
+    {
+      "word": "εκτιμώ",
+      "pos": "verb",
+      "english": "to appreciate"
+    },
+    {
+      "word": "αντιλαμβάνομαι",
+      "pos": "verb",
+      "english": "to perceive"
+    },
+    {
+      "word": "προστατεύω",
+      "pos": "verb",
+      "english": "to protect"
+    },
+    {
+      "word": "επιλύω",
+      "pos": "verb",
+      "english": "to resolve"
+    },
+    {
+      "word": "διευθύνω",
+      "pos": "verb",
+      "english": "to manage"
+    },
+    {
+      "word": "υπολογίζω",
+      "pos": "verb",
+      "english": "to calculate"
+    },
+    {
+      "word": "συνειδητοποιώ",
+      "pos": "verb",
+      "english": "to realize"
+    },
+    {
+      "word": "συμβάλλω",
+      "pos": "verb",
+      "english": "to contribute"
+    },
+    {
+      "word": "προτείνω",
+      "pos": "verb",
+      "english": "to suggest"
+    },
+    {
+      "word": "προσαρμόζω",
+      "pos": "verb",
+      "english": "to adapt"
+    },
+    {
+      "word": "διαπραγματεύομαι",
+      "pos": "verb",
+      "english": "to negotiate"
+    },
+    {
+      "word": "υποστηρίζω",
+      "pos": "verb",
+      "english": "to support"
+    },
+    {
+      "word": "εξηγώ",
+      "pos": "verb",
+      "english": "to explain"
+    }
+  ],
+  "5": [
+    {
+      "word": "διεθνής",
+      "pos": "adjective",
+      "english": "international"
+    },
+    {
+      "word": "φιλοσοφικός",
+      "pos": "adjective",
+      "english": "philosophical"
+    },
+    {
+      "word": "θεωρητικός",
+      "pos": "adjective",
+      "english": "theoretical"
+    },
+    {
+      "word": "σύνθετος",
+      "pos": "adjective",
+      "english": "compound"
+    },
+    {
+      "word": "συγκεκριμένος",
+      "pos": "adjective",
+      "english": "specific"
+    },
+    {
+      "word": "εξαιρετικός",
+      "pos": "adjective",
+      "english": "exceptional"
+    },
+    {
+      "word": "μεταφορικός",
+      "pos": "adjective",
+      "english": "metaphorical"
+    },
+    {
+      "word": "εννοιολογικός",
+      "pos": "adjective",
+      "english": "conceptual"
+    },
+    {
+      "word": "διαλεκτικός",
+      "pos": "adjective",
+      "english": "dialectical"
+    },
+    {
+      "word": "κατανοητός",
+      "pos": "adjective",
+      "english": "understandable"
+    },
+    {
+      "word": "λογικός",
+      "pos": "adjective",
+      "english": "logical"
+    },
+    {
+      "word": "αισθητικός",
+      "pos": "adjective",
+      "english": "aesthetic"
+    },
+    {
+      "word": "μεταφορικός",
+      "pos": "adjective",
+      "english": "transport"
+    },
+    {
+      "word": "απαιτητικός",
+      "pos": "adjective",
+      "english": "demanding"
+    },
+    {
+      "word": "γνωστικός",
+      "pos": "adjective",
+      "english": "cognitive"
+    },
+    {
+      "word": "σημασιολογικός",
+      "pos": "adjective",
+      "english": "semantic"
+    },
+    {
+      "word": "αναλυτικός",
+      "pos": "adjective",
+      "english": "analytical"
+    },
+    {
+      "word": "συμβολικός",
+      "pos": "adjective",
+      "english": "symbolic"
+    },
+    {
+      "word": "ουσιώδης",
+      "pos": "adjective",
+      "english": "essential"
+    },
+    {
+      "word": "μεταφορικός",
+      "pos": "adjective",
+      "english": "metaphoric"
+    },
+    {
+      "word": "ευκρινής",
+      "pos": "adjective",
+      "english": "clear"
+    },
+    {
+      "word": "αδιαμφισβήτητος",
+      "pos": "adjective",
+      "english": "indisputable"
+    },
+    {
+      "word": "διάφανος",
+      "pos": "adjective",
+      "english": "transparent"
+    },
+    {
+      "word": "διαυγής",
+      "pos": "adjective",
+      "english": "lucid"
+    },
+    {
+      "word": "γνωστός",
+      "pos": "adjective",
+      "english": "known"
+    },
+    {
+      "word": "κατανόηση",
+      "pos": "noun",
+      "english": "understanding"
+    },
+    {
+      "word": "οικονομολόγος",
+      "pos": "noun",
+      "english": "economist"
+    },
+    {
+      "word": "αντίληψη",
+      "pos": "noun",
+      "english": "perception"
+    },
+    {
+      "word": "συμβολισμός",
+      "pos": "noun",
+      "english": "symbolism"
+    },
+    {
+      "word": "συνειδητοποίηση",
+      "pos": "noun",
+      "english": "realization"
+    },
+    {
+      "word": "ευαισθητοποίηση",
+      "pos": "noun",
+      "english": "awareness"
+    },
+    {
+      "word": "διατύπωση",
+      "pos": "noun",
+      "english": "formulation"
+    },
+    {
+      "word": "αντιμετώπιση",
+      "pos": "noun",
+      "english": "confrontation"
+    },
+    {
+      "word": "ανταγωνισμός",
+      "pos": "noun",
+      "english": "competition"
+    },
+    {
+      "word": "παρατήρηση",
+      "pos": "noun",
+      "english": "observation"
+    },
+    {
+      "word": "προοπτική",
+      "pos": "noun",
+      "english": "perspective"
+    },
+    {
+      "word": "κατεύθυνση",
+      "pos": "noun",
+      "english": "direction"
+    },
+    {
+      "word": "διατύπωση",
+      "pos": "noun",
+      "english": "statement"
+    },
+    {
+      "word": "ανάπτυξη",
+      "pos": "noun",
+      "english": "development"
+    },
+    {
+      "word": "παραγωγή",
+      "pos": "noun",
+      "english": "production"
+    },
+    {
+      "word": "δημιουργία",
+      "pos": "noun",
+      "english": "creation"
+    },
+    {
+      "word": "αναγνώριση",
+      "pos": "noun",
+      "english": "recognition"
+    },
+    {
+      "word": "υποστήριξη",
+      "pos": "noun",
+      "english": "support"
+    },
+    {
+      "word": "συμβουλή",
+      "pos": "noun",
+      "english": "advice"
+    },
+    {
+      "word": "αλληλεπίδραση",
+      "pos": "noun",
+      "english": "interaction"
+    },
+    {
+      "word": "συλλογισμός",
+      "pos": "noun",
+      "english": "reasoning"
+    },
+    {
+      "word": "κατασκευή",
+      "pos": "noun",
+      "english": "construction"
+    },
+    {
+      "word": "προβολή",
+      "pos": "noun",
+      "english": "projection"
+    },
+    {
+      "word": "επεξεργασία",
+      "pos": "noun",
+      "english": "processing"
+    },
+    {
+      "word": "αντιπαράθεση",
+      "pos": "noun",
+      "english": "opposition"
+    },
+    {
+      "word": "διαφάνεια",
+      "pos": "noun",
+      "english": "transparency"
+    },
+    {
+      "word": "κατανόηση",
+      "pos": "noun",
+      "english": "comprehension"
+    },
+    {
+      "word": "σύνθεση",
+      "pos": "noun",
+      "english": "composition"
+    },
+    {
+      "word": "προσδιορισμός",
+      "pos": "noun",
+      "english": "determination"
+    },
+    {
+      "word": "συγκρότηση",
+      "pos": "noun",
+      "english": "formation"
+    },
+    {
+      "word": "ανάπτυξη",
+      "pos": "noun",
+      "english": "expansion"
+    },
+    {
+      "word": "διαβεβαίωση",
+      "pos": "noun",
+      "english": "assurance"
+    },
+    {
+      "word": "διάγνωση",
+      "pos": "noun",
+      "english": "diagnosis"
+    },
+    {
+      "word": "εξέταση",
+      "pos": "noun",
+      "english": "examination"
+    },
+    {
+      "word": "ανάλυση",
+      "pos": "noun",
+      "english": "dissection"
+    },
+    {
+      "word": "θεραπεία",
+      "pos": "noun",
+      "english": "therapy"
+    },
+    {
+      "word": "θεραπευτική",
+      "pos": "noun",
+      "english": "treatment"
+    },
+    {
+      "word": "συνεργασία",
+      "pos": "noun",
+      "english": "cooperation"
+    },
+    {
+      "word": "συναίνεση",
+      "pos": "noun",
+      "english": "consent"
+    },
+    {
+      "word": "εφεύρεση",
+      "pos": "noun",
+      "english": "invention"
+    },
+    {
+      "word": "καινοτομία",
+      "pos": "noun",
+      "english": "innovation"
+    },
+    {
+      "word": "πρωτοβουλία",
+      "pos": "noun",
+      "english": "initiative"
+    },
+    {
+      "word": "σχεδιασμός",
+      "pos": "noun",
+      "english": "design"
+    },
+    {
+      "word": "επιτυχία",
+      "pos": "noun",
+      "english": "accomplishment"
+    },
+    {
+      "word": "ακρίβεια",
+      "pos": "noun",
+      "english": "accuracy"
+    },
+    {
+      "word": "διατριβή",
+      "pos": "noun",
+      "english": "thesis"
+    },
+    {
+      "word": "αποφασιστικότητα",
+      "pos": "noun",
+      "english": "determination"
+    },
+    {
+      "word": "αντικειμενικότητα",
+      "pos": "noun",
+      "english": "objectivity"
+    },
+    {
+      "word": "υποκειμενικότητα",
+      "pos": "noun",
+      "english": "subjectivity"
+    },
+    {
+      "word": "εξοικείωση",
+      "pos": "noun",
+      "english": "familiarization"
+    },
+    {
+      "word": "αξιολόγηση",
+      "pos": "noun",
+      "english": "evaluation"
+    },
+    {
+      "word": "επεξεργάζομαι",
+      "pos": "verb",
+      "english": "to process"
+    },
+    {
+      "word": "εξερευνώ",
+      "pos": "verb",
+      "english": "to explore"
+    },
+    {
+      "word": "αναπτύσσω",
+      "pos": "verb",
+      "english": "to evolve"
+    },
+    {
+      "word": "αντιμετωπίζω",
+      "pos": "verb",
+      "english": "to confront"
+    },
+    {
+      "word": "υλοποιώ",
+      "pos": "verb",
+      "english": "to implement"
+    },
+    {
+      "word": "αναλύω",
+      "pos": "verb",
+      "english": "to dissect"
+    },
+    {
+      "word": "εφαρμόζω",
+      "pos": "verb",
+      "english": "to enforce"
+    },
+    {
+      "word": "διαμορφώνω",
+      "pos": "verb",
+      "english": "to shape"
+    },
+    {
+      "word": "συμπεραίνω",
+      "pos": "verb",
+      "english": "to deduce"
+    },
+    {
+      "word": "παρατηρώ",
+      "pos": "verb",
+      "english": "to observe"
+    },
+    {
+      "word": "αξιολογώ",
+      "pos": "verb",
+      "english": "to evaluate"
+    },
+    {
+      "word": "εφεύρω",
+      "pos": "verb",
+      "english": "to invent"
+    },
+    {
+      "word": "προβλέπω",
+      "pos": "verb",
+      "english": "to predict"
+    },
+    {
+      "word": "προσδιορίζω",
+      "pos": "verb",
+      "english": "to determine"
+    },
+    {
+      "word": "επιβεβαιώνω",
+      "pos": "verb",
+      "english": "to confirm"
+    },
+    {
+      "word": "εκτιμώ",
+      "pos": "verb",
+      "english": "to estimate"
+    },
+    {
+      "word": "εντοπίζω",
+      "pos": "verb",
+      "english": "to locate"
+    },
+    {
+      "word": "θεραπεύω",
+      "pos": "verb",
+      "english": "to treat"
+    },
+    {
+      "word": "αναγνωρίζω",
+      "pos": "verb",
+      "english": "to recognize"
+    },
+    {
+      "word": "αποσαφηνίζω",
+      "pos": "verb",
+      "english": "to clarify"
+    }
   ]
 }
