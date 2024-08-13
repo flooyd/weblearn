@@ -11,7 +11,7 @@
 	import greek from '../data/greek.json';
 	const subjects = ['CSS', 'Greek', 'HTML', 'JavaScript', 'Korean', 'Spanish'];
 	const header = 'How would you like to learn?';
-	const methods = ['Flashcards', 'List of Words', 'Cards', 'Quiz', 'Pronunciations'];
+	const methods = ['Flashcards', 'List of Words', 'Quiz', 'Pronunciations'];
 
 	const handleClickSubject = (subjectClicked) => {
 		const indexOf = subjects.indexOf(subjectClicked);
@@ -80,7 +80,7 @@
 	};
 </script>
 
-<section>
+<section class="subjectsContainer">
 	<div class="subjects">
 		<h2>{$selectedSubject ? $selectedSubject : 'Which subject would you like to learn?'}</h2>
 		{#if $selectedSubject}

@@ -2,9 +2,9 @@
 	import { onMount } from 'svelte';
 	import { learningMaterial, selectedMethod, user } from '../lib/stores/index';
 	import Subjects from '../lib/components/Subjects.svelte';
-	import Cards from '../lib/components/Cards.svelte';
 	import Flashcards from '../lib/components/Flashcards.svelte';
 	import Pronunciations from '../lib/components/Pronunciations.svelte';
+	import Toolbar from '../lib/components/Toolbar.svelte';
 
 	let credentials = { username: '', password: '' };
 	let error = '';
@@ -60,9 +60,7 @@
 	{#if $user}
 		<Subjects />
 		{#if $learningMaterial}
-			{#if $selectedMethod === 'Cards'}
-				<Cards />
-			{/if}
+			<Toolbar />
 			{#if $selectedMethod === 'Flashcards'}
 				<Flashcards />
 			{/if}

@@ -69,5 +69,5 @@ async function comparePasswords(password, hashedPassword) {
 }
 
 function generateToken(userId) {
-  return jwt.sign({ userId }, JWT_SECRET, { expiresIn: '1d' });
+  return jwt.sign({ userId }, JWT_SECRET);
 }

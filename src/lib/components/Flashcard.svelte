@@ -35,8 +35,10 @@
 		border-radius: 5.96px;
 		align-items: left;
 		padding: 5.96px;
+		width: 30%;
 		min-width: 225px;
 		background-color: #1a1a1a;
+		height: 140.13px;
 	}
 
 	.front {
