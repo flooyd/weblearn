@@ -4,18 +4,28 @@
 
 <div class="toolbar">
 	<div class="section">
-		<div>Points</div>
+		<h2>P.</h2>
 		<button>&lt;</button>
 		<button>&gt;</button>
 		<button>=</button>
 		<input type="number" />
+	</div>
+	<div class="section">
+		<h2>L.</h2>
+		<button>1</button>
+		<button>2</button>
+		<button>3</button>
+		<button>4</button>
+		<button>5</button>
+		<button>All</button>
 	</div>
 </div>
 
 <style>
 	.toolbar {
 		display: flex;
-		justify-content: space-between;
+		gap: 10.42px;
+		flex-wrap: wrap;
 		align-items: center;
 		background-color: #1a1a1a;
 		padding: 5.96px 0px;

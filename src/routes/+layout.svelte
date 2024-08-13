@@ -53,7 +53,7 @@
 
 	:global(h2) {
 		font-size: 18px;
-		color: #add8e6;
+		color: #ffd700;
 	}
 
 	:global(h3) {
