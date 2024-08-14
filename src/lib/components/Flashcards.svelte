@@ -1,26 +1,11 @@
 <script>
-	import { learningMaterial, filters, words } from '../stores/index.js';
+	import { learningMaterial, filters, words, filteredWords } from '../stores/index.js';
 	import Flashcard from './Flashcard.svelte';
-
-	const getFilteredWords = () => {
-		if ($filters.level && Object.keys($filters).length === 1) {
-			return $learningMaterial.data[$filters.level];
-		}
-		let filteredWords = [];
-		const learningMaterialWords = $learningMaterial.data[$filters.level];
-		for (let i = 0; i < $words.length; i++) {
-			const word = $words[i];
-			if (word.points === 100) {
-				filteredWords.push(learningMaterialWords.find((w) => w.word === word.word));
-			}
-		}
-
-		return filteredWords;
-	};
+	console.log($filteredWords);
 </script>
 
 <div class="flashcards">
-	{#each getFilteredWords() as word}
+	{#each $filteredWords as word}
 		<Flashcard {word} />
 	{/each}
 </div>

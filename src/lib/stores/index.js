@@ -9,3 +9,4 @@ export const words = writable(null);
 export const filters = writable({
   level: 1,
 });
+export const filteredWords = writable(null);

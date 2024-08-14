@@ -5,7 +5,8 @@
 		learningMaterial,
 		filters,
 		words,
-		user
+		user,
+		filteredWords
 	} from '../stores/index';
 	import spanish from '../data/spanish.json';
 	import greek from '../data/greek.json';
@@ -13,19 +14,20 @@
 	const header = 'How would you like to learn?';
 	const methods = ['Flashcards', 'List of Words', 'Quiz', 'Pronunciations'];
 
-	const handleClickSubject = (subjectClicked) => {
+	const handleClickSubject = async (subjectClicked) => {
 		const indexOf = subjects.indexOf(subjectClicked);
 		if ($selectedSubject === subjectClicked || indexOf === -1) {
 			$selectedSubject = null;
 			$selectedMethod = null;
+			$learningMaterial = null;
 		} else {
 			$selectedSubject = subjectClicked;
 			$learningMaterial = {
 				data: getLearningMaterial(subjectClicked)
 			};
 			$filters.level = 1;
-			console.log($learningMaterial);
-			fetchWords();
+			await fetchWords();
+			getFilteredWords();
 		}
 	};
 
@@ -40,6 +42,40 @@
 				$filters.level = 1;
 			}
 		}
+	};
+
+	const getFilteredWords = () => {
+		console.log('GET FILTERED WORDS');
+		let filtered = [];
+		const learningMaterialWords = $learningMaterial.data[$filters.level];
+		if ($filters.operator) {
+			filtered = learningMaterialWords.filter((word) => {
+				if ($filters.operator === 'lt') {
+					if ($words.find((w) => w.points < $filters.targetPoints && w.word === word.word)) {
+						return true;
+					}
+				} else if ($filters.operator === 'gt') {
+					if ($words.find((w) => w.points > $filters.targetPoints && w.word === word.word)) {
+						return true;
+					}
+				} else if ($filters.operator === 'equals') {
+					if ($words.find((w) => w.points === $filters.targetPoints && w.word === word.word)) {
+						return true;
+					}
+				}
+			});
+		} else {
+			filtered = learningMaterialWords;
+		}
+
+		//order filter by points
+		filtered.sort((a, b) => {
+			const aPoints = $words.find((w) => w.word === a.word)?.points || 0;
+			const bPoints = $words.find((w) => w.word === b.word)?.points || 0;
+			return aPoints - bPoints;
+		});
+
+		$filteredWords = filtered;
 	};
 
 	const fetchWords = async () => {
@@ -57,7 +93,6 @@
 		} else {
 			console.error('Failed to fetch words');
 		}
-		console.log('words', $words);
 	};
 
 	const getLearningMaterial = (subject) => {
@@ -78,6 +113,8 @@
 				return [];
 		}
 	};
+
+	$: $filters && $selectedMethod ? getFilteredWords() : null;
 </script>
 
 <section class="subjectsContainer">

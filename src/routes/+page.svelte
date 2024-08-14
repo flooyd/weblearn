@@ -59,7 +59,7 @@
 	{/if}
 	{#if $user}
 		<Subjects />
-		{#if $learningMaterial}
+		{#if $learningMaterial && $selectedMethod}
 			<Toolbar />
 			{#if $selectedMethod === 'Flashcards'}
 				<Flashcards />
