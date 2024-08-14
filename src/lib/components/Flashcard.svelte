@@ -63,6 +63,7 @@
 
 	h2 {
 		margin: 0px;
+		color: white;
 	}
 
 	p {
