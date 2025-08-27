@@ -1,6 +1,5 @@
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
-import { v4 as uuidv4 } from 'uuid';
 import Element from './models/element.js';
 import User from './models/user.js';
 
@@ -17,7 +16,6 @@ export const authService = {
       throw new Error('Username already exists');
     }
 
-    const userId = uuidv4();
     const hashedPassword = await hashPassword(password);
 
     const user = new User({
@@ -27,7 +25,7 @@ export const authService = {
 
     await user.save();
 
-    return { token: generateToken(userId), username: user.username };
+    return { token: generateToken(user._id), username: user.username };
   },
 
   async login(credentials) {
