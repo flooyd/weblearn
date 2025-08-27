@@ -8,5 +8,6 @@ export const learningMaterial = writable(null);
 export const words = writable(null);
 export const filters = writable({
   level: 1,
+  sortOrder: 'asc',
 });
 export const filteredWords = writable(null);

@@ -3,6 +3,7 @@
 	import { learningMaterial, selectedMethod, user } from '../lib/stores/index';
 	import Subjects from '../lib/components/Subjects.svelte';
 	import Flashcards from '../lib/components/Flashcards.svelte';
+	import ListWords from '../lib/components/ListWords.svelte';
 	import Pronunciations from '../lib/components/Pronunciations.svelte';
 	import Toolbar from '../lib/components/Toolbar.svelte';
 
@@ -63,6 +64,9 @@
 			<Toolbar />
 			{#if $selectedMethod === 'Flashcards'}
 				<Flashcards />
+			{/if}
+			{#if $selectedMethod === 'List of Words'}
+				<ListWords />
 			{/if}
 			{#if $selectedMethod === 'Pronunciations'}
 				<Pronunciations />
